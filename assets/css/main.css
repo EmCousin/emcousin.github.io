@@ -9,4 +9,8 @@
   html, body {
     @apply h-full;
   }
+
+  a {
+    @apply text-blue-900 visited:text-purple-700 dark:text-blue-400 dark:visited:text-purple-400 hover:underline;
+  }
 }

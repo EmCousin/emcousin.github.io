@@ -7,10 +7,19 @@
 
 @layer base {
   html, body {
-    @apply h-full;
+    @apply h-full overflow-x-hidden;
+  }
+
+  body {
+    font-family: "Graphik", "Helvetica Neue", helvetica, "Apple Color Emoji", arial, sans-serif;
+    font-size: calc(1rem + 0.1vw);
+    font-display: swap;
+    line-height: 1.5;
+
+    @apply m-0 p-0;
   }
 
   a {
-    @apply text-blue-900 visited:text-purple-700 dark:text-blue-400 dark:visited:text-purple-400 hover:underline;
+    @apply text-amber-900 visited:text-purple-700 dark:text-blue-400 dark:visited:text-purple-400 hover:underline;
   }
 }

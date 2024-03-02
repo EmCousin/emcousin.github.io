@@ -1,16 +1,20 @@
 module.exports = {
+  darkMode: 'media',
   content: [
     './_drafts/**/*.html',
     './_includes/**/*.html',
     './_layouts/**/*.html',
     './_posts/*.md',
     './*.md',
-    './*.html',
+    './*.html'
   ],
   theme: {
     theme: {
-      extend: {},
+      extend: {}
     },
+  },
+  corePlugins: {
+    preflight: false
   },
   plugins: []
 }

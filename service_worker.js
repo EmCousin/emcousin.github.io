@@ -6,6 +6,7 @@ function onInstall(event) {
   event.waitUntil(
     caches.open(CACHE_NAME).then(function prefill(cache) {
       const cachesToAdd = [
+        '/assets/images/emmanuel.webp',
         '/assets/css/main.css',
         '/',
         '/resume',

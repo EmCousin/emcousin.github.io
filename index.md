@@ -4,13 +4,11 @@ title: "Home"
 description: "Welcome to my personal website. You'll learn to know who I am and what I can do for you"
 ---
 
-<section class="animate-slide-in-from-right animation-duration-500">
+<section>
   {% include layouts/profile.html %}
 </section>
 
-<hr class="my-4"/>
-
-<article class="animate-slide-in-from-left animation-duration-500 space-y-2">
+<article class="mt-6 animate-slide-in-from-left animation-duration-500 space-y-2">
   <h3 class="font-bold leading-loose">Hi! I'm Emmanuel.</h3>
 
   <p>I’m French, I’m a software engineer. I build beautiful and useful solutions on the Web for a living, mostly using <a href="https://rubyonrails.org/">Ruby on Rails</a>.</p>

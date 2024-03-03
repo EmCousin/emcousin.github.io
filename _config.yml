@@ -1,6 +1,7 @@
 url: "https://emcousin.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Emmanuel Cousin" # the name of your site, e.g. ACME Corp.
+theme_color: "rgb(49 46 129)"
 
 plugins:
   - jekyll-postcss

@@ -5,7 +5,10 @@
     <meta charset="utf-8">
     <title>{{ site.title }} | {{ page.title }}</title>
     <meta name="description" content="{{page.description}}">
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <meta name="view-transition" content="same-origin">
+    <meta name="theme-color" content="{{site.theme_color}}" />
+    <link rel="manifest" href="/manifest.webmanifest">
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" media="all">
   </head>
 
   <body class="bg-gray-50 dark:bg-gray-900 text-gray-950 dark:text-slate-50">
@@ -16,8 +19,10 @@
       </div>
     </div>
 
-    <main class="relative p-2 lg:p-0 mx-auto max-w-3xl mb-8">
+    <main class="relative p-4 lg:p-0 mx-auto max-w-3xl mb-8">
       {{ content }}
     </main>
+
+    <script type="text/javascript" src="/assets/js/pwa.js"></script>
   </body>
 </html>

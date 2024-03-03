@@ -6,6 +6,10 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    --animation-duration: 0.150s;
+  }
+
   html, body {
     @apply h-full overflow-x-hidden;
   }
@@ -21,5 +25,13 @@
 
   a {
     @apply text-amber-900 visited:text-purple-700 dark:text-blue-400 dark:visited:text-purple-400 hover:underline;
+  }
+
+  ul {
+    @apply list-disc;
+  }
+
+  ul > li {
+    @apply ml-4;
   }
 }

@@ -8,11 +8,16 @@ description: "You'll find detailed information about my experience here"
   {% include layouts/profile.html %}
 </section>
 
-<h2 class="my-4 text-2xl font-bold animate-slide-in-from-left animation-duration-[0.5s]">Experience</h2>
+<h2 class="my-8 text-2xl font-bold animate-slide-in-from-left animation-duration-[0.5s]">Experience</h2>
 
-<section class="my-4 animate-slide-in-from-left animation-duration-[0.6s]">
-  <h3 class="text-lg font-bold">Senior Software Engineer - Rendez-Vous Digital</h3>
-  <span class="text-base text-gray-600 dark:text-gray-300">July 2021 - Present</span>
+<section class="my-8 animate-slide-in-from-left animation-duration-[0.6s]">
+  <div class="flex space-x-2">
+    <img src="/assets/images/resume/reprtoir_logo.webp" alt="Reprtoir Logo" class="w-16 h-16 rounded object-cover" />
+    <div>
+      <h3 class="md:text-lg font-bold">Senior Software Engineer - Rendez-Vous Digital</h3>
+      <span class="text-sm text-gray-600 dark:text-gray-300">July 2021 - Present</span>
+    </div>
+  </div>
 
   <p class="mt-2">At Reprtoir, a software-as-a-service platform driving innovation in the music industry, I collaborated with a team of skilled Ruby on Rails experts. Together, we contributed to significant business initiatives for the company.</p>
 
@@ -43,9 +48,14 @@ description: "You'll find detailed information about my experience here"
   </div>
 </section>
 
-<section class="my-4 animate-slide-in-from-left animation-duration-700">
-  <h3 class="text-lg font-bold">Lead Developer - Small Door Veterinary</h3>
-  <span class="text-base text-gray-600 dark:text-gray-300">January 2021 - July 2021</span>
+<section class="my-8 animate-slide-in-from-left animation-duration-700">
+  <div class="flex space-x-2">
+    <img src="/assets/images/resume/smalldoor_logo.webp" alt="Small Door Logo" class="w-16 h-16 rounded object-cover" />
+    <div>
+      <h3 class="md:text-lg font-bold">Lead Developer - Small Door Veterinary</h3>
+      <span class="text-sm text-gray-600 dark:text-gray-300">January 2021 - July 2021</span>
+    </div>
+  </div>
 
   <p class="mt-2">As part of my role overseeing the maintenance and feature development of web and mobile apps, I facilitated the shift in the company's product development strategy. We transitioned from relying on external consultants for a single veterinary practice to establishing an internal team of diverse specialists, serving multiple practices across various regions.</p>
 
@@ -73,9 +83,14 @@ description: "You'll find detailed information about my experience here"
 
 </section>
 
-<section class="my-4 animate-slide-in-from-left animation-duration-[0.8s]">
-  <h3 class="text-lg font-bold">Senior Developer - Braidio</h3>
-  <span class="text-base text-gray-600 dark:text-gray-300">February 2019 - January 2021</span>
+<section class="my-8 animate-slide-in-from-left animation-duration-[0.8s]">
+  <div class="flex space-x-2">
+    <img src="/assets/images/resume/braidio_logo.webp" alt="Braidio Logo" class="w-16 h-16 rounded object-cover" />
+    <div>
+      <h3 class="md:text-lg font-bold">Senior Developer - Braidio</h3>
+      <span class="text-sm text-gray-600 dark:text-gray-300">February 2019 - January 2021</span>
+    </div>
+  </div>
 
   <p class="mt-2">I had the opportunity to work with ShaShee Interactive Networks, an American company that created Braidio, a project management software.</p>
 
@@ -103,9 +118,14 @@ description: "You'll find detailed information about my experience here"
 
 </section>
 
-<section class="my-4 animate-slide-in-from-left animation-duration-[0.9s]">
-  <h3 class="text-lg font-bold">Web Developer - My Job Glasses</h3>
-  <span class="text-base text-gray-600 dark:text-gray-300">July 2017 - December 2017</span>
+<section class="my-8 animate-slide-in-from-left animation-duration-[0.9s]">
+  <div class="flex space-x-2">
+    <img src="/assets/images/resume/my_job_glasses_logo.webp" alt="My Job Glasses Logo" class="w-16 h-16 rounded object-cover" />
+    <div>
+      <h3 class="md:text-lg font-bold">Web Developer - My Job Glasses</h3>
+      <span class="text-sm text-gray-600 dark:text-gray-300">July 2017 - December 2017</span>
+    </div>
+  </div>
 
   <p class="mt-2">My Job Glasses, founded in November 2015, aims to redefine networking between students and professionals in Europe. The goal is to assist students in finding their dream job while helping professionals save time and money by connecting with the right profiles. This is facilitated through a user-friendly web platform that empowers everyone to build their professional network.</p>
 
@@ -137,9 +157,14 @@ description: "You'll find detailed information about my experience here"
   </div>
 </section>
 
-<section class="my-4 animate-slide-in-from-left animation-duration-1000">
-  <h3 class="text-lg font-bold">Web Developer - Captain Contrat</h3>
-  <span class="text-base text-gray-600 dark:text-gray-300">January 2015 - July 2017</span>
+<section class="my-8 animate-slide-in-from-left animation-duration-1000">
+  <div class="flex space-x-2">
+    <img src="/assets/images/resume/captain_contrat_logo.webp" alt="Captain Contrat Logo" class="w-16 h-16 rounded object-cover" />
+    <div>
+      <h3 class="md:text-lg font-bold">Web Developer - Captain Contrat</h3>
+      <span class="text-sm text-gray-600 dark:text-gray-300">January 2015 - July 2017</span>
+    </div>
+  </div>
 
   <p class="mt-2">Captain Contrat, a transformative startup, is committed to empowering entrepreneurs with an economical web solution, facilitating the creation of robust and legally sound documents for establishing companies and job positions. Simultaneously, it serves as a valuable tool for lawyers, offering an integrated web app to enhance their efficiency and connectivity with entrepreneurs.</p>
 

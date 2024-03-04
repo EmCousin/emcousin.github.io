@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v2'
+const CACHE_VERSION = 'v3'
 const CACHE_NAME = CACHE_VERSION + ':sw-cache-emmanuel-cousin'
 
 function onInstall(event) {
@@ -12,6 +12,12 @@ function onInstall(event) {
         '/assets/images/resume/braidio_logo.webp',
         '/assets/images/resume/my_job_glasses_logo.webp',
         '/assets/images/resume/captain_contrat_logo.webp',
+        '/assets/images/recommendations/avatar-placeholder.svg',
+        '/assets/images/recommendations/edward.webp',
+        '/assets/images/recommendations/trip.webp',
+        '/assets/images/recommendations/elliott.webp',
+        '/assets/images/recommendations/pierre.webp',
+        '/assets/images/recommendations/manon.webp',
         '/assets/css/main.css',
         '/',
         '/resume',

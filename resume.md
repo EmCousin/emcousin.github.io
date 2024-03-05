@@ -55,7 +55,7 @@ description: "You'll find detailed information about my experience here"
     </details>
     <div class="grid grid-rows-[0fr] peer-open:mt-4 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
       <div id="reprtoir-recommendations" class="min-h-0 w-full flex gap-6 snap-x snap-mandatory overflow-x-auto">
-        <div class="bg-slate-200 dark:bg-black shadow rounded-lg p-4">
+        <div class="bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
           <div class="flex space-x-2 mb-4">
             <a href="https://www.linkedin.com/in/dominiquerottet/">
               <img src="/assets/images/recommendations/dominique.webp" alt="Pierre's Avatar" class="w-12 h-12 rounded-full object-cover" />
@@ -190,7 +190,7 @@ description: "You'll find detailed information about my experience here"
     </details>
     <div class="grid grid-rows-[0fr] peer-open:mt-4 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
       <div id="small-door-recommendations" class="flex min-h-0">
-        <div class="bg-slate-200 dark:bg-black shadow rounded-lg p-4">
+        <div class="bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
           <div class="flex space-x-2 mb-4">
             <a href="https://www.linkedin.com/in/edelangen/">
               <img src="/assets/images/recommendations/edward.webp" alt="Edward's Avatar" class="w-12 h-12 rounded-full object-cover" />
@@ -259,7 +259,7 @@ description: "You'll find detailed information about my experience here"
     </details>
     <div class="grid grid-rows-[0fr] peer-open:mt-4 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
       <div id="braidio-recommendations" class="min-h-0 w-full flex gap-6 snap-x snap-mandatory overflow-x-auto">
-        <div class="w-96 max-w-full snap-center shrink-0 bg-slate-200 dark:bg-black shadow rounded-lg p-4">
+        <div class="w-96 max-w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
           <div class="flex space-x-2 mb-4">
             <a href="https://www.linkedin.com/in/trip-shanti-b38ba257/">
               <img src="/assets/images/recommendations/trip.webp" alt="Trip's Avatar" class="w-12 h-12 rounded-full object-cover" />
@@ -283,7 +283,7 @@ description: "You'll find detailed information about my experience here"
           </blockquote>
         </div>
 
-        <div class="w-96 max-w-full snap-center shrink-0 bg-slate-200 dark:bg-black shadow rounded-lg p-4">
+        <div class="w-96 max-w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
           <div class="flex space-x-2 mb-4">
             <a href="https://www.linkedin.com/in/edraper/">
               <img src="/assets/images/recommendations/elliott.webp" alt="Elliott's Avatar" class="w-12 h-12 rounded-full object-cover" />
@@ -405,7 +405,7 @@ description: "You'll find detailed information about my experience here"
     </details>
     <div class="grid grid-rows-[0fr] peer-open:mt-4 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
       <div id="captain-contrat-recommendations" class="min-h-0 w-full flex gap-6 snap-x snap-mandatory overflow-x-auto">
-        <div class="w-96 max-w-full snap-center shrink-0 bg-slate-200 dark:bg-black shadow rounded-lg p-4">
+        <div class="w-96 max-w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
           <div class="flex space-x-2 mb-4">
             <a href="https://www.linkedin.com/in/pierregielen/">
               <img src="/assets/images/recommendations/pierre.webp" alt="Pierre's Avatar" class="w-12 h-12 rounded-full object-cover" />
@@ -429,7 +429,7 @@ description: "You'll find detailed information about my experience here"
           </blockquote>
         </div>
 
-        <div class="w-96 max-w-full snap-center shrink-0 bg-slate-200 dark:bg-black shadow rounded-lg p-4">
+        <div class="w-96 max-w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
           <div class="flex space-x-2 mb-4">
             <a href="https://www.linkedin.com/in/mbudin/">
               <img src="/assets/images/recommendations/manon.webp" alt="Pierre's Avatar" class="w-12 h-12 rounded-full object-cover" />
@@ -456,7 +456,7 @@ description: "You'll find detailed information about my experience here"
           </blockquote>
         </div>
 
-        <div class="w-96 max-w-full snap-center shrink-0 bg-slate-200 dark:bg-black shadow rounded-lg p-4">
+        <div class="w-96 max-w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
           <div class="flex space-x-2 mb-4">
             <a href="https://www.linkedin.com/in/yannickfonjallaz/">
               <img src="/assets/images/recommendations/avatar-placeholder.svg" alt="Yannick's Avatar" class="bg-white w-12 h-12 rounded-full object-cover" />

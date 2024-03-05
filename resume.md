@@ -48,6 +48,40 @@ description: "You'll find detailed information about my experience here"
       </div>
     </div>
   </div>
+
+  <div>
+    <details class="block mt-2 peer" aria-describedby="reprtoir-recommendations">
+      <summary role="button">Recommendations</summary>
+    </details>
+    <div class="grid grid-rows-[0fr] peer-open:mt-4 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
+      <div id="reprtoir-recommendations" class="min-h-0 w-full flex gap-6 snap-x snap-mandatory overflow-x-auto">
+        <div class="bg-slate-200 dark:bg-black shadow rounded-lg p-4">
+          <div class="flex space-x-2 mb-4">
+            <a href="https://www.linkedin.com/in/dominiquerottet/">
+              <img src="/assets/images/recommendations/dominique.webp" alt="Pierre's Avatar" class="w-12 h-12 rounded-full object-cover" />
+            </a>
+            <div>
+              <h3 class="font-medium"><a class="visited:text-current" href="https://www.linkedin.com/in/dominiquerottet/">Dominique Rottet</a></h3>
+              <span class="text-sm text-gray-600 dark:text-gray-300">CEO at Reprtoir</span>
+            </div>
+          </div>
+
+          <blockquote class="relative mt-6">
+            <div class="absolute -top-6 -start-2 text-gray-100 dark:text-gray-700">
+              {% include icons/quote.html %}
+            </div>
+
+            <div class="relative z-10 px-2">
+              <p class="text-gray-800 dark:text-slate-50 indent-4"><em>
+                As CEO of Reprtoir, I worked daily with Emmanuel, who excels as a full-stack developer. His problem solving, commitment to quality and hard work on Reprtoir have been crucial to us. Emmanuel stands out for his seriousness, intelligence and listening ability, making him a trusted collaborator and an invaluable asset for our team. I highly recommend Emmanuel to any company looking for a competent and reliable developer.
+              </em></p>
+            </div>
+          </blockquote>
+        </div>
+
+      </div>
+    </div>
+  </div>
 </section>
 
 <section class="my-8 animate-slide-in-from-left animation-duration-[0.6s]">
@@ -448,5 +482,4 @@ description: "You'll find detailed information about my experience here"
       </div>
     </div>
   </div>
-  </section>
-
+</section>

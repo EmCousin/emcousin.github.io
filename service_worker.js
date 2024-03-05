@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v4'
+const CACHE_VERSION = 'v5'
 const CACHE_NAME = CACHE_VERSION + ':sw-cache-emmanuel-cousin'
 
 function onInstall(event) {
@@ -14,6 +14,7 @@ function onInstall(event) {
         '/assets/images/resume/my_job_glasses_logo.webp',
         '/assets/images/resume/captain_contrat_logo.webp',
         '/assets/images/recommendations/avatar-placeholder.svg',
+        '/assets/images/recommendations/dominique.webp',
         '/assets/images/recommendations/edward.webp',
         '/assets/images/recommendations/trip.webp',
         '/assets/images/recommendations/elliott.webp',
@@ -53,7 +54,6 @@ function onActivate(event) {
 }
 
 function onFetch(event) {
-  console.log("DEBUGGING ON FETCH INTERCEPTION")
   event.respondWith(
     // try to return untouched request from network first
     fetch(event.request).catch(function() {

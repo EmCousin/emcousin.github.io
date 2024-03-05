@@ -12,7 +12,9 @@ description: "You'll find detailed information about my experience here"
 
 <section class="my-8 animate-slide-in-from-left animation-duration-[0.6s]">
   <div class="flex space-x-2">
-    <img src="/assets/images/resume/reprtoir_logo.webp" alt="Reprtoir Logo" class="w-16 h-16 rounded object-cover" />
+    <a href="https://reprtoir.com">
+      <img src="/assets/images/resume/reprtoir_logo.webp" alt="Reprtoir Logo" class="w-16 h-16 rounded" />
+    </a>
     <div>
       <h3 class="md:text-lg font-bold">Senior Software Engineer - Rendez-Vous Digital</h3>
       <span class="text-sm text-gray-600 dark:text-gray-300">July 2021 - Present</span>
@@ -48,9 +50,76 @@ description: "You'll find detailed information about my experience here"
   </div>
 </section>
 
+<section class="my-8 animate-slide-in-from-left animation-duration-[0.6s]">
+  <div class="flex space-x-2">
+    <a href="https://firstrubyfriend.org">
+      <img src="/assets/images/resume/first_ruby_friend_logo.svg" alt="First Ruby Friend Logo" class="w-16 h-16 rounded" />
+    </a>
+    <div>
+      <h3 class="md:text-lg font-bold">Volunteer Programming Mentor - First Ruby Friend</h3>
+      <span class="text-sm text-gray-600 dark:text-gray-300">Mars 2023 - Present</span>
+    </div>
+  </div>
+
+  <p class="mt-2">Delivering impactful mentorship to individuals, including students and professionals transitioning into programming.</p>
+
+  <div>
+    <details class="mt-2 peer" aria-describedby="first-ruby-friend-key-contributions">
+      <summary role="button">Key Contributions</summary>
+    </details>
+    <div class="grid grid-rows-[0fr] peer-open:mt-2 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
+      <ul id="first-ruby-friend-key-contributions" class="min-h-0">
+        <li>
+          Tailored Guidance:
+          <ul>
+            <li>Customize my mentorship to align with the unique needs and aspirations of each mentee.</li>
+            <li>Perform initial assessments to gauge their existing skill levels, strengths, and areas for growth.</li>
+          </ul>
+        </li>
+        <li>
+          Development of Technical Skills:
+          <ul>
+            <li>Furnish practical guidance on programming languages, frameworks, and tools pertinent to their selected career paths.</li>
+            <li>Present coding exercises, projects, and real-world instances to enhance hands-on skills.</li>
+            <li>Share industry best practices and uphold coding standards..</li>
+          </ul>
+        </li>
+        <li>
+          Collaboration on Projects:
+          <ul>
+            <li>Foster teamwork on real-world projects to replicate professional experiences.</li>
+            <li>Provide constructive feedback aimed at refining code quality and problem-solving abilities.</li>
+          </ul>
+        </li>
+        <li>
+          Guidance for Career Advancement:
+          <ul>
+            <li>Aid in the creation of resumes, portfolios, and optimization of LinkedIn profiles.</li>
+            <li>Provide insights into the job market, industry trends, and sought-after skills.</li>
+            <li>Conduct mock interviews and furnish feedback to enhance interview performance.</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div>
+    <details class="block mt-2 peer" aria-describedby="first-ruby-friend-skills">
+      <summary role="button">Technical Skills</summary>
+    </details>
+    <div class="grid grid-rows-[0fr] peer-open:mt-2 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
+      <div id="first-ruby-friend-skills" class="min-h-0">
+        <p>Ruby · Ruby on Rails · Javascript · SQL</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="my-8 animate-slide-in-from-left animation-duration-700">
   <div class="flex space-x-2">
-    <img src="/assets/images/resume/smalldoor_logo.webp" alt="Small Door Logo" class="w-16 h-16 rounded object-cover" />
+    <a href="https://www.smalldoorvet.com/">
+      <img src="/assets/images/resume/smalldoor_logo.webp" alt="Small Door Logo" class="w-16 h-16 rounded" />
+    </a>
     <div>
       <h3 class="md:text-lg font-bold">Lead Developer - Small Door Veterinary</h3>
       <span class="text-sm text-gray-600 dark:text-gray-300">January 2021 - July 2021</span>
@@ -117,7 +186,9 @@ description: "You'll find detailed information about my experience here"
 
 <section class="my-8 animate-slide-in-from-left animation-duration-[0.8s]">
   <div class="flex space-x-2">
-    <img src="/assets/images/resume/braidio_logo.webp" alt="Braidio Logo" class="w-16 h-16 rounded object-cover" />
+    <a href="https://www.braidio.com">
+      <img src="/assets/images/resume/braidio_logo.webp" alt="Braidio Logo" class="w-16 h-16 rounded" />
+    </a>
     <div>
       <h3 class="md:text-lg font-bold">Senior Developer - Braidio</h3>
       <span class="text-sm text-gray-600 dark:text-gray-300">February 2019 - January 2021</span>
@@ -209,7 +280,9 @@ description: "You'll find detailed information about my experience here"
 
 <section class="my-8 animate-slide-in-from-left animation-duration-[0.9s]">
   <div class="flex space-x-2">
-    <img src="/assets/images/resume/my_job_glasses_logo.webp" alt="My Job Glasses Logo" class="w-16 h-16 rounded object-cover" />
+    <a href="https://www.myjobglasses.com">
+      <img src="/assets/images/resume/my_job_glasses_logo.webp" alt="My Job Glasses Logo" class="w-16 h-16 rounded" />
+    </a>
     <div>
       <h3 class="md:text-lg font-bold">Web Developer - My Job Glasses</h3>
       <span class="text-sm text-gray-600 dark:text-gray-300">July 2017 - December 2017</span>
@@ -248,7 +321,9 @@ description: "You'll find detailed information about my experience here"
 
 <section class="my-8 animate-slide-in-from-left animation-duration-1000">
   <div class="flex space-x-2">
-    <img src="/assets/images/resume/captain_contrat_logo.webp" alt="Captain Contrat Logo" class="w-16 h-16 rounded object-cover" />
+    <a href="https://www.captaincontrat.com">
+      <img src="/assets/images/resume/captain_contrat_logo.webp" alt="Captain Contrat Logo" class="w-16 h-16 rounded object-cover" />
+    </a>
     <div>
       <h3 class="md:text-lg font-bold">Web Developer - Captain Contrat</h3>
       <span class="text-sm text-gray-600 dark:text-gray-300">January 2015 - July 2017</span>

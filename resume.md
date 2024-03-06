@@ -12,8 +12,8 @@ description: "You'll find detailed information about my experience here"
 
 <section class="my-8 animate-slide-in-from-left animation-duration-500">
   <div class="flex space-x-2">
-    <a href="https://reprtoir.com">
-      <img src="/assets/images/resume/reprtoir_logo.webp" alt="Reprtoir Logo" class="w-16 h-16 rounded" />
+    <a href="https://reprtoir.com" class="w-16 h-16">
+      <img src="/assets/images/resume/reprtoir_logo.webp" alt="Reprtoir Logo" class="w-full aspect-square rounded" />
     </a>
     <div>
       <h3 class="md:text-lg font-bold">Senior Software Engineer - Rendez-Vous Digital</h3>
@@ -86,8 +86,8 @@ description: "You'll find detailed information about my experience here"
 
 <section class="my-8 animate-slide-in-from-left animation-duration-[0.6s]">
   <div class="flex space-x-2">
-    <a href="https://firstrubyfriend.org">
-      <img src="/assets/images/resume/first_ruby_friend_logo.svg" alt="First Ruby Friend Logo" class="w-16 h-16 rounded" />
+    <a href="https://firstrubyfriend.org" class="w-16 h-16">
+      <img src="/assets/images/resume/first_ruby_friend_logo.svg" alt="First Ruby Friend Logo" class="w-full aspect-square rounded" />
     </a>
     <div>
       <h3 class="md:text-lg font-bold">Volunteer Programming Mentor - First Ruby Friend</h3>
@@ -147,12 +147,50 @@ description: "You'll find detailed information about my experience here"
       </div>
     </div>
   </div>
+
+  <div>
+    <details class="block mt-2 peer" aria-describedby="first-ruby-friend-recommendations">
+      <summary role="button">Recommendations</summary>
+    </details>
+    <div class="grid grid-rows-[0fr] peer-open:mt-4 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
+      <div id="first-ruby-friend-recommendations" class="min-h-0 w-full flex gap-6 snap-x snap-mandatory overflow-x-auto">
+        <div class="bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
+          <div class="flex space-x-2 mb-4">
+            <a href="https://www.linkedin.com/in/nikolaz-s/">
+              <img src="/assets/images/recommendations/nikolaz.webp" alt="Pierre's Avatar" class="w-12 h-12 rounded-full object-cover" />
+            </a>
+            <div>
+              <h3 class="font-medium"><a class="visited:text-current" href="https://www.linkedin.com/in/nikolaz-s/">Nikolaz S.</a></h3>
+              <span class="text-sm text-gray-600 dark:text-gray-300">Web developer</span>
+            </div>
+          </div>
+
+          <blockquote class="relative mt-6">
+            <div class="absolute -top-6 -start-2 text-gray-100 dark:text-gray-700">
+              {% include icons/quote.html %}
+            </div>
+
+            <div class="relative z-10 px-2">
+              <p class="text-gray-800 dark:text-slate-50 indent-4"><em>
+                Emmanuel is an exceptional mentor. He is an expert in web developement and has a keen ability to breakdown complex concepts, whether that is in Ruby, JavaScript, a framework or in a broader sense, as a business minded developer.
+                <br />
+                Over the past year we have worked on a variety of topics, and Emmanuel has been a dedicated and empathetic teacher, always making time even with a busy workload.
+                <br />
+                He is particularly good at assessing priorities within any given context whilst keeping a cool head at all times. It's a pleasure to recommend him!
+              </em></p>
+            </div>
+          </blockquote>
+        </div>
+
+      </div>
+    </div>
+  </div>
 </section>
 
 <section class="my-8 animate-slide-in-from-left animation-duration-700">
   <div class="flex space-x-2">
-    <a href="https://www.smalldoorvet.com/">
-      <img src="/assets/images/resume/smalldoor_logo.webp" alt="Small Door Logo" class="w-16 h-16 rounded" />
+    <a href="https://www.smalldoorvet.com/" class="w-16 h-16">
+      <img src="/assets/images/resume/smalldoor_logo.webp" alt="Small Door Logo" class="w-full aspect-square rounded" />
     </a>
     <div>
       <h3 class="md:text-lg font-bold">Lead Developer - Small Door Veterinary</h3>
@@ -220,8 +258,8 @@ description: "You'll find detailed information about my experience here"
 
 <section class="my-8 animate-slide-in-from-left animation-duration-[0.8s]">
   <div class="flex space-x-2">
-    <a href="https://www.braidio.com">
-      <img src="/assets/images/resume/braidio_logo.webp" alt="Braidio Logo" class="w-16 h-16 rounded" />
+    <a href="https://www.braidio.com" class="w-16 h-16">
+      <img src="/assets/images/resume/braidio_logo.webp" alt="Braidio Logo" class="w-full aspect-square rounded" />
     </a>
     <div>
       <h3 class="md:text-lg font-bold">Senior Developer - Braidio</h3>
@@ -259,7 +297,7 @@ description: "You'll find detailed information about my experience here"
     </details>
     <div class="grid grid-rows-[0fr] peer-open:mt-4 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
       <div id="braidio-recommendations" class="min-h-0 w-full flex gap-6 snap-x snap-mandatory overflow-x-auto">
-        <div class="w-96 max-w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
+        <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
           <div class="flex space-x-2 mb-4">
             <a href="https://www.linkedin.com/in/trip-shanti-b38ba257/">
               <img src="/assets/images/recommendations/trip.webp" alt="Trip's Avatar" class="w-12 h-12 rounded-full object-cover" />
@@ -283,7 +321,7 @@ description: "You'll find detailed information about my experience here"
           </blockquote>
         </div>
 
-        <div class="w-96 max-w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
+        <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
           <div class="flex space-x-2 mb-4">
             <a href="https://www.linkedin.com/in/edraper/">
               <img src="/assets/images/recommendations/elliott.webp" alt="Elliott's Avatar" class="w-12 h-12 rounded-full object-cover" />
@@ -314,8 +352,8 @@ description: "You'll find detailed information about my experience here"
 
 <section class="my-8 animate-slide-in-from-left animation-duration-[0.9s]">
   <div class="flex space-x-2">
-    <a href="https://www.myjobglasses.com">
-      <img src="/assets/images/resume/my_job_glasses_logo.webp" alt="My Job Glasses Logo" class="w-16 h-16 rounded" />
+    <a href="https://www.myjobglasses.com" class="w-16 h-16">
+      <img src="/assets/images/resume/my_job_glasses_logo.webp" alt="My Job Glasses Logo" class="w-full aspect-square rounded" />
     </a>
     <div>
       <h3 class="md:text-lg font-bold">Web Developer - My Job Glasses</h3>
@@ -355,8 +393,8 @@ description: "You'll find detailed information about my experience here"
 
 <section class="my-8 animate-slide-in-from-left animation-duration-1000">
   <div class="flex space-x-2">
-    <a href="https://www.captaincontrat.com">
-      <img src="/assets/images/resume/captain_contrat_logo.webp" alt="Captain Contrat Logo" class="w-16 h-16 rounded object-cover" />
+    <a href="https://www.captaincontrat.com" class="w-16 h-16">
+      <img src="/assets/images/resume/captain_contrat_logo.webp" alt="Captain Contrat Logo" class="w-full aspect-square rounded object-cover" />
     </a>
     <div>
       <h3 class="md:text-lg font-bold">Web Developer - Captain Contrat</h3>
@@ -405,7 +443,7 @@ description: "You'll find detailed information about my experience here"
     </details>
     <div class="grid grid-rows-[0fr] peer-open:mt-4 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
       <div id="captain-contrat-recommendations" class="min-h-0 w-full flex gap-6 snap-x snap-mandatory overflow-x-auto">
-        <div class="w-96 max-w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
+        <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
           <div class="flex space-x-2 mb-4">
             <a href="https://www.linkedin.com/in/pierregielen/">
               <img src="/assets/images/recommendations/pierre.webp" alt="Pierre's Avatar" class="w-12 h-12 rounded-full object-cover" />
@@ -429,7 +467,7 @@ description: "You'll find detailed information about my experience here"
           </blockquote>
         </div>
 
-        <div class="w-96 max-w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
+        <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
           <div class="flex space-x-2 mb-4">
             <a href="https://www.linkedin.com/in/mbudin/">
               <img src="/assets/images/recommendations/manon.webp" alt="Pierre's Avatar" class="w-12 h-12 rounded-full object-cover" />
@@ -456,7 +494,7 @@ description: "You'll find detailed information about my experience here"
           </blockquote>
         </div>
 
-        <div class="w-96 max-w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
+        <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
           <div class="flex space-x-2 mb-4">
             <a href="https://www.linkedin.com/in/yannickfonjallaz/">
               <img src="/assets/images/recommendations/avatar-placeholder.svg" alt="Yannick's Avatar" class="bg-white w-12 h-12 rounded-full object-cover" />

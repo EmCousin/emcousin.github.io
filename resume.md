@@ -58,7 +58,7 @@ description: "You'll find detailed information about my experience here"
         <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
           <div class="flex space-x-2 mb-4">
             <a href="https://www.linkedin.com/in/dominiquerottet/">
-              <img src="/assets/images/recommendations/dominique.webp" alt="Pierre's Avatar" class="w-12 h-12 rounded-full object-cover" />
+              <img src="/assets/images/recommendations/dominique.webp" alt="Dominique's Avatar" class="w-12 h-12 rounded-full object-cover" />
             </a>
             <div>
               <h3 class="font-medium"><a class="visited:text-current" href="https://www.linkedin.com/in/dominiquerottet/">Dominique Rottet</a></h3>
@@ -82,7 +82,7 @@ description: "You'll find detailed information about my experience here"
         <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
           <div class="flex space-x-2 mb-4">
             <a href="https://www.linkedin.com/in/malisart/">
-              <img src="/assets/images/recommendations/aurelien.webp" alt="Pierre's Avatar" class="w-12 h-12 rounded-full object-cover" />
+              <img src="/assets/images/recommendations/aurelien.webp" alt="Aurelien's Avatar" class="w-12 h-12 rounded-full object-cover" />
             </a>
             <div>
               <h3 class="font-medium"><a class="visited:text-current" href="https://www.linkedin.com/in/malisart/">Aurélien Malisart</a></h3>
@@ -107,7 +107,7 @@ description: "You'll find detailed information about my experience here"
         <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
           <div class="flex space-x-2 mb-4">
             <a href="https://www.linkedin.com/in/nathanpolachini/">
-              <img src="/assets/images/recommendations/nathan.webp" alt="Pierre's Avatar" class="w-12 h-12 rounded-full object-cover" />
+              <img src="/assets/images/recommendations/nathan.webp" alt="Nathan's Avatar" class="w-12 h-12 rounded-full object-cover" />
             </a>
             <div>
               <h3 class="font-medium"><a class="visited:text-current" href="https://www.linkedin.com/in/nathanpolachini/">Nathan Polachini</a></h3>
@@ -206,7 +206,7 @@ description: "You'll find detailed information about my experience here"
         <div class="bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
           <div class="flex space-x-2 mb-4">
             <a href="https://www.linkedin.com/in/nikolaz-s/">
-              <img src="/assets/images/recommendations/nikolaz.webp" alt="Pierre's Avatar" class="w-12 h-12 rounded-full object-cover" />
+              <img src="/assets/images/recommendations/nikolaz.webp" alt="Nikolaz's Avatar" class="w-12 h-12 rounded-full object-cover" />
             </a>
             <div>
               <h3 class="font-medium"><a class="visited:text-current" href="https://www.linkedin.com/in/nikolaz-s/">Nikolaz S.</a></h3>
@@ -519,7 +519,7 @@ description: "You'll find detailed information about my experience here"
         <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
           <div class="flex space-x-2 mb-4">
             <a href="https://www.linkedin.com/in/mbudin/">
-              <img src="/assets/images/recommendations/manon.webp" alt="Pierre's Avatar" class="w-12 h-12 rounded-full object-cover" />
+              <img src="/assets/images/recommendations/manon.webp" alt="Manon's Avatar" class="w-12 h-12 rounded-full object-cover" />
             </a>
             <div>
               <h3 class="font-medium"><a class="visited:text-current" href="https://www.linkedin.com/in/mbudin/">Manon Budin</a></h3>

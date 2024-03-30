@@ -104,7 +104,29 @@ description: "You'll find detailed information about my experience here"
           </blockquote>
         </div>
 
+        <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
+          <div class="flex space-x-2 mb-4">
+            <a href="https://www.linkedin.com/in/nathanpolachini/">
+              <img src="/assets/images/recommendations/nathan.webp" alt="Pierre's Avatar" class="w-12 h-12 rounded-full object-cover" />
+            </a>
+            <div>
+              <h3 class="font-medium"><a class="visited:text-current" href="https://www.linkedin.com/in/nathanpolachini/">Nathan Polachini</a></h3>
+              <span class="text-sm text-gray-600 dark:text-gray-300">Sales Representative & Support at Reprtoir</span>
+            </div>
+          </div>
 
+          <blockquote class="relative mt-6">
+            <div class="absolute -top-6 -start-2 text-gray-100 dark:text-gray-700">
+              {% include icons/quote.html %}
+            </div>
+
+            <div class="relative z-10 px-2">
+              <p class="text-gray-800 dark:text-slate-50 indent-4"><em>
+                I had the pleasure of working with Emmanuel at Reprtoir, and it was an excellent experience. Even though being in different teams, our relationship was always spot-on, thanks to Emmanuel's professionalism. He was always available, attentive, efficient, and clear with the resolutions. Made sure we were always in the loop with updates. Emmanuel's reliability and professionalism made him a great colleague to work with.
+              </em></p>
+            </div>
+          </blockquote>
+        </div>
 
       </div>
     </div>

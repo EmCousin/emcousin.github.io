@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v8'
+const CACHE_VERSION = 'v9'
 const CACHE_NAME = CACHE_VERSION + ':sw-cache-emmanuel-cousin'
 
 function onInstall(event) {
@@ -7,6 +7,10 @@ function onInstall(event) {
     caches.open(CACHE_NAME).then(function prefill(cache) {
       const cachesToAdd = [
         '/assets/images/emmanuel.webp',
+        '/assets/images/icons/linkedin.svg',
+        '/assets/images/icons/github.svg',
+        '/assets/images/icons/github-white.svg',
+        '/assets/images/icons/mail.svg',
         '/assets/images/resume/reprtoir_logo.webp',
         '/assets/images/resume/first_ruby_friend_logo.svg',
         '/assets/images/resume/smalldoor_logo.webp',
@@ -16,6 +20,7 @@ function onInstall(event) {
         '/assets/images/recommendations/avatar-placeholder.svg',
         '/assets/images/recommendations/dominique.webp',
         '/assets/images/recommendations/aurelien.webp',
+        '/assets/images/recommendations/nathan.webp',
         '/assets/images/recommendations/nikolaz.webp',
         '/assets/images/recommendations/edward.webp',
         '/assets/images/recommendations/trip.webp',

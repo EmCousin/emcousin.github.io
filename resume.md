@@ -81,6 +81,30 @@ description: "You'll find detailed information about my experience here"
 
         <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
           <div class="flex space-x-2 mb-4">
+            <a href="https://www.linkedin.com/in/verlindensteve/">
+              <img src="/assets/images/recommendations/steve.webp" alt="Steve's Avatar" class="w-12 h-12 rounded-full object-cover" />
+            </a>
+            <div>
+              <h3 class="font-medium"><a class="visited:text-current" href="https://www.linkedin.com/in/verlindensteve/">Steve Verlinden</a></h3>
+              <span class="text-sm text-gray-600 dark:text-gray-300">CTO at Reprtoir</span>
+            </div>
+          </div>
+
+          <blockquote class="relative mt-6">
+            <div class="absolute -top-6 -start-2 text-gray-100 dark:text-gray-700">
+              {% include icons/quote.html %}
+            </div>
+
+            <div class="relative z-10 px-2">
+              <p class="text-gray-800 dark:text-slate-50 indent-4"><em>
+                I highly recommend Emmanuel as a skilled Ruby on Rails developer. During our time working together, I was continually impressed by his deep understanding of both the Ruby language and the Rails framework. His ability to tackle complex problems and deliver high-quality solutions made him a valuable asset to our team. Emmanuel's dedication to continuous learning and his strong work ethic make him an excellent choice for any Ruby on Rails project.
+              </em></p>
+            </div>
+          </blockquote>
+        </div>
+
+        <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
+          <div class="flex space-x-2 mb-4">
             <a href="https://www.linkedin.com/in/malisart/">
               <img src="/assets/images/recommendations/aurelien.webp" alt="Aurelien's Avatar" class="w-12 h-12 rounded-full object-cover" />
             </a>

@@ -12,12 +12,37 @@ description: "You'll find detailed information about my experience here"
 
 <section class="my-8 animate-slide-in-from-left animation-duration-500">
   <div class="flex space-x-2">
+    <a href="https://spring.net" class="w-16 h-16">
+      <img src="/assets/images/resume/spring_logo.jpg" alt="Spring Logo" class="w-full aspect-square rounded" />
+    </a>
+    <div>
+      <h3 class="md:text-lg font-bold">Senior Software Engineer - Spring.net</h3>
+      <span class="text-sm text-gray-600 dark:text-gray-300">June 2024 - Present</span>
+    </div>
+  </div>
+
+  <p class="mt-2">Spring creates equal investment opportunities for everyday investors through a single, user-friendly platform. By handling everything from opportunity discovery to trading in one system, Spring simplifies complex processes so regular people can access markets previously reserved for financial professionals.</p>
+
+  <div>
+    <details class="block mt-2 peer" aria-describedby="spring-technical-skills">
+      <summary role="button">Technical Skills</summary>
+    </details>
+    <div class="grid grid-rows-[0fr] peer-open:mt-2 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
+      <div id="spring-technical-skills" class="min-h-0">
+        <p>Software Infrastructure · Ruby on Rails · Postgres · InfluxDB · Hotwire · Heroku · Web3 · Blockchain</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="my-8 animate-slide-in-from-left animation-duration-[0.6s]">
+  <div class="flex space-x-2">
     <a href="https://reprtoir.com" class="w-16 h-16">
       <img src="/assets/images/resume/reprtoir_logo.webp" alt="Reprtoir Logo" class="w-full aspect-square rounded" />
     </a>
     <div>
       <h3 class="md:text-lg font-bold">Senior Software Engineer - Rendez-Vous Digital</h3>
-      <span class="text-sm text-gray-600 dark:text-gray-300">July 2021 - Present</span>
+      <span class="text-sm text-gray-600 dark:text-gray-300">July 2021 - April 2024</span>
     </div>
   </div>
 
@@ -157,7 +182,7 @@ description: "You'll find detailed information about my experience here"
   </div>
 </section>
 
-<section class="my-8 animate-slide-in-from-left animation-duration-[0.6s]">
+<section class="my-8 animate-slide-in-from-left animation-duration-700">
   <div class="flex space-x-2">
     <a href="https://firstrubyfriend.org" class="w-16 h-16">
       <img src="/assets/images/resume/first_ruby_friend_logo.svg" alt="First Ruby Friend Logo" class="w-full aspect-square rounded" />
@@ -260,7 +285,7 @@ description: "You'll find detailed information about my experience here"
   </div>
 </section>
 
-<section class="my-8 animate-slide-in-from-left animation-duration-700">
+<section class="my-8 animate-slide-in-from-left animation-duration-[0.8s]">
   <div class="flex space-x-2">
     <a href="https://www.smalldoorvet.com/" class="w-16 h-16">
       <img src="/assets/images/resume/smalldoor_logo.webp" alt="Small Door Logo" class="w-full aspect-square rounded" />
@@ -329,7 +354,7 @@ description: "You'll find detailed information about my experience here"
   </div>
 </section>
 
-<section class="my-8 animate-slide-in-from-left animation-duration-[0.8s]">
+<section class="my-8 animate-slide-in-from-left animation-duration-[0.9s]">
   <div class="flex space-x-2">
     <a href="https://www.braidio.com" class="w-16 h-16">
       <img src="/assets/images/resume/braidio_logo.webp" alt="Braidio Logo" class="w-full aspect-square rounded" />
@@ -423,7 +448,7 @@ description: "You'll find detailed information about my experience here"
 
 </section>
 
-<section class="my-8 animate-slide-in-from-left animation-duration-[0.9s]">
+<section class="my-8 animate-slide-in-from-left animation-duration-1000">
   <div class="flex space-x-2">
     <a href="https://www.myjobglasses.com" class="w-16 h-16">
       <img src="/assets/images/resume/my_job_glasses_logo.webp" alt="My Job Glasses Logo" class="w-full aspect-square rounded" />
@@ -464,7 +489,7 @@ description: "You'll find detailed information about my experience here"
   </div>
 </section>
 
-<section class="my-8 animate-slide-in-from-left animation-duration-1000">
+<section class="my-8 animate-slide-in-from-left animation-duration-[1.1s]">
   <div class="flex space-x-2">
     <a href="https://www.captaincontrat.com" class="w-16 h-16">
       <img src="/assets/images/resume/captain_contrat_logo.webp" alt="Captain Contrat Logo" class="w-full aspect-square rounded object-cover" />

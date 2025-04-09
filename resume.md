@@ -40,29 +40,7 @@ description: "You'll find detailed information about my experience here"
     </details>
     <div class="grid grid-rows-[0fr] peer-open:mt-4 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
       <div id="spring-recommendations" class="min-h-0 w-full flex gap-6 snap-x snap-mandatory overflow-x-auto">
-        <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
-          <div class="flex space-x-2 mb-4">
-            <a href="https://www.linkedin.com/in/katiemichie/">
-              <img src="/assets/images/recommendations/katie.webp" alt="Katie's Avatar" class="w-12 h-12 rounded-full object-cover" />
-            </a>
-            <div>
-              <h3 class="font-medium"><a class="visited:text-current" href="https://www.linkedin.com/in/katiemichie/">Katie Michie</a></h3>
-              <span class="text-sm text-gray-600 dark:text-gray-300">Custoner Success Manager</span>
-            </div>
-          </div>
-
-          <blockquote class="relative mt-6">
-            <div class="absolute -top-6 -start-2 text-gray-100 dark:text-gray-700">
-              {% include icons/quote.html %}
-            </div>
-
-            <div class="relative z-10 px-2">
-              <p class="text-gray-800 dark:text-slate-50 indent-4"><em>
-                I had the pleasure of working with Emmanuel, and any team would be lucky to have him. He’s incredibly knowledgeable in his field, hardworking, and communicates with clarity and empathy. Emmanuel is a truly supportive teammate who challenges directly and brings thoughtful perspective to every conversation. A kind, reliable, and effective collaborator through and through.
-              </em></p>
-            </div>
-          </blockquote>
-        </div>
+        {% include recommendations/spring/katie.html %}
       </div>
     </div>
   </div>
@@ -113,103 +91,10 @@ description: "You'll find detailed information about my experience here"
     </details>
     <div class="grid grid-rows-[0fr] peer-open:mt-4 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
       <div id="reprtoir-recommendations" class="min-h-0 w-full flex gap-6 snap-x snap-mandatory overflow-x-auto">
-        <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
-          <div class="flex space-x-2 mb-4">
-            <a href="https://www.linkedin.com/in/dominiquerottet/">
-              <img src="/assets/images/recommendations/dominique.webp" alt="Dominique's Avatar" class="w-12 h-12 rounded-full object-cover" />
-            </a>
-            <div>
-              <h3 class="font-medium"><a class="visited:text-current" href="https://www.linkedin.com/in/dominiquerottet/">Dominique Rottet</a></h3>
-              <span class="text-sm text-gray-600 dark:text-gray-300">CEO at Reprtoir</span>
-            </div>
-          </div>
-
-          <blockquote class="relative mt-6">
-            <div class="absolute -top-6 -start-2 text-gray-100 dark:text-gray-700">
-              {% include icons/quote.html %}
-            </div>
-
-            <div class="relative z-10 px-2">
-              <p class="text-gray-800 dark:text-slate-50 indent-4"><em>
-                As CEO of Reprtoir, I worked daily with Emmanuel, who excels as a full-stack developer. His problem solving, commitment to quality and hard work on Reprtoir have been crucial to us. Emmanuel stands out for his seriousness, intelligence and listening ability, making him a trusted collaborator and an invaluable asset for our team. I highly recommend Emmanuel to any company looking for a competent and reliable developer.
-              </em></p>
-            </div>
-          </blockquote>
-        </div>
-
-        <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
-          <div class="flex space-x-2 mb-4">
-            <a href="https://www.linkedin.com/in/verlindensteve/">
-              <img src="/assets/images/recommendations/steve.webp" alt="Steve's Avatar" class="w-12 h-12 rounded-full object-cover" />
-            </a>
-            <div>
-              <h3 class="font-medium"><a class="visited:text-current" href="https://www.linkedin.com/in/verlindensteve/">Steve Verlinden</a></h3>
-              <span class="text-sm text-gray-600 dark:text-gray-300">CTO at Reprtoir</span>
-            </div>
-          </div>
-
-          <blockquote class="relative mt-6">
-            <div class="absolute -top-6 -start-2 text-gray-100 dark:text-gray-700">
-              {% include icons/quote.html %}
-            </div>
-
-            <div class="relative z-10 px-2">
-              <p class="text-gray-800 dark:text-slate-50 indent-4"><em>
-                I highly recommend Emmanuel as a skilled Ruby on Rails developer. During our time working together, I was continually impressed by his deep understanding of both the Ruby language and the Rails framework. His ability to tackle complex problems and deliver high-quality solutions made him a valuable asset to our team. Emmanuel's dedication to continuous learning and his strong work ethic make him an excellent choice for any Ruby on Rails project.
-              </em></p>
-            </div>
-          </blockquote>
-        </div>
-
-        <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
-          <div class="flex space-x-2 mb-4">
-            <a href="https://www.linkedin.com/in/malisart/">
-              <img src="/assets/images/recommendations/aurelien.webp" alt="Aurelien's Avatar" class="w-12 h-12 rounded-full object-cover" />
-            </a>
-            <div>
-              <h3 class="font-medium"><a class="visited:text-current" href="https://www.linkedin.com/in/malisart/">Aurélien Malisart</a></h3>
-              <span class="text-sm text-gray-600 dark:text-gray-300">Fullstack Rubyist at Phonoid</span>
-            </div>
-          </div>
-
-          <blockquote class="relative mt-6">
-            <div class="absolute -top-6 -start-2 text-gray-100 dark:text-gray-700">
-              {% include icons/quote.html %}
-            </div>
-
-            <div class="relative z-10 px-2">
-              <p class="text-gray-800 dark:text-slate-50 indent-4"><em>
-                Emmanuel was able to find his way into our large Ruby/Rails/React codebase quite smoothly.
-                He has a solid knowledge of web technologies and was therefore able to contribute to existing and new projects of ours. He managed to adapt to new elements of our stack that he wasn’t using before and suggest relevant technologies when needed.
-              </em></p>
-            </div>
-          </blockquote>
-        </div>
-
-        <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
-          <div class="flex space-x-2 mb-4">
-            <a href="https://www.linkedin.com/in/nathanpolachini/">
-              <img src="/assets/images/recommendations/nathan.webp" alt="Nathan's Avatar" class="w-12 h-12 rounded-full object-cover" />
-            </a>
-            <div>
-              <h3 class="font-medium"><a class="visited:text-current" href="https://www.linkedin.com/in/nathanpolachini/">Nathan Polachini</a></h3>
-              <span class="text-sm text-gray-600 dark:text-gray-300">Sales Representative & Support at Reprtoir</span>
-            </div>
-          </div>
-
-          <blockquote class="relative mt-6">
-            <div class="absolute -top-6 -start-2 text-gray-100 dark:text-gray-700">
-              {% include icons/quote.html %}
-            </div>
-
-            <div class="relative z-10 px-2">
-              <p class="text-gray-800 dark:text-slate-50 indent-4"><em>
-                I had the pleasure of working with Emmanuel at Reprtoir, and it was an excellent experience. Even though being in different teams, our relationship was always spot-on, thanks to Emmanuel's professionalism. He was always available, attentive, efficient, and clear with the resolutions. Made sure we were always in the loop with updates. Emmanuel's reliability and professionalism made him a great colleague to work with.
-              </em></p>
-            </div>
-          </blockquote>
-        </div>
-
+        {% include recommendations/reprtoir/dominique.html %}
+        {% include recommendations/reprtoir/steve.html %}
+        {% include recommendations/reprtoir/aurelien.html %}
+        {% include recommendations/reprtoir/nathan.html %}
       </div>
     </div>
   </div>
@@ -285,34 +170,7 @@ description: "You'll find detailed information about my experience here"
     </details>
     <div class="grid grid-rows-[0fr] peer-open:mt-4 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
       <div id="first-ruby-friend-recommendations" class="min-h-0 w-full flex gap-6 snap-x snap-mandatory overflow-x-auto">
-        <div class="bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
-          <div class="flex space-x-2 mb-4">
-            <a href="https://www.linkedin.com/in/nikolaz-s/">
-              <img src="/assets/images/recommendations/nikolaz.webp" alt="Nikolaz's Avatar" class="w-12 h-12 rounded-full object-cover" />
-            </a>
-            <div>
-              <h3 class="font-medium"><a class="visited:text-current" href="https://www.linkedin.com/in/nikolaz-s/">Nikolaz S.</a></h3>
-              <span class="text-sm text-gray-600 dark:text-gray-300">Web developer</span>
-            </div>
-          </div>
-
-          <blockquote class="relative mt-6">
-            <div class="absolute -top-6 -start-2 text-gray-100 dark:text-gray-700">
-              {% include icons/quote.html %}
-            </div>
-
-            <div class="relative z-10 px-2">
-              <p class="text-gray-800 dark:text-slate-50 indent-4"><em>
-                Emmanuel is an exceptional mentor. He is an expert in web development and has a keen ability to breakdown complex concepts, whether that is in Ruby, JavaScript, a framework or in a broader sense, as a business minded developer.
-                <br />
-                Over the past year we have worked on a variety of topics, and Emmanuel has been a dedicated and empathetic teacher, always making time even with a busy workload.
-                <br />
-                He is particularly good at assessing priorities within any given context whilst keeping a cool head at all times. It's a pleasure to recommend him!
-              </em></p>
-            </div>
-          </blockquote>
-        </div>
-
+        {% include recommendations/first_ruby_friend/nikolaz.html %}
       </div>
     </div>
   </div>
@@ -359,29 +217,7 @@ description: "You'll find detailed information about my experience here"
     </details>
     <div class="grid grid-rows-[0fr] peer-open:mt-4 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
       <div id="small-door-recommendations" class="flex min-h-0">
-        <div class="bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
-          <div class="flex space-x-2 mb-4">
-            <a href="https://www.linkedin.com/in/edelangen/">
-              <img src="/assets/images/recommendations/edward.webp" alt="Edward's Avatar" class="w-12 h-12 rounded-full object-cover" />
-            </a>
-            <div>
-              <h3 class="font-medium"><a class="visited:text-current" href="https://www.linkedin.com/in/edelangen/">Edward De Langen</a></h3>
-              <span class="text-sm text-gray-600 dark:text-gray-300">Vice President, Product and Technology</span>
-            </div>
-          </div>
-
-          <blockquote class="relative mt-6">
-            <div class="absolute -top-6 -start-2 text-gray-100 dark:text-gray-700">
-              {% include icons/quote.html %}
-            </div>
-
-            <div class="relative z-10 px-2">
-              <p class="text-gray-800 dark:text-slate-50 indent-4"><em>
-                Emmanuel is a talented developer with a sharp and rapid analytical mind. He is solution-oriented and will quickly find a solution to whichever technical predicament you find yourself in. Emmanuel can deliver quality output in a short amount of time while still considering broader implications such as maintainability and architecture. He's not the type of developer to fall for the technological fad of the week. He stays current and understands the advantages and disadvantages of recent frameworks and how they can help but more importantly sometimes hinder a company's objectives. His input is always well thought out and insightful. I truly respect his work ethic and capabilities and would gladly work with him again.
-              </em></p>
-            </div>
-          </blockquote>
-        </div>
+        {% include recommendations/small_door/edward.html %}
       </div>
     </div>
   </div>
@@ -428,53 +264,8 @@ description: "You'll find detailed information about my experience here"
     </details>
     <div class="grid grid-rows-[0fr] peer-open:mt-4 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
       <div id="braidio-recommendations" class="min-h-0 w-full flex gap-6 snap-x snap-mandatory overflow-x-auto">
-        <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
-          <div class="flex space-x-2 mb-4">
-            <a href="https://www.linkedin.com/in/trip-shanti-b38ba257/">
-              <img src="/assets/images/recommendations/trip.webp" alt="Trip's Avatar" class="w-12 h-12 rounded-full object-cover" />
-            </a>
-            <div>
-              <h3 class="font-medium"><a class="visited:text-current" href="https://www.linkedin.com/in/trip-shanti-b38ba257/">Trip Shanti</a></h3>
-              <span class="text-sm text-gray-600 dark:text-gray-300">Head of Product and Technology at Braidio</span>
-            </div>
-          </div>
-
-          <blockquote class="relative mt-6">
-            <div class="absolute -top-6 -start-2 text-gray-100 dark:text-gray-700">
-              {% include icons/quote.html %}
-            </div>
-
-            <div class="relative z-10 px-2">
-              <p class="text-gray-800 dark:text-slate-50 indent-4"><em>
-                Emmanuel is an all inclusive think tank. Not only is his code acumen above and beyond my expectations of a senior developer, but his velocity is unparalleled to anyone I have ever worked with before. Whether it is a remedial task, or one of utmost importance, Emmanuel brings to the table a seasoned and professional attitude constantly nurturing welfare of stakeholder’s vision against the reality of code. There are very few people I can hold to such a standard.
-              </em></p>
-            </div>
-          </blockquote>
-        </div>
-
-        <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
-          <div class="flex space-x-2 mb-4">
-            <a href="https://www.linkedin.com/in/edraper/">
-              <img src="/assets/images/recommendations/elliott.webp" alt="Elliott's Avatar" class="w-12 h-12 rounded-full object-cover" />
-            </a>
-            <div>
-              <h3 class="font-medium"><a class="visited:text-current" href="https://www.linkedin.com/in/edraper/">Elliott Draper</a></h3>
-              <span class="text-sm text-gray-600 dark:text-gray-300">Senior Software Engineer at Braidio</span>
-            </div>
-          </div>
-
-          <blockquote class="relative mt-6">
-            <div class="absolute -top-6 -start-2 text-gray-100 dark:text-gray-700">
-              {% include icons/quote.html %}
-            </div>
-
-            <div class="relative z-10 px-2">
-              <p class="text-gray-800 dark:text-slate-50 indent-4"><em>
-                Emmanuel is a smart, pleasant, and self-motivated developer, who is a brilliant addition to any team. He combines experience with outside-the-box thinking to approach both business and technical problems with workable solutions. Letting him loose on a task is as good as knowing it's done already - and that the end result is going to be efficient, maintainable and scalable. A pleasure to work with.
-              </em></p>
-            </div>
-          </blockquote>
-        </div>
+        {% include recommendations/braidio/trip.html %}
+        {% include recommendations/braidio/elliott.html %}
       </div>
     </div>
   </div>
@@ -574,80 +365,9 @@ description: "You'll find detailed information about my experience here"
     </details>
     <div class="grid grid-rows-[0fr] peer-open:mt-4 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
       <div id="captain-contrat-recommendations" class="min-h-0 w-full flex gap-6 snap-x snap-mandatory overflow-x-auto">
-        <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
-          <div class="flex space-x-2 mb-4">
-            <a href="https://www.linkedin.com/in/pierregielen/">
-              <img src="/assets/images/recommendations/pierre.webp" alt="Pierre's Avatar" class="w-12 h-12 rounded-full object-cover" />
-            </a>
-            <div>
-              <h3 class="font-medium"><a class="visited:text-current" href="https://www.linkedin.com/in/pierregielen/">Pierre Gielen</a></h3>
-              <span class="text-sm text-gray-600 dark:text-gray-300">Former CTO at Captain Contrat</span>
-            </div>
-          </div>
-
-          <blockquote class="relative mt-6">
-            <div class="absolute -top-6 -start-2 text-gray-100 dark:text-gray-700">
-              {% include icons/quote.html %}
-            </div>
-
-            <div class="relative z-10 px-2">
-              <p class="text-gray-800 dark:text-slate-50 indent-4"><em>
-                Emmanuel is dedicated and passionate! As the company's first salaried developer, his energy has propelled us far and improved various business processes. He is interested in the business aspect of the project and effortlessly communicates about the product in addition to the technical details. From the beginning, we entrusted him with the development of a complete product, from conception to launch. He knows how to allocate resources effectively to achieve the goal and ensure successful results. He will be the Swiss army knife for your projects, capable of intervening throughout the entire production chain, from conception to the launch of your services.
-              </em></p>
-            </div>
-          </blockquote>
-        </div>
-
-        <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
-          <div class="flex space-x-2 mb-4">
-            <a href="https://www.linkedin.com/in/mbudin/">
-              <img src="/assets/images/recommendations/manon.webp" alt="Manon's Avatar" class="w-12 h-12 rounded-full object-cover" />
-            </a>
-            <div>
-              <h3 class="font-medium"><a class="visited:text-current" href="https://www.linkedin.com/in/mbudin/">Manon Budin</a></h3>
-              <span class="text-sm text-gray-600 dark:text-gray-300">Former Software Engineer at Captain Contrat</span>
-            </div>
-          </div>
-
-          <blockquote class="relative mt-6">
-            <div class="absolute -top-6 -start-2 text-gray-100 dark:text-gray-700">
-              {% include icons/quote.html %}
-            </div>
-
-            <div class="relative z-10 px-2">
-              <p class="text-gray-800 dark:text-slate-50 indent-4"><em>
-                Emmanuel was my internship supervisor during my first web experience in a company.
-                He was attentive and instructive throughout my time at Captain Contrat, allowing me to make significant progress and become independent quickly.
-                Emmanuel is curious, always seeking better solutions and exploring new technologies, and his expertise continually evolves. His curiosity extends to other aspects of the project, and he has consistently been a great help during non-technical meetings.
-                I highly recommend Emmanuel; he is a passionate mentor and colleague who is always eager to advance the projects he works on.
-              </em></p>
-            </div>
-          </blockquote>
-        </div>
-
-        <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
-          <div class="flex space-x-2 mb-4">
-            <a href="https://www.linkedin.com/in/yannickfonjallaz/">
-              <img src="/assets/images/recommendations/avatar-placeholder.svg" alt="Yannick's Avatar" class="bg-white w-12 h-12 rounded-full object-cover" />
-            </a>
-            <div>
-              <h3 class="font-medium"><a class="visited:text-current" href="https://www.linkedin.com/in/yannickfonjallaz/">Yannick Fonjallaz</a></h3>
-              <span class="text-sm text-gray-600 dark:text-gray-300">Lead Software Engineer at Captain Contrat</span>
-            </div>
-          </div>
-
-          <blockquote class="relative mt-6">
-            <div class="absolute -top-6 -start-2 text-gray-100 dark:text-gray-700">
-              {% include icons/quote.html %}
-            </div>
-
-            <div class="relative z-10 px-2">
-              <p class="text-gray-800 dark:text-slate-50 indent-4"><em>
-                Emmanuel is someone passionate, honest, with a great deal of empathy, and a good sense of humor. He impresses with his speed of execution and deduction. Thanks to his solid knowledge of various agile methodologies and best practices, he will not only advise you but also implement processes tailored to your needs. I highly recommend him for your projects!
-              </em></p>
-            </div>
-          </blockquote>
-        </div>
+        {% include recommendations/captain_contrat/pierre.html %}
+        {% include recommendations/captain_contrat/manon.html %}
+        {% include recommendations/captain_contrat/yannick.html %}
       </div>
     </div>
   </div>

@@ -8,10 +8,10 @@ description: "Welcome to my personal website. You'll learn to know who I am and 
   {% include layouts/profile.html %}
 </section>
 
-<article class="mt-6 animate-slide-in-from-left animation-duration-500 space-y-2">
-  <h3 class="font-bold leading-loose">Hi! I'm Emmanuel.</h3>
+<article class="mt-8 animate-slide-in-from-left animation-duration-500 space-y-2">
+  <h2 class="mb-4 text-2xl font-bold">Hi! I'm Emmanuel 👋</h2>
 
-  <p>I am a French software engineer, programming mentor, and tech intrapreneur. I specialize in building elegant and functional web solutions, primarily using <a href="https://rubyonrails.org/">Ruby on Rails</a>.</p>
+  <p>I am a software engineer, programming mentor, and tech intrapreneur. I specialize in building elegant and functional web solutions, primarily using <a href="https://rubyonrails.org/">Ruby on Rails</a>.</p>
 
   <p>I've spent the last 10 years helping tech companies make the world a better place.</p>
 

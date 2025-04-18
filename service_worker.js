@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v12'
+const CACHE_VERSION = 'v13'
 const CACHE_NAME = CACHE_VERSION + ':sw-cache-emmanuel-cousin'
 
 function onInstall(event) {
@@ -11,6 +11,8 @@ function onInstall(event) {
         '/assets/images/icons/github.svg',
         '/assets/images/icons/github-white.svg',
         '/assets/images/icons/mail.svg',
+        '/assets/images/icons/resume.svg',
+        '/assets/images/icons/recommended.webp',
         '/assets/images/resume/reprtoir_logo.webp',
         '/assets/images/resume/first_ruby_friend_logo.svg',
         '/assets/images/resume/smalldoor_logo.webp',

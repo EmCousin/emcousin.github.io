@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v11'
+const CACHE_VERSION = 'v12'
 const CACHE_NAME = CACHE_VERSION + ':sw-cache-emmanuel-cousin'
 
 function onInstall(event) {
@@ -31,6 +31,7 @@ function onInstall(event) {
         '/assets/css/main.css',
         '/',
         '/resume',
+        '/recommendations',
         '/favicon.ico',
         '/apple-touch-icon.png',
         '/manifest.webmanifest'

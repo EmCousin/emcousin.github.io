@@ -17,11 +17,27 @@ description: "You'll find detailed information about my experience here"
     </a>
     <div>
       <h3 class="md:text-lg font-bold">Senior Software Engineer - Spring.net</h3>
-      <span class="text-sm text-gray-600 dark:text-gray-300">June 2024 - Present</span>
+      <span class="text-sm text-gray-600 dark:text-gray-300">June 2024 - April 2025</span>
     </div>
   </div>
 
   <p class="mt-2">Spring creates equal investment opportunities for everyday investors through a single, user-friendly platform. By handling everything from opportunity discovery to trading in one system, Spring simplifies complex processes so regular people can access markets previously reserved for financial professionals.</p>
+
+  <div>
+    <details class="mt-2 peer" aria-describedby="spring-key-contributions">
+      <summary role="button">Key Contributions</summary>
+    </details>
+    <div class="grid grid-rows-[0fr] peer-open:mt-2 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
+      <ul id="spring-key-contributions" class="min-h-0 indent-4">
+        <li>
+          Overhauled the investors' allocation management system, for pre-<span class="border-b border-dotted cursor-help" title="Token Generation Event">TGE</span> and post-TGE deals
+        </li>
+        <li>Developed a new modal navigation system using Turbo Frames</li>
+        <li>Implemented new price history data source, allowing users to see the price changes of the tokens in real time, leveraging InfluxDB and the Coingecko API</li>
+        <li>Massive architecture improvements to the codebase</li>
+      </ul>
+    </div>
+  </div>
 
   <div>
     <details class="block mt-2 peer" aria-describedby="spring-technical-skills">
@@ -35,12 +51,13 @@ description: "You'll find detailed information about my experience here"
   </div>
 
   <div>
-    <details class="block mt-2 peer" aria-describedby="reprtoir-recommendations">
+    <details class="block mt-2 peer" aria-describedby="spring-recommendations">
       <summary role="button">Recommendations</summary>
     </details>
     <div class="grid grid-rows-[0fr] peer-open:mt-4 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
       <div id="spring-recommendations" class="min-h-0 w-full flex gap-6 snap-x snap-mandatory overflow-x-auto">
         {% include recommendations/spring/sebastian.html %}
+        {% include recommendations/spring/tomas.html %}
         {% include recommendations/spring/glen.html %}
         {% include recommendations/spring/katie.html %}
       </div>

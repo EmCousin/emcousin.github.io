@@ -20,9 +20,14 @@ description: "People enjoy working with me 🤗"
     {% include recommendations/spring/sebastian.html %}
   </div>
 
+  <div class="animate-flip-and-zoom-in animation-duration-[1.5s] animation-delay-100">
+    {% include recommendations/spring/tomas.html %}
+  </div>
+
   <div class="animate-flip-and-zoom-in animation-duration-[1.5s] animation-delay-200">
     {% include recommendations/spring/glen.html %}
   </div>
+
   <div class="animate-flip-and-zoom-in animation-duration-[1.5s] animation-delay-[0.4s]">
     {% include recommendations/spring/katie.html %}
   </div>

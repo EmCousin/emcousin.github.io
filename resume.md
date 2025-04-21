@@ -28,7 +28,7 @@ description: "You'll find detailed information about my experience here"
       <summary role="button">Key Contributions</summary>
     </details>
     <div class="grid grid-rows-[0fr] peer-open:mt-2 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
-      <ul id="spring-key-contributions" class="min-h-0 indent-4">
+      <ul id="spring-key-contributions" class="min-h-0">
         <li>
           Overhauled the investors' allocation management system, for pre-<span class="border-b border-dotted cursor-help" title="Token Generation Event">TGE</span> and post-TGE deals
         </li>

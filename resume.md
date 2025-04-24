@@ -235,8 +235,9 @@ description: "You'll find detailed information about my experience here"
       <summary role="button">Recommendations</summary>
     </details>
     <div class="grid grid-rows-[0fr] peer-open:mt-4 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
-      <div id="small-door-recommendations" class="flex min-h-0">
+      <div id="braidio-recommendations" class="min-h-0 w-full flex gap-6 snap-x snap-mandatory overflow-x-auto">
         {% include recommendations/small_door/edward.html %}
+        {% include recommendations/small_door/jean_francois.html %}
       </div>
     </div>
   </div>

@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v17'
+const CACHE_VERSION = 'v18'
 const CACHE_NAME = CACHE_VERSION + ':sw-cache-emmanuel-cousin'
 
 function onInstall(event) {
@@ -30,6 +30,7 @@ function onInstall(event) {
         '/assets/images/recommendations/nathan.webp',
         '/assets/images/recommendations/nikolaz.webp',
         '/assets/images/recommendations/edward.webp',
+        '/assets/images/recommendations/jean-francois.webp',
         '/assets/images/recommendations/trip.webp',
         '/assets/images/recommendations/elliott.webp',
         '/assets/images/recommendations/pierre.webp',

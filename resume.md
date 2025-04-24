@@ -57,6 +57,7 @@ description: "You'll find detailed information about my experience here"
     <div class="grid grid-rows-[0fr] peer-open:mt-4 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
       <div id="spring-recommendations" class="min-h-0 w-full flex gap-6 snap-x snap-mandatory overflow-x-auto">
         {% include recommendations/spring/sebastian.html %}
+        {% include recommendations/spring/xurxo.html %}
         {% include recommendations/spring/tomas.html %}
         {% include recommendations/spring/glen.html %}
         {% include recommendations/spring/katie.html %}

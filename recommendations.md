@@ -80,7 +80,7 @@ description: "People enjoy working with me 🤗"
     {% include recommendations/captain_contrat/manon.html %}
   </div>
 
-  <div class="animate-flip-and-zoom-in animation-duration-[1.5s] animation-delay-[2ss]">
+  <div class="animate-flip-and-zoom-in animation-duration-[1.5s] animation-delay-[2s]">
     {% include recommendations/captain_contrat/yannick.html %}
   </div>
 

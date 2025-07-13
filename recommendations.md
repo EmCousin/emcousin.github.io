@@ -73,18 +73,22 @@ description: "People enjoy working with me 🤗"
   </div>
 
   <div class="animate-flip-and-zoom-in animation-duration-[1.5s] animation-delay-[1.8s]">
-    {% include recommendations/captain_contrat/pierre.html %}
+    {% include recommendations/checksub/florian.html %}
   </div>
 
   <div class="animate-flip-and-zoom-in animation-duration-[1.5s] animation-delay-[1.9s]">
-    {% include recommendations/captain_contrat/manon.html %}
+    {% include recommendations/captain_contrat/pierre.html %}
   </div>
 
   <div class="animate-flip-and-zoom-in animation-duration-[1.5s] animation-delay-[2s]">
-    {% include recommendations/captain_contrat/yannick.html %}
+    {% include recommendations/captain_contrat/manon.html %}
   </div>
 
   <div class="animate-flip-and-zoom-in animation-duration-[1.5s] animation-delay-[2.1s]">
+    {% include recommendations/captain_contrat/yannick.html %}
+  </div>
+
+  <div class="animate-flip-and-zoom-in animation-duration-[1.5s] animation-delay-[2.2s]">
     <p>
       Like me too?
       <a href="mailto:emmanuel@hey.com" class="text-blue-500">

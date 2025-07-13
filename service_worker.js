@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v19'
+const CACHE_VERSION = 'v20'
 const CACHE_NAME = CACHE_VERSION + ':sw-cache-emmanuel-cousin'
 
 function onInstall(event) {
@@ -17,6 +17,7 @@ function onInstall(event) {
         '/assets/images/resume/first_ruby_friend_logo.svg',
         '/assets/images/resume/smalldoor_logo.webp',
         '/assets/images/resume/braidio_logo.webp',
+        '/assets/images/resume/checksub_logo.webp',
         '/assets/images/resume/my_job_glasses_logo.webp',
         '/assets/images/resume/captain_contrat_logo.webp',
         '/assets/images/recommendations/avatar-placeholder.svg',
@@ -34,6 +35,7 @@ function onInstall(event) {
         '/assets/images/recommendations/jean-francois.webp',
         '/assets/images/recommendations/trip.webp',
         '/assets/images/recommendations/elliott.webp',
+        '/assets/images/recommendations/florian.webp',
         '/assets/images/recommendations/pierre.webp',
         '/assets/images/recommendations/manon.webp',
         '/assets/css/main.css',

@@ -11,18 +11,22 @@ description: "You'll find detailed information about my experience here"
 <h2 class="my-8 text-2xl font-bold animate-slide-in-from-left animation-duration-[0.4s]">Experience</h2>
 
 <section class="my-8 animate-slide-in-from-left animation-duration-500">
-  {% include resume/spring.html %}
+  {% include resume/antiwork.html %}
 </section>
 
 <section class="my-8 animate-slide-in-from-left animation-duration-[0.6s]">
-  {% include resume/reprtoir.html %}
+  {% include resume/spring.html %}
 </section>
 
 <section class="my-8 animate-slide-in-from-left animation-duration-700">
-  {% include resume/first_ruby_friend.html %}
+  {% include resume/reprtoir.html %}
 </section>
 
 <section class="my-8 animate-slide-in-from-left animation-duration-[0.8s]">
+  {% include resume/first_ruby_friend.html %}
+</section>
+
+<section class="my-8 animate-slide-in-from-left animation-duration-[0.9s]">
   {% include resume/small_door.html %}
 </section>
 
@@ -30,14 +34,14 @@ description: "You'll find detailed information about my experience here"
   {% include resume/braidio.html %}
 </section>
 
-<section class="my-8 animate-slide-in-from-left animation-duration-[0.9s]">
+<section class="my-8 animate-slide-in-from-left animation-duration-1000">
   {% include resume/checksub.html %}
 </section>
 
-<section class="my-8 animate-slide-in-from-left animation-duration-1000">
+<section class="my-8 animate-slide-in-from-left animation-duration-[1.1s]">
   {% include resume/my_job_glasses.html %}
 </section>
 
-<section class="my-8 animate-slide-in-from-left animation-duration-[1.1s]">
+<section class="my-8 animate-slide-in-from-left animation-duration-[1.2s]">
   {% include resume/captain_contrat.html %}
 </section>

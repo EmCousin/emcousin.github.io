@@ -41,12 +41,16 @@
 </p>
 
 <div>
-  <details class="block mt-2 peer" aria-describedby="spring-technical-skills">
-    <summary role="button">Technical Skills</summary>
+  <details class="mt-2 peer group" aria-describedby="spring-technical-skills">
+    <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
+      <span>▸ Technical Skills</span>
+      <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
+      <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
+    </summary>
   </details>
-  <div class="grid grid-rows-[0fr] peer-open:mt-2 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
+  <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
     <div id="spring-technical-skills" class="min-h-0">
-      <p>Software Infrastructure · Ruby on Rails · Next.js · MySQL · MongoDB · React · Tailwind CSS · AWS</p>
+      <p class="text-base">Software Infrastructure · Ruby on Rails · Next.js · MySQL · MongoDB · React · Tailwind CSS · AWS</p>
     </div>
   </div>
 </div>

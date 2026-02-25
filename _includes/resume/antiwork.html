@@ -47,3 +47,18 @@
     </div>
   </div>
 </div>
+
+<div>
+  <details class="mt-2 peer group" aria-describedby="antiwork-recommendations">
+    <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
+      <span>▸ Recommendations</span>
+      <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
+      <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
+    </summary>
+  </details>
+  <div class="grid grid-rows-[0fr] peer-open:mt-4 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
+    <div id="antiwork-recommendations" class="min-h-0 w-full flex gap-6 snap-x snap-mandatory overflow-x-auto">
+      {% include recommendations/gumroad/gianfranco.html %}
+    </div>
+  </div>
+</div>

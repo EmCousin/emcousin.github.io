@@ -1,64 +1,66 @@
-<div class="flex space-x-2">
-  <a href="https://gumroad.com" class="w-16 h-16">
-    <img src="/assets/images/resume/gumroad_logo.webp" alt="Antiwork Logo" class="w-full aspect-square rounded" />
-  </a>
-  <div>
-    <h3 class="md:text-lg font-bold">Senior Software Engineer - Gumroad - Antiwork</h3>
-    <span class="text-sm text-gray-600 dark:text-gray-300">August 2025 - March 2026</span>
-  </div>
-</div>
-
-<p class="mt-2">
-  Authored 68 merged PRs (48K+ lines, 889 files) and reviewed 425+ PRs in 6 months on <a href="https://gumroad.com" class="text-blue-500 hover:text-blue-600" target="_blank">Gumroad</a>, a digital product e-commerce platform serving hundreds of thousands of creators and millions of buyers worldwide, processing payments through Stripe and PayPal. Led the frontend architecture modernization in a public open-source codebase.
-</p>
-
-<div>
-  <details class="mt-2 peer group" aria-describedby="antiwork-key-contributions">
-    <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
-      <span>▸ Key Contributions</span>
-      <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
-      <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
-    </summary>
-  </details>
-  <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
-    <ul id="antiwork-key-contributions" class="min-h-0 text-base space-y-1">
-      <li>Led the company-wide frontend migration from ERB/React on Rails to <a href="https://inertiajs.com" class="text-blue-500 hover:text-blue-600" target="_blank">Inertia.js</a>/React. Designed the multi-phase modernization roadmap, authored architectural guidelines, and decomposed the initiative into 42+ individually-scoped tasks enabling parallel execution by internal and open-source contributors. Drove 25+ page migrations to completion in 3 weeks through hands-on code review and mentorship.</li>
-      <li>Transitioned the entire admin panel from ERB to Inertia.js/React. Established the architecture, migrated 6+ pages with presenter patterns and infinite scroll, then removed ~4,000 lines of legacy code.</li>
-      <li>Designed a tab-per-controller architecture to decompose a tightly coupled product edit page, breaking a monolithic controller into modular, independently testable endpoints.</li>
-      <li>Shipped major payments and billing features including a full implementation of the subscription restart lifecycle on Stripe and automated fraud detection improvements. Extracted reusable domain concerns (<a href="https://github.com/antiwork/gumroad/blob/main/app/models/concerns/attribute_blockable.rb" class="text-blue-500 hover:text-blue-600" target="_blank"><code class="text-sm">AttributeBlockable</code></a>, <code class="text-sm">ChargeProcessable</code>) to improve codebase maintainability.</li>
-      <li>Orchestrated delivery of 270,000+ personalized Year in Review emails, each requiring multiple Elasticsearch aggregation queries (creator ranking, sales analytics, geographic breakdowns). Built idempotent production scripts resilient to remote console disconnections to manage the multi-day send operation.</li>
-      <li>Delivered the Black Friday 2025 promotional feature for Gumroad's Discover marketplace.</li>
-      <li>Maintained platform health through Rails upgrades, security fixes, and CI/CD pipeline ownership.</li>
-    </ul>
-  </div>
-</div>
-
-<div>
-  <details class="mt-2 peer group" aria-describedby="antiwork-technical-skills">
-    <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
-      <span>▸ Technical Skills</span>
-      <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
-      <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
-    </summary>
-  </details>
-  <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
-    <div id="antiwork-technical-skills" class="min-h-0">
-      <p class="text-base">Ruby on Rails · Inertia.js · React · TypeScript · MySQL · MongoDB · Elasticsearch · Redis · Sidekiq · Tailwind CSS · Stripe · PayPal · AWS</p>
+<div class="bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
+  <div class="flex space-x-2">
+    <a href="https://gumroad.com" class="w-16 h-16">
+      <img src="/assets/images/resume/gumroad_logo.webp" alt="Antiwork Logo" class="w-full aspect-square rounded" />
+    </a>
+    <div>
+      <h3 class="md:text-lg font-bold">Senior Software Engineer - Gumroad - Antiwork</h3>
+      <span class="text-sm text-gray-600 dark:text-gray-300">August 2025 - March 2026</span>
     </div>
   </div>
-</div>
 
-<div>
-  <details class="mt-2 peer group" aria-describedby="antiwork-recommendations">
-    <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
-      <span>▸ Recommendations</span>
-      <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
-      <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
-    </summary>
-  </details>
-  <div class="grid grid-rows-[0fr] peer-open:mt-4 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
-    <div id="antiwork-recommendations" class="min-h-0 w-full flex gap-6 snap-x snap-mandatory overflow-x-auto">
-      {% include recommendations/gumroad/gianfranco.html %}
+  <p class="mt-2">
+    Authored 68 merged PRs (48K+ lines, 889 files) and reviewed 425+ PRs in 6 months on <a href="https://gumroad.com" class="text-blue-500 hover:text-blue-600" target="_blank">Gumroad</a>, a digital product e-commerce platform serving hundreds of thousands of creators and millions of buyers worldwide, processing payments through Stripe and PayPal. Led the frontend architecture modernization in a public open-source codebase.
+  </p>
+
+  <div>
+    <details class="mt-2 peer group" aria-describedby="antiwork-key-contributions">
+      <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
+        <span>▸ Key Contributions</span>
+        <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
+        <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
+      </summary>
+    </details>
+    <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
+      <ul id="antiwork-key-contributions" class="min-h-0 text-base space-y-1">
+        <li>Led the company-wide frontend migration from ERB/React on Rails to <a href="https://inertiajs.com" class="text-blue-500 hover:text-blue-600" target="_blank">Inertia.js</a>/React. Designed the multi-phase modernization roadmap, authored architectural guidelines, and decomposed the initiative into 42+ individually-scoped tasks enabling parallel execution by internal and open-source contributors. Drove 25+ page migrations to completion in 3 weeks through hands-on code review and mentorship.</li>
+        <li>Transitioned the entire admin panel from ERB to Inertia.js/React. Established the architecture, migrated 6+ pages with presenter patterns and infinite scroll, then removed ~4,000 lines of legacy code.</li>
+        <li>Designed a tab-per-controller architecture to decompose a tightly coupled product edit page, breaking a monolithic controller into modular, independently testable endpoints.</li>
+        <li>Shipped major payments and billing features including a full implementation of the subscription restart lifecycle on Stripe and automated fraud detection improvements. Extracted reusable domain concerns (<a href="https://github.com/antiwork/gumroad/blob/main/app/models/concerns/attribute_blockable.rb" class="text-blue-500 hover:text-blue-600" target="_blank"><code class="text-sm">AttributeBlockable</code></a>, <code class="text-sm">ChargeProcessable</code>) to improve codebase maintainability.</li>
+        <li>Orchestrated delivery of 270,000+ personalized Year in Review emails, each requiring multiple Elasticsearch aggregation queries (creator ranking, sales analytics, geographic breakdowns). Built idempotent production scripts resilient to remote console disconnections to manage the multi-day send operation.</li>
+        <li>Delivered the Black Friday 2025 promotional feature for Gumroad's Discover marketplace.</li>
+        <li>Maintained platform health through Rails upgrades, security fixes, and CI/CD pipeline ownership.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div>
+    <details class="mt-2 peer group" aria-describedby="antiwork-technical-skills">
+      <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
+        <span>▸ Technical Skills</span>
+        <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
+        <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
+      </summary>
+    </details>
+    <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
+      <div id="antiwork-technical-skills" class="min-h-0">
+        <p class="text-base">Ruby on Rails · Inertia.js · React · TypeScript · MySQL · MongoDB · Elasticsearch · Redis · Sidekiq · Tailwind CSS · Stripe · PayPal · AWS</p>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <details class="mt-2 peer group" aria-describedby="antiwork-recommendations">
+      <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
+        <span>▸ Recommendations</span>
+        <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
+        <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
+      </summary>
+    </details>
+    <div class="grid grid-rows-[0fr] peer-open:mt-4 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
+      <div id="antiwork-recommendations" class="min-h-0 w-full flex gap-6 snap-x snap-mandatory overflow-x-auto">
+        {% include recommendations/gumroad/gianfranco.html %}
+      </div>
     </div>
   </div>
 </div>

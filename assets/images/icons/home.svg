@@ -1,0 +1,10 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #78350f; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #60a5fa; }
+    }
+  </style>
+  <circle cx="32" cy="32" r="32" class="bg"/>
+  <path d="M32 16L16 28v18a2 2 0 0 0 2 2h8v-12h12v12h8a2 2 0 0 0 2-2V28L32 16z" fill="#fff"/>
+</svg>

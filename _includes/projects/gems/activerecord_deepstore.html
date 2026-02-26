@@ -12,7 +12,7 @@
     Store and access deeply nested data structures within ActiveRecord columns. Generates accessors for every level of nested hashes with automatic typecasting.
   </p>
 
-  <pre class="mt-3 p-3 bg-slate-100 dark:bg-slate-900 rounded text-sm overflow-x-auto"><code>deep_store :settings, {
+  <pre class="mt-3 p-3 bg-slate-100 dark:bg-slate-900 rounded text-sm overflow-x-auto"><code class="language-ruby">deep_store :settings, {
   notifications: { push: true, email: true }
 }
 user.push_notifications_settings # => true</code></pre>

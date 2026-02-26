@@ -8,40 +8,42 @@ description: "You'll find detailed information about my experience here"
   {% include layouts/profile.html %}
 </section>
 
-<h2 class="my-8 text-2xl font-bold animate-slide-in-from-left animation-duration-[0.4s]">Experience</h2>
+<h2 class="mt-8 mb-4 text-2xl font-bold animate-fade-in animation-duration-500">Experience</h2>
 
-<section class="my-8 animate-slide-in-from-left animation-duration-500">
-  {% include resume/antiwork.html %}
-</section>
+<section class="space-y-6">
+  <div class="animate-slide-in-from-left animation-duration-500">
+    {% include resume/antiwork.html %}
+  </div>
 
-<section class="my-8 animate-slide-in-from-left animation-duration-[0.6s]">
-  {% include resume/spring.html %}
-</section>
+  <div class="animate-slide-in-from-left animation-duration-[0.6s]">
+    {% include resume/spring.html %}
+  </div>
 
-<section class="my-8 animate-slide-in-from-left animation-duration-700">
-  {% include resume/reprtoir.html %}
-</section>
+  <div class="animate-slide-in-from-left animation-duration-700">
+    {% include resume/reprtoir.html %}
+  </div>
 
-<section class="my-8 animate-slide-in-from-left animation-duration-[0.8s]">
-  {% include resume/first_ruby_friend.html %}
-</section>
+  <div class="animate-slide-in-from-left animation-duration-[0.8s]">
+    {% include resume/first_ruby_friend.html %}
+  </div>
 
-<section class="my-8 animate-slide-in-from-left animation-duration-[0.9s]">
-  {% include resume/small_door.html %}
-</section>
+  <div class="animate-slide-in-from-left animation-duration-[0.9s]">
+    {% include resume/small_door.html %}
+  </div>
 
-<section class="my-8 animate-slide-in-from-left animation-duration-[0.9s]">
-  {% include resume/braidio.html %}
-</section>
+  <div class="animate-slide-in-from-left animation-duration-[0.95s]">
+    {% include resume/braidio.html %}
+  </div>
 
-<section class="my-8 animate-slide-in-from-left animation-duration-1000">
-  {% include resume/checksub.html %}
-</section>
+  <div class="animate-slide-in-from-left animation-duration-1000">
+    {% include resume/checksub.html %}
+  </div>
 
-<section class="my-8 animate-slide-in-from-left animation-duration-[1.1s]">
-  {% include resume/my_job_glasses.html %}
-</section>
+  <div class="animate-slide-in-from-left animation-duration-[1.1s]">
+    {% include resume/my_job_glasses.html %}
+  </div>
 
-<section class="my-8 animate-slide-in-from-left animation-duration-[1.2s]">
-  {% include resume/captain_contrat.html %}
+  <div class="animate-slide-in-from-left animation-duration-[1.2s]">
+    {% include resume/captain_contrat.html %}
+  </div>
 </section>

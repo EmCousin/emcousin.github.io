@@ -12,7 +12,7 @@
     A fluent Ruby DSL for building InfluxDB Flux queries. Chainable API for constructing queries with measurements, fields, tags, aggregations, and more.
   </p>
 
-  <pre class="mt-3 p-3 bg-slate-100 dark:bg-slate-900 rounded text-sm overflow-x-auto"><code>InfluxDB2::QueryBuilder.new(bucket: 'sensors')
+  <pre class="mt-3 p-3 bg-slate-100 dark:bg-slate-900 rounded text-sm overflow-x-auto"><code class="language-ruby">InfluxDB2::QueryBuilder.new(bucket: 'sensors')
   .measurement('device_metrics')
   .fields('cpu', 'memory')
   .range(start: 24.hours.ago)

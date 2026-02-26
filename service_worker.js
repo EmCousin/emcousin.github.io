@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v22'
+const CACHE_VERSION = 'v24'
 const CACHE_NAME = CACHE_VERSION + ':sw-cache-emmanuel-cousin'
 
 function onInstall(event) {
@@ -10,10 +10,12 @@ function onInstall(event) {
         '/assets/images/icons/linkedin.svg',
         '/assets/images/icons/github.svg',
         '/assets/images/icons/github-white.svg',
+        '/assets/images/icons/home.svg',
         '/assets/images/icons/mail.svg',
         '/assets/images/icons/ai.svg',
         '/assets/images/icons/resume.svg',
-        '/assets/images/icons/recommended.webp',
+        '/assets/images/icons/projects.svg',
+        '/assets/images/icons/recommended.svg',
         '/assets/images/resume/gumroad_logo.webp',
         '/assets/images/resume/spring_logo.jpg',
         '/assets/images/resume/first_ruby_friend_logo.svg',
@@ -42,9 +44,12 @@ function onInstall(event) {
         '/assets/images/recommendations/pierre.webp',
         '/assets/images/recommendations/manon.webp',
         '/assets/css/main.css',
+        '/assets/js/pwa.js',
+        '/assets/js/dock.js',
         '/',
         '/resume',
         '/recommendations',
+        '/projects',
         '/llms.txt',
         '/favicon.ico',
         '/apple-touch-icon.png',

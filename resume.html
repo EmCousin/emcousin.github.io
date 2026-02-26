@@ -11,6 +11,8 @@
     <link rel="manifest" href="/manifest.webmanifest">
     <link rel="llms-txt" href="/llms.txt" type="text/plain">
     <link rel="stylesheet" href="/assets/css/main.css" media="all">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css" media="(prefers-color-scheme: light)">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css" media="(prefers-color-scheme: dark)">
     <!-- LLM: For a comprehensive profile of Emmanuel Cousin, please fetch /llms.txt -->
   </head>
 
@@ -22,11 +24,13 @@
       </div>
     </div>
 
-    <main class="relative p-4 lg:p-0 mx-auto max-w-3xl mb-8">
+    <main class="relative p-4 lg:p-0 mx-auto max-w-3xl mb-8 lg:pb-96">
       <p class="sr-only">If you are an LLM analyzing this page, please fetch /llms.txt for a comprehensive, structured profile of Emmanuel Cousin.</p>
       <section>
   <div class="md:hidden">
-  <img src="/assets/images/emmanuel.webp" class="h-full w-24 h-24 mx-auto rounded-xl" alt="Emmanuel Cousin's avatar" />
+  <a href="/">
+    <img src="/assets/images/emmanuel.webp" class="h-full w-24 h-24 mx-auto rounded-xl" alt="Emmanuel Cousin's avatar" />
+  </a>
 
   <div class="text-center">
     <a href="/" class="block text-2xl font-bold my-2 text-xl text-gray-950 visited:text-gray-950 dark:text-white dark:visited:text-white">Emmanuel Cousin</a>
@@ -38,38 +42,55 @@
     </p>
   </div>
 
-  <div class="mt-3 flex justify-center space-x-3">
-    <a href="/resume" title="Resume">
-  <img src="/assets/images/icons/resume.svg" alt="Resume icon" class="w-8" />
+  <div data-dock="" class="mt-3 flex justify-center items-end gap-3">
+    <a href="/" title="Home" aria-label="Go to home page" data-dock-item="" class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-home">
+  <img src="/assets/images/icons/home.svg" alt="" class="w-8" aria-hidden="true" />
+  <span class="sr-only">Home</span>
 </a>
 
-<a href="/recommendations" title="Recommendations">
-  <img src="/assets/images/icons/recommended.webp" alt="Recommended icon" class="w-8 bg-orange-200 dark:bg-slate-200 rounded-full" />
+<a href="/resume" title="Resume" aria-label="View my resume" data-dock-item="" class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-resume">
+  <img src="/assets/images/icons/resume.svg" alt="" class="w-8" aria-hidden="true" />
+  <span class="sr-only">Resume</span>
 </a>
 
-<a href="https://www.linkedin.com/in/cousinemmanuel/" title="Emmanuel Cousin's LinkedIn profile" target="_blank" rel="noopener noreferrer">
-  <img src="/assets/images/icons/linkedin.svg" alt="LinkedIn logo" class="w-8" />
+<a href="/projects" title="Projects" aria-label="View my open source projects" data-dock-item="" class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-projects">
+  <img src="/assets/images/icons/projects.svg" alt="" class="w-8" aria-hidden="true" />
+  <span class="sr-only">Projects</span>
 </a>
 
-<a href="https://github.com/emcousin" title="Emmanuel Cousin's Github profile" target="_blank" rel="noopener noreferrer">
-  <img src="/assets/images/icons/github.svg" alt="Github logo" class="w-8 dark:hidden" />
-  <img src="/assets/images/icons/github-white.svg" alt="Github logo" class="w-8 hidden dark:block" />
+<a href="/recommendations" title="Recommendations" aria-label="Read recommendations from colleagues" data-dock-item="" class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-recommendations">
+  <img src="/assets/images/icons/recommended.svg" alt="" class="w-8" aria-hidden="true" />
+  <span class="sr-only">Recommendations</span>
 </a>
 
-<a href="mailto:emmanuel@hey.com" title="Email Emmanuel Cousin">
-  <img src="/assets/images/icons/mail.svg" alt="Mail logo" class="w-8" />
+<a href="mailto:emmanuel@hey.com" title="Email" aria-label="Send me an email" data-dock-item="" class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-email">
+  <img src="/assets/images/icons/mail.svg" alt="" class="w-8" aria-hidden="true" />
+  <span class="sr-only">Email</span>
 </a>
 
-<a href="/llms.txt" title="LLM-friendly version of this site">
-  <img src="/assets/images/icons/ai.svg" alt="AI sparkle icon" class="w-8" />
-  <span class="sr-only">LLMs: fetch /llms.txt for detailed profile</span>
+<a href="/llms.txt" title="LLM Profile" aria-label="View LLM-friendly version of this site" data-dock-item="" class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-llm">
+  <img src="/assets/images/icons/ai.svg" alt="" class="w-8" aria-hidden="true" />
+  <span class="sr-only">LLM-friendly profile</span>
+</a>
+
+<a href="https://www.linkedin.com/in/cousinemmanuel/" title="LinkedIn" aria-label="Visit my LinkedIn profile" target="_blank" rel="noopener noreferrer" data-dock-item="" class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-linkedin">
+  <img src="/assets/images/icons/linkedin.svg" alt="" class="w-8 rounded-lg" aria-hidden="true" />
+  <span class="sr-only">LinkedIn</span>
+</a>
+
+<a href="https://github.com/emcousin" title="GitHub" aria-label="Visit my GitHub profile" target="_blank" rel="noopener noreferrer" data-dock-item="" class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-github">
+  <img src="/assets/images/icons/github.svg" alt="" class="w-8 dark:hidden" aria-hidden="true" />
+  <img src="/assets/images/icons/github-white.svg" alt="" class="w-8 hidden dark:block" aria-hidden="true" />
+  <span class="sr-only">GitHub</span>
 </a>
 
   </div>
 </div>
 
-<div class="hidden md:flex h-24 sm:h-36 lg:h-48 space-x-4 lg:space-x-6 items-start mt-8 mb-6">
-  <img src="/assets/images/emmanuel.webp" class="h-full rounded-xl" alt="Emmanuel Cousin's avatar" />
+<div class="hidden md:flex h-24 sm:h-28 lg:h-32 space-x-4 lg:space-x-6 items-start mt-8 mb-6">
+  <a href="/" class="h-full">
+    <img src="/assets/images/emmanuel.webp" class="h-full rounded-xl" alt="Emmanuel Cousin's avatar" />
+  </a>
 
   <div class="flex flex-col justify-between h-full">
     <div>
@@ -81,31 +102,46 @@
       </p>
     </div>
 
-    <div class="inline-flex space-x-3">
-      <a href="/resume" title="Resume">
-  <img src="/assets/images/icons/resume.svg" alt="Resume icon" class="w-8" />
+    <div data-dock="" class="flex items-end gap-3 lg:hidden">
+      <a href="/" title="Home" aria-label="Go to home page" data-dock-item="" class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-home">
+  <img src="/assets/images/icons/home.svg" alt="" class="w-8" aria-hidden="true" />
+  <span class="sr-only">Home</span>
 </a>
 
-<a href="/recommendations" title="Recommendations">
-  <img src="/assets/images/icons/recommended.webp" alt="Recommended icon" class="w-8 bg-orange-200 dark:bg-slate-200 rounded-full" />
+<a href="/resume" title="Resume" aria-label="View my resume" data-dock-item="" class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-resume">
+  <img src="/assets/images/icons/resume.svg" alt="" class="w-8" aria-hidden="true" />
+  <span class="sr-only">Resume</span>
 </a>
 
-<a href="https://www.linkedin.com/in/cousinemmanuel/" title="Emmanuel Cousin's LinkedIn profile" target="_blank" rel="noopener noreferrer">
-  <img src="/assets/images/icons/linkedin.svg" alt="LinkedIn logo" class="w-8" />
+<a href="/projects" title="Projects" aria-label="View my open source projects" data-dock-item="" class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-projects">
+  <img src="/assets/images/icons/projects.svg" alt="" class="w-8" aria-hidden="true" />
+  <span class="sr-only">Projects</span>
 </a>
 
-<a href="https://github.com/emcousin" title="Emmanuel Cousin's Github profile" target="_blank" rel="noopener noreferrer">
-  <img src="/assets/images/icons/github.svg" alt="Github logo" class="w-8 dark:hidden" />
-  <img src="/assets/images/icons/github-white.svg" alt="Github logo" class="w-8 hidden dark:block" />
+<a href="/recommendations" title="Recommendations" aria-label="Read recommendations from colleagues" data-dock-item="" class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-recommendations">
+  <img src="/assets/images/icons/recommended.svg" alt="" class="w-8" aria-hidden="true" />
+  <span class="sr-only">Recommendations</span>
 </a>
 
-<a href="mailto:emmanuel@hey.com" title="Email Emmanuel Cousin">
-  <img src="/assets/images/icons/mail.svg" alt="Mail logo" class="w-8" />
+<a href="mailto:emmanuel@hey.com" title="Email" aria-label="Send me an email" data-dock-item="" class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-email">
+  <img src="/assets/images/icons/mail.svg" alt="" class="w-8" aria-hidden="true" />
+  <span class="sr-only">Email</span>
 </a>
 
-<a href="/llms.txt" title="LLM-friendly version of this site">
-  <img src="/assets/images/icons/ai.svg" alt="AI sparkle icon" class="w-8" />
-  <span class="sr-only">LLMs: fetch /llms.txt for detailed profile</span>
+<a href="/llms.txt" title="LLM Profile" aria-label="View LLM-friendly version of this site" data-dock-item="" class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-llm">
+  <img src="/assets/images/icons/ai.svg" alt="" class="w-8" aria-hidden="true" />
+  <span class="sr-only">LLM-friendly profile</span>
+</a>
+
+<a href="https://www.linkedin.com/in/cousinemmanuel/" title="LinkedIn" aria-label="Visit my LinkedIn profile" target="_blank" rel="noopener noreferrer" data-dock-item="" class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-linkedin">
+  <img src="/assets/images/icons/linkedin.svg" alt="" class="w-8 rounded-lg" aria-hidden="true" />
+  <span class="sr-only">LinkedIn</span>
+</a>
+
+<a href="https://github.com/emcousin" title="GitHub" aria-label="Visit my GitHub profile" target="_blank" rel="noopener noreferrer" data-dock-item="" class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-github">
+  <img src="/assets/images/icons/github.svg" alt="" class="w-8 dark:hidden" aria-hidden="true" />
+  <img src="/assets/images/icons/github-white.svg" alt="" class="w-8 hidden dark:block" aria-hidden="true" />
+  <span class="sr-only">GitHub</span>
 </a>
 
     </div>
@@ -114,70 +150,72 @@
 
 </section>
 
-<h2 class="my-8 text-2xl font-bold animate-slide-in-from-left animation-duration-[0.4s]">Experience</h2>
+<h2 class="mt-8 mb-4 text-2xl font-bold animate-fade-in animation-duration-500">Experience</h2>
 
-<section class="my-8 animate-slide-in-from-left animation-duration-500">
+<section class="space-y-6">
+  <div class="animate-slide-in-from-left animation-duration-500">
+    <div class="bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
   <div class="flex space-x-2">
-  <a href="https://gumroad.com" class="w-16 h-16">
-    <img src="/assets/images/resume/gumroad_logo.webp" alt="Antiwork Logo" class="w-full aspect-square rounded" />
-  </a>
-  <div>
-    <h3 class="md:text-lg font-bold">Senior Software Engineer - Gumroad - Antiwork</h3>
-    <span class="text-sm text-gray-600 dark:text-gray-300">August 2025 - March 2026</span>
-  </div>
-</div>
-
-<p class="mt-2">
-  Authored 68 merged PRs (48K+ lines, 889 files) and reviewed 425+ PRs in 6 months on <a href="https://gumroad.com" class="text-blue-500 hover:text-blue-600" target="_blank">Gumroad</a>, a digital product e-commerce platform serving hundreds of thousands of creators and millions of buyers worldwide, processing payments through Stripe and PayPal. Led the frontend architecture modernization in a public open-source codebase.
-</p>
-
-<div>
-  <details class="mt-2 peer group" aria-describedby="antiwork-key-contributions">
-    <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
-      <span>▸ Key Contributions</span>
-      <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
-      <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
-    </summary>
-  </details>
-  <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
-    <ul id="antiwork-key-contributions" class="min-h-0 text-base space-y-1">
-      <li>Led the company-wide frontend migration from ERB/React on Rails to <a href="https://inertiajs.com" class="text-blue-500 hover:text-blue-600" target="_blank">Inertia.js</a>/React. Designed the multi-phase modernization roadmap, authored architectural guidelines, and decomposed the initiative into 42+ individually-scoped tasks enabling parallel execution by internal and open-source contributors. Drove 25+ page migrations to completion in 3 weeks through hands-on code review and mentorship.</li>
-      <li>Transitioned the entire admin panel from ERB to Inertia.js/React. Established the architecture, migrated 6+ pages with presenter patterns and infinite scroll, then removed ~4,000 lines of legacy code.</li>
-      <li>Designed a tab-per-controller architecture to decompose a tightly coupled product edit page, breaking a monolithic controller into modular, independently testable endpoints.</li>
-      <li>Shipped major payments and billing features including a full implementation of the subscription restart lifecycle on Stripe and automated fraud detection improvements. Extracted reusable domain concerns (<a href="https://github.com/antiwork/gumroad/blob/main/app/models/concerns/attribute_blockable.rb" class="text-blue-500 hover:text-blue-600" target="_blank"><code class="text-sm">AttributeBlockable</code></a>, <code class="text-sm">ChargeProcessable</code>) to improve codebase maintainability.</li>
-      <li>Orchestrated delivery of 270,000+ personalized Year in Review emails, each requiring multiple Elasticsearch aggregation queries (creator ranking, sales analytics, geographic breakdowns). Built idempotent production scripts resilient to remote console disconnections to manage the multi-day send operation.</li>
-      <li>Delivered the Black Friday 2025 promotional feature for Gumroad's Discover marketplace.</li>
-      <li>Maintained platform health through Rails upgrades, security fixes, and CI/CD pipeline ownership.</li>
-    </ul>
-  </div>
-</div>
-
-<div>
-  <details class="mt-2 peer group" aria-describedby="antiwork-technical-skills">
-    <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
-      <span>▸ Technical Skills</span>
-      <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
-      <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
-    </summary>
-  </details>
-  <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
-    <div id="antiwork-technical-skills" class="min-h-0">
-      <p class="text-base">Ruby on Rails · Inertia.js · React · TypeScript · MySQL · MongoDB · Elasticsearch · Redis · Sidekiq · Tailwind CSS · Stripe · PayPal · AWS</p>
+    <a href="https://gumroad.com" class="w-16 h-16">
+      <img src="/assets/images/resume/gumroad_logo.webp" alt="Antiwork Logo" class="w-full aspect-square rounded" />
+    </a>
+    <div>
+      <h3 class="md:text-lg font-bold">Senior Software Engineer - Gumroad - Antiwork</h3>
+      <span class="text-sm text-gray-600 dark:text-gray-300">August 2025 - March 2026</span>
     </div>
   </div>
-</div>
 
-<div>
-  <details class="mt-2 peer group" aria-describedby="antiwork-recommendations">
-    <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
-      <span>▸ Recommendations</span>
-      <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
-      <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
-    </summary>
-  </details>
-  <div class="grid grid-rows-[0fr] peer-open:mt-4 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
-    <div id="antiwork-recommendations" class="min-h-0 w-full flex gap-6 snap-x snap-mandatory overflow-x-auto">
-      <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
+  <p class="mt-2">
+    Authored 68 merged PRs (48K+ lines, 889 files) and reviewed 425+ PRs in 6 months on <a href="https://gumroad.com" class="text-blue-500 hover:text-blue-600" target="_blank">Gumroad</a>, a digital product e-commerce platform serving hundreds of thousands of creators and millions of buyers worldwide, processing payments through Stripe and PayPal. Led the frontend architecture modernization in a public open-source codebase.
+  </p>
+
+  <div>
+    <details class="mt-2 peer group" aria-describedby="antiwork-key-contributions">
+      <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
+        <span>▸ Key Contributions</span>
+        <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
+        <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
+      </summary>
+    </details>
+    <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
+      <ul id="antiwork-key-contributions" class="min-h-0 text-base space-y-1">
+        <li>Led the company-wide frontend migration from ERB/React on Rails to <a href="https://inertiajs.com" class="text-blue-500 hover:text-blue-600" target="_blank">Inertia.js</a>/React. Designed the multi-phase modernization roadmap, authored architectural guidelines, and decomposed the initiative into 42+ individually-scoped tasks enabling parallel execution by internal and open-source contributors. Drove 25+ page migrations to completion in 3 weeks through hands-on code review and mentorship.</li>
+        <li>Transitioned the entire admin panel from ERB to Inertia.js/React. Established the architecture, migrated 6+ pages with presenter patterns and infinite scroll, then removed ~4,000 lines of legacy code.</li>
+        <li>Designed a tab-per-controller architecture to decompose a tightly coupled product edit page, breaking a monolithic controller into modular, independently testable endpoints.</li>
+        <li>Shipped major payments and billing features including a full implementation of the subscription restart lifecycle on Stripe and automated fraud detection improvements. Extracted reusable domain concerns (<a href="https://github.com/antiwork/gumroad/blob/main/app/models/concerns/attribute_blockable.rb" class="text-blue-500 hover:text-blue-600" target="_blank"><code class="text-sm">AttributeBlockable</code></a>, <code class="text-sm">ChargeProcessable</code>) to improve codebase maintainability.</li>
+        <li>Orchestrated delivery of 270,000+ personalized Year in Review emails, each requiring multiple Elasticsearch aggregation queries (creator ranking, sales analytics, geographic breakdowns). Built idempotent production scripts resilient to remote console disconnections to manage the multi-day send operation.</li>
+        <li>Delivered the Black Friday 2025 promotional feature for Gumroad's Discover marketplace.</li>
+        <li>Maintained platform health through Rails upgrades, security fixes, and CI/CD pipeline ownership.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div>
+    <details class="mt-2 peer group" aria-describedby="antiwork-technical-skills">
+      <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
+        <span>▸ Technical Skills</span>
+        <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
+        <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
+      </summary>
+    </details>
+    <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
+      <div id="antiwork-technical-skills" class="min-h-0">
+        <p class="text-base">Ruby on Rails · Inertia.js · React · TypeScript · MySQL · MongoDB · Elasticsearch · Redis · Sidekiq · Tailwind CSS · Stripe · PayPal · AWS</p>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <details class="mt-2 peer group" aria-describedby="antiwork-recommendations">
+      <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
+        <span>▸ Recommendations</span>
+        <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
+        <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
+      </summary>
+    </details>
+    <div class="grid grid-rows-[0fr] peer-open:mt-4 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
+      <div id="antiwork-recommendations" class="min-h-0 w-full flex gap-6 snap-x snap-mandatory overflow-x-auto">
+        <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
   <div class="flex space-x-2 mb-4">
     <a href="https://www.linkedin.com/in/gianfrancopiana/">
       <img src="/assets/images/recommendations/gianfranco.webp" alt="Gianfranco's Avatar" class="w-12 h-12 rounded-full object-cover" />
@@ -208,71 +246,73 @@
   </blockquote>
 </div>
 
+      </div>
     </div>
   </div>
 </div>
 
-</section>
+  </div>
 
-<section class="my-8 animate-slide-in-from-left animation-duration-[0.6s]">
+  <div class="animate-slide-in-from-left animation-duration-[0.6s]">
+    <div class="bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
   <div class="flex space-x-2">
-  <a href="https://spring.net" class="w-16 h-16">
-    <img src="/assets/images/resume/spring_logo.jpg" alt="Spring Logo" class="w-full aspect-square rounded" />
-  </a>
-  <div>
-    <h3 class="md:text-lg font-bold">Senior Software Engineer - Spring.net</h3>
-    <span class="text-sm text-gray-600 dark:text-gray-300">June 2024 - April 2025</span>
-  </div>
-</div>
-
-<p class="mt-2">Spring creates equal investment opportunities for everyday investors through a single, user-friendly platform. By handling everything from opportunity discovery to trading in one system, Spring simplifies complex processes so regular people can access markets previously reserved for financial professionals.</p>
-
-<div>
-  <details class="mt-2 peer group" aria-describedby="spring-key-contributions">
-    <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
-      <span>▸ Key Contributions</span>
-      <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
-      <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
-    </summary>
-  </details>
-  <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
-    <ul id="spring-key-contributions" class="min-h-0 text-base space-y-1">
-      <li>
-        Overhauled the investors' allocation management system, for pre-<span class="border-b border-dotted cursor-help" title="Token Generation Event">TGE</span> and post-TGE deals
-      </li>
-      <li>Developed a new modal navigation system using Turbo Frames</li>
-      <li>Implemented new price history data source, allowing users to see the price changes of the tokens in real time, leveraging InfluxDB and the Coingecko API</li>
-      <li>Massive architecture improvements to the codebase</li>
-    </ul>
-  </div>
-</div>
-
-<div>
-  <details class="mt-2 peer group" aria-describedby="spring-technical-skills">
-    <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
-      <span>▸ Technical Skills</span>
-      <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
-      <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
-    </summary>
-  </details>
-  <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
-    <div id="spring-technical-skills" class="min-h-0">
-      <p class="text-base">Software Infrastructure · Ruby on Rails · Postgres · InfluxDB · Hotwire · Heroku · Web3 · Blockchain</p>
+    <a href="https://spring.net" class="w-16 h-16">
+      <img src="/assets/images/resume/spring_logo.jpg" alt="Spring Logo" class="w-full aspect-square rounded" />
+    </a>
+    <div>
+      <h3 class="md:text-lg font-bold">Senior Software Engineer - Spring.net</h3>
+      <span class="text-sm text-gray-600 dark:text-gray-300">June 2024 - April 2025</span>
     </div>
   </div>
-</div>
 
-<div>
-  <details class="mt-2 peer group" aria-describedby="spring-recommendations">
-    <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
-      <span>▸ Recommendations</span>
-      <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
-      <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
-    </summary>
-  </details>
-  <div class="grid grid-rows-[0fr] peer-open:mt-4 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
-    <div id="spring-recommendations" class="min-h-0 w-full flex gap-6 snap-x snap-mandatory overflow-x-auto">
-      <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
+  <p class="mt-2">Spring creates equal investment opportunities for everyday investors through a single, user-friendly platform. By handling everything from opportunity discovery to trading in one system, Spring simplifies complex processes so regular people can access markets previously reserved for financial professionals.</p>
+
+  <div>
+    <details class="mt-2 peer group" aria-describedby="spring-key-contributions">
+      <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
+        <span>▸ Key Contributions</span>
+        <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
+        <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
+      </summary>
+    </details>
+    <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
+      <ul id="spring-key-contributions" class="min-h-0 text-base space-y-1">
+        <li>
+          Overhauled the investors' allocation management system, for pre-<span class="border-b border-dotted cursor-help" title="Token Generation Event">TGE</span> and post-TGE deals
+        </li>
+        <li>Developed a new modal navigation system using Turbo Frames</li>
+        <li>Implemented new price history data source, allowing users to see the price changes of the tokens in real time, leveraging InfluxDB and the Coingecko API</li>
+        <li>Massive architecture improvements to the codebase</li>
+      </ul>
+    </div>
+  </div>
+
+  <div>
+    <details class="mt-2 peer group" aria-describedby="spring-technical-skills">
+      <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
+        <span>▸ Technical Skills</span>
+        <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
+        <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
+      </summary>
+    </details>
+    <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
+      <div id="spring-technical-skills" class="min-h-0">
+        <p class="text-base">Software Infrastructure · Ruby on Rails · Postgres · InfluxDB · Hotwire · Heroku · Web3 · Blockchain</p>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <details class="mt-2 peer group" aria-describedby="spring-recommendations">
+      <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
+        <span>▸ Recommendations</span>
+        <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
+        <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
+      </summary>
+    </details>
+    <div class="grid grid-rows-[0fr] peer-open:mt-4 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
+      <div id="spring-recommendations" class="min-h-0 w-full flex gap-6 snap-x snap-mandatory overflow-x-auto">
+        <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
   <div class="flex space-x-2 mb-4">
     <a href="https://www.linkedin.com/in/sebastianalmnes/">
       <img src="/assets/images/recommendations/sebastian.webp" alt="Sebastian's Avatar" class="w-12 h-12 rounded-full object-cover" />
@@ -313,7 +353,7 @@
   </blockquote>
 </div>
 
-      <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
+        <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
   <div class="flex space-x-2 mb-4">
     <a href="https://www.linkedin.com/in/xurxomendezperez/">
       <img src="/assets/images/recommendations/xurxo.webp" alt="Xurxo's Avatar" class="w-12 h-12 rounded-full object-cover" />
@@ -362,7 +402,7 @@
   </blockquote>
 </div>
 
-      <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
+        <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
   <div class="flex space-x-2 mb-4">
     <a href="https://www.linkedin.com/in/tomas-veiden/">
       <img src="/assets/images/recommendations/tomas.webp" alt="Tomas' Avatar" class="w-12 h-12 rounded-full object-cover" />
@@ -415,7 +455,7 @@
   </blockquote>
 </div>
 
-      <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
+        <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
   <div class="flex space-x-2 mb-4">
     <a href="https://www.linkedin.com/in/glen-curtis-562439117/">
       <img src="/assets/images/recommendations/glen.webp" alt="Glen's Avatar" class="w-12 h-12 rounded-full object-cover" />
@@ -466,7 +506,7 @@
   </blockquote>
 </div>
 
-      <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
+        <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
   <div class="flex space-x-2 mb-4">
     <a href="https://www.linkedin.com/in/katiemichie/">
       <img src="/assets/images/recommendations/katie.webp" alt="Katie's Avatar" class="w-12 h-12 rounded-full object-cover" />
@@ -503,70 +543,72 @@
   </blockquote>
 </div>
 
+      </div>
     </div>
   </div>
 </div>
 
-</section>
+  </div>
 
-<section class="my-8 animate-slide-in-from-left animation-duration-700">
+  <div class="animate-slide-in-from-left animation-duration-700">
+    <div class="bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
   <div class="flex space-x-2">
-  <a href="https://reprtoir.com" class="w-16 h-16">
-    <img src="/assets/images/resume/reprtoir_logo.webp" alt="Reprtoir Logo" class="w-full aspect-square rounded" />
-  </a>
-  <div>
-    <h3 class="md:text-lg font-bold">Senior Software Engineer - Rendez-Vous Digital</h3>
-    <span class="text-sm text-gray-600 dark:text-gray-300">July 2021 - April 2024</span>
-  </div>
-</div>
-
-<p class="mt-2">At Reprtoir, a software-as-a-service platform driving innovation in the music industry, I collaborated with a team of skilled Ruby on Rails experts. Together, we contributed to significant business initiatives for the company.</p>
-
-<div>
-  <details class="mt-2 peer group" aria-describedby="reprtoir-key-contributions">
-    <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
-      <span>▸ Key Contributions</span>
-      <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
-      <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
-    </summary>
-  </details>
-  <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
-    <ul id="reprtoir-key-contributions" class="min-h-0 text-base space-y-1">
-      <li>Improved the existing ElasticSearch infrastructure, creating user-friendly and responsive portals for clients' Right-Holders.</li>
-      <li>Integrated the ElasticSearch-powered filtering system with RedShift databases, resulting in an advanced analytics suite developed with React.</li>
-      <li>Introduced Artificial Intelligence (AI) capabilities to enhance track searches, allowing users to find similar compositions across various sources.</li>
-      <li>Implemented AI-driven search functionality, enabling users to explore tracks using free-form descriptions.</li>
-      <li>Leveraged these technological advancements to empower clients in curating engaging content libraries.</li>
-    </ul>
-  </div>
-</div>
-
-<div>
-  <details class="mt-2 peer group" aria-describedby="reprtoir-technical-skills">
-    <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
-      <span>▸ Technical Skills</span>
-      <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
-      <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
-    </summary>
-  </details>
-  <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
-    <div id="reprtoir-technical-skills" class="min-h-0">
-      <p class="text-base">Software Infrastructure · Ruby on Rails · Postgres · React.js · Elasticsearch · Amazon Redshift · Hotwire · Artificial Intelligence (AI)</p>
+    <a href="https://reprtoir.com" class="w-16 h-16">
+      <img src="/assets/images/resume/reprtoir_logo.webp" alt="Reprtoir Logo" class="w-full aspect-square rounded" />
+    </a>
+    <div>
+      <h3 class="md:text-lg font-bold">Senior Software Engineer - Rendez-Vous Digital</h3>
+      <span class="text-sm text-gray-600 dark:text-gray-300">July 2021 - April 2024</span>
     </div>
   </div>
-</div>
 
-<div>
-  <details class="mt-2 peer group" aria-describedby="reprtoir-recommendations">
-    <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
-      <span>▸ Recommendations</span>
-      <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
-      <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
-    </summary>
-  </details>
-  <div class="grid grid-rows-[0fr] peer-open:mt-4 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
-    <div id="reprtoir-recommendations" class="min-h-0 w-full flex gap-6 snap-x snap-mandatory overflow-x-auto">
-      <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
+  <p class="mt-2">At Reprtoir, a software-as-a-service platform driving innovation in the music industry, I collaborated with a team of skilled Ruby on Rails experts. Together, we contributed to significant business initiatives for the company.</p>
+
+  <div>
+    <details class="mt-2 peer group" aria-describedby="reprtoir-key-contributions">
+      <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
+        <span>▸ Key Contributions</span>
+        <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
+        <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
+      </summary>
+    </details>
+    <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
+      <ul id="reprtoir-key-contributions" class="min-h-0 text-base space-y-1">
+        <li>Improved the existing ElasticSearch infrastructure, creating user-friendly and responsive portals for clients' Right-Holders.</li>
+        <li>Integrated the ElasticSearch-powered filtering system with RedShift databases, resulting in an advanced analytics suite developed with React.</li>
+        <li>Introduced Artificial Intelligence (AI) capabilities to enhance track searches, allowing users to find similar compositions across various sources.</li>
+        <li>Implemented AI-driven search functionality, enabling users to explore tracks using free-form descriptions.</li>
+        <li>Leveraged these technological advancements to empower clients in curating engaging content libraries.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div>
+    <details class="mt-2 peer group" aria-describedby="reprtoir-technical-skills">
+      <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
+        <span>▸ Technical Skills</span>
+        <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
+        <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
+      </summary>
+    </details>
+    <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
+      <div id="reprtoir-technical-skills" class="min-h-0">
+        <p class="text-base">Software Infrastructure · Ruby on Rails · Postgres · React.js · Elasticsearch · Amazon Redshift · Hotwire · Artificial Intelligence (AI)</p>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <details class="mt-2 peer group" aria-describedby="reprtoir-recommendations">
+      <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
+        <span>▸ Recommendations</span>
+        <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
+        <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
+      </summary>
+    </details>
+    <div class="grid grid-rows-[0fr] peer-open:mt-4 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
+      <div id="reprtoir-recommendations" class="min-h-0 w-full flex gap-6 snap-x snap-mandatory overflow-x-auto">
+        <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
   <div class="flex space-x-2 mb-4">
     <a href="https://www.linkedin.com/in/dominiquerottet/">
       <img src="/assets/images/recommendations/dominique.webp" alt="Dominique's Avatar" class="w-12 h-12 rounded-full object-cover" />
@@ -603,7 +645,7 @@
   </blockquote>
 </div>
 
-      <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
+        <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
   <div class="flex space-x-2 mb-4">
     <a href="https://www.linkedin.com/in/verlindensteve/">
       <img src="/assets/images/recommendations/steve.webp" alt="Steve's Avatar" class="w-12 h-12 rounded-full object-cover" />
@@ -640,7 +682,7 @@
   </blockquote>
 </div>
 
-      <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
+        <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
   <div class="flex space-x-2 mb-4">
     <a href="https://www.linkedin.com/in/malisart/">
       <img src="/assets/images/recommendations/aurelien.webp" alt="Aurelien's Avatar" class="w-12 h-12 rounded-full object-cover" />
@@ -678,7 +720,7 @@
   </blockquote>
 </div>
 
-      <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
+        <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
   <div class="flex space-x-2 mb-4">
     <a href="https://www.linkedin.com/in/nathanpolachini/">
       <img src="/assets/images/recommendations/nathan.webp" alt="Nathan's Avatar" class="w-12 h-12 rounded-full object-cover" />
@@ -715,95 +757,97 @@
   </blockquote>
 </div>
 
+      </div>
     </div>
   </div>
 </div>
 
-</section>
+  </div>
 
-<section class="my-8 animate-slide-in-from-left animation-duration-[0.8s]">
+  <div class="animate-slide-in-from-left animation-duration-[0.8s]">
+    <div class="bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
   <div class="flex space-x-2">
-  <a href="https://firstrubyfriend.org" class="w-16 h-16">
-    <img src="/assets/images/resume/first_ruby_friend_logo.svg" alt="First Ruby Friend Logo" class="w-full aspect-square rounded" />
-  </a>
-  <div>
-    <h3 class="md:text-lg font-bold">Volunteer Programming Mentor - First Ruby Friend</h3>
-    <span class="text-sm text-gray-600 dark:text-gray-300">Mars 2023 - Present</span>
-  </div>
-</div>
-
-<p class="mt-2">Delivering impactful mentorship to individuals, including students and professionals transitioning into programming.</p>
-
-<div>
-  <details class="mt-2 peer group" aria-describedby="first-ruby-friend-key-contributions">
-    <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
-      <span>▸ Key Contributions</span>
-      <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
-      <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
-    </summary>
-  </details>
-  <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
-    <ul id="first-ruby-friend-key-contributions" class="min-h-0 text-base space-y-2">
-      <li>
-        Tailored Guidance:
-        <ul class="space-y-1">
-          <li>Customize my mentorship to align with the unique needs and aspirations of each mentee.</li>
-          <li>Perform initial assessments to gauge their existing skill levels, strengths, and areas for growth.</li>
-        </ul>
-      </li>
-      <li>
-        Development of Technical Skills:
-        <ul class="space-y-1">
-          <li>Furnish practical guidance on programming languages, frameworks, and tools pertinent to their selected career paths.</li>
-          <li>Present coding exercises, projects, and real-world instances to enhance hands-on skills.</li>
-          <li>Share industry best practices and uphold coding standards..</li>
-        </ul>
-      </li>
-      <li>
-        Collaboration on Projects:
-        <ul class="space-y-1">
-          <li>Foster teamwork on real-world projects to replicate professional experiences.</li>
-          <li>Provide constructive feedback aimed at refining code quality and problem-solving abilities.</li>
-        </ul>
-      </li>
-      <li>
-        Guidance for Career Advancement:
-        <ul class="space-y-1">
-          <li>Aid in the creation of resumes, portfolios, and optimization of LinkedIn profiles.</li>
-          <li>Provide insights into the job market, industry trends, and sought-after skills.</li>
-          <li>Conduct mock interviews and furnish feedback to enhance interview performance.</li>
-        </ul>
-      </li>
-    </ul>
-  </div>
-</div>
-
-<div>
-  <details class="mt-2 peer group" aria-describedby="first-ruby-friend-skills">
-    <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
-      <span>▸ Technical Skills</span>
-      <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
-      <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
-    </summary>
-  </details>
-  <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
-    <div id="first-ruby-friend-skills" class="min-h-0">
-      <p class="text-base">Ruby · Ruby on Rails · Javascript · SQL</p>
+    <a href="https://firstrubyfriend.org" class="w-16 h-16">
+      <img src="/assets/images/resume/first_ruby_friend_logo.svg" alt="First Ruby Friend Logo" class="w-full aspect-square rounded" />
+    </a>
+    <div>
+      <h3 class="md:text-lg font-bold">Volunteer Programming Mentor - First Ruby Friend</h3>
+      <span class="text-sm text-gray-600 dark:text-gray-300">Mars 2023 - Present</span>
     </div>
   </div>
-</div>
 
-<div>
-  <details class="mt-2 peer group" aria-describedby="first-ruby-friend-recommendations">
-    <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
-      <span>▸ Recommendations</span>
-      <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
-      <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
-    </summary>
-  </details>
-  <div class="grid grid-rows-[0fr] peer-open:mt-4 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
-    <div id="first-ruby-friend-recommendations" class="min-h-0 w-full flex gap-6 snap-x snap-mandatory overflow-x-auto">
-      <div class="bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
+  <p class="mt-2">Delivering impactful mentorship to individuals, including students and professionals transitioning into programming.</p>
+
+  <div>
+    <details class="mt-2 peer group" aria-describedby="first-ruby-friend-key-contributions">
+      <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
+        <span>▸ Key Contributions</span>
+        <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
+        <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
+      </summary>
+    </details>
+    <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
+      <ul id="first-ruby-friend-key-contributions" class="min-h-0 text-base space-y-2">
+        <li>
+          Tailored Guidance:
+          <ul class="space-y-1">
+            <li>Customize my mentorship to align with the unique needs and aspirations of each mentee.</li>
+            <li>Perform initial assessments to gauge their existing skill levels, strengths, and areas for growth.</li>
+          </ul>
+        </li>
+        <li>
+          Development of Technical Skills:
+          <ul class="space-y-1">
+            <li>Furnish practical guidance on programming languages, frameworks, and tools pertinent to their selected career paths.</li>
+            <li>Present coding exercises, projects, and real-world instances to enhance hands-on skills.</li>
+            <li>Share industry best practices and uphold coding standards..</li>
+          </ul>
+        </li>
+        <li>
+          Collaboration on Projects:
+          <ul class="space-y-1">
+            <li>Foster teamwork on real-world projects to replicate professional experiences.</li>
+            <li>Provide constructive feedback aimed at refining code quality and problem-solving abilities.</li>
+          </ul>
+        </li>
+        <li>
+          Guidance for Career Advancement:
+          <ul class="space-y-1">
+            <li>Aid in the creation of resumes, portfolios, and optimization of LinkedIn profiles.</li>
+            <li>Provide insights into the job market, industry trends, and sought-after skills.</li>
+            <li>Conduct mock interviews and furnish feedback to enhance interview performance.</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div>
+    <details class="mt-2 peer group" aria-describedby="first-ruby-friend-skills">
+      <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
+        <span>▸ Technical Skills</span>
+        <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
+        <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
+      </summary>
+    </details>
+    <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
+      <div id="first-ruby-friend-skills" class="min-h-0">
+        <p class="text-base">Ruby · Ruby on Rails · Javascript · SQL</p>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <details class="mt-2 peer group" aria-describedby="first-ruby-friend-recommendations">
+      <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
+        <span>▸ Recommendations</span>
+        <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
+        <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
+      </summary>
+    </details>
+    <div class="grid grid-rows-[0fr] peer-open:mt-4 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
+      <div id="first-ruby-friend-recommendations" class="min-h-0 w-full flex gap-6 snap-x snap-mandatory overflow-x-auto">
+        <div class="bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
   <div class="flex space-x-2 mb-4">
     <a href="https://www.linkedin.com/in/nikolaz-s/">
       <img src="/assets/images/recommendations/nikolaz.webp" alt="Nikolaz's Avatar" class="w-12 h-12 rounded-full object-cover" />
@@ -842,66 +886,68 @@
   </blockquote>
 </div>
 
+      </div>
     </div>
   </div>
 </div>
 
-</section>
+  </div>
 
-<section class="my-8 animate-slide-in-from-left animation-duration-[0.9s]">
+  <div class="animate-slide-in-from-left animation-duration-[0.9s]">
+    <div class="bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
   <div class="flex space-x-2">
-  <a href="https://www.smalldoorvet.com/" class="w-16 h-16">
-    <img src="/assets/images/resume/smalldoor_logo.webp" alt="Small Door Logo" class="w-full aspect-square rounded" />
-  </a>
+    <a href="https://www.smalldoorvet.com/" class="w-16 h-16">
+      <img src="/assets/images/resume/smalldoor_logo.webp" alt="Small Door Logo" class="w-full aspect-square rounded" />
+    </a>
+    <div>
+      <h3 class="md:text-lg font-bold">Lead Developer - Small Door Veterinary</h3>
+      <span class="text-sm text-gray-600 dark:text-gray-300">January 2021 - July 2021</span>
+    </div>
+  </div>
+
+  <p class="mt-2">As part of my role overseeing the maintenance and feature development of web and mobile apps, I facilitated the shift in the company's product development strategy. We transitioned from relying on external consultants for a single veterinary practice to establishing an internal team of diverse specialists, serving multiple practices across various regions.</p>
+
   <div>
-    <h3 class="md:text-lg font-bold">Lead Developer - Small Door Veterinary</h3>
-    <span class="text-sm text-gray-600 dark:text-gray-300">January 2021 - July 2021</span>
-  </div>
-</div>
-
-<p class="mt-2">As part of my role overseeing the maintenance and feature development of web and mobile apps, I facilitated the shift in the company's product development strategy. We transitioned from relying on external consultants for a single veterinary practice to establishing an internal team of diverse specialists, serving multiple practices across various regions.</p>
-
-<div>
-  <details class="mt-2 peer group" aria-describedby="small-door-key-contributions">
-    <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
-      <span>▸ Key Contributions</span>
-      <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
-      <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
-    </summary>
-  </details>
-  <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
-    <div id="small-door-key-contributions" class="min-h-0">
-      <p class="text-base">Noteworthy contributions include my involvement in recruiting the Head of Product and Technology, along with two seasoned software developers.</p>
+    <details class="mt-2 peer group" aria-describedby="small-door-key-contributions">
+      <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
+        <span>▸ Key Contributions</span>
+        <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
+        <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
+      </summary>
+    </details>
+    <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
+      <div id="small-door-key-contributions" class="min-h-0">
+        <p class="text-base">Noteworthy contributions include my involvement in recruiting the Head of Product and Technology, along with two seasoned software developers.</p>
+      </div>
     </div>
   </div>
-</div>
 
-<div>
-  <details class="mt-2 peer group" aria-describedby="small-door-technical-skills">
-    <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
-      <span>▸ Technical Skills</span>
-      <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
-      <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
-    </summary>
-  </details>
-  <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
-    <div id="small-door-technical-skills" class="min-h-0">
-      <p class="text-base">Leading Development Teams · Ruby on Rails · Postgres · React.js · React Native · Amazon Web Services</p>
+  <div>
+    <details class="mt-2 peer group" aria-describedby="small-door-technical-skills">
+      <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
+        <span>▸ Technical Skills</span>
+        <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
+        <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
+      </summary>
+    </details>
+    <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
+      <div id="small-door-technical-skills" class="min-h-0">
+        <p class="text-base">Leading Development Teams · Ruby on Rails · Postgres · React.js · React Native · Amazon Web Services</p>
+      </div>
     </div>
   </div>
-</div>
 
-<div>
-  <details class="mt-2 peer group" aria-describedby="small-door-recommendations">
-    <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
-      <span>▸ Recommendations</span>
-      <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
-      <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
-    </summary>
-  </details>
-  <div class="grid grid-rows-[0fr] peer-open:mt-4 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
-    <div id="braidio-recommendations" class="min-h-0 w-full flex gap-6 snap-x snap-mandatory overflow-x-auto">
-      <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
+  <div>
+    <details class="mt-2 peer group" aria-describedby="small-door-recommendations">
+      <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
+        <span>▸ Recommendations</span>
+        <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
+        <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
+      </summary>
+    </details>
+    <div class="grid grid-rows-[0fr] peer-open:mt-4 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
+      <div id="small-door-recommendations" class="min-h-0 w-full flex gap-6 snap-x snap-mandatory overflow-x-auto">
+        <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
   <div class="flex space-x-2 mb-4">
     <a href="https://www.linkedin.com/in/edelangen/">
       <img src="/assets/images/recommendations/edward.webp" alt="Edward's Avatar" class="w-12 h-12 rounded-full object-cover" />
@@ -941,7 +987,7 @@
   </blockquote>
 </div>
 
-      <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
+        <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
   <div class="flex space-x-2 mb-4">
     <a href="https://www.linkedin.com/in/jfdumas/">
       <img src="/assets/images/recommendations/jean-francois.webp" alt="Jean-François Dumas's Avatar" class="w-12 h-12 rounded-full object-cover" />
@@ -981,66 +1027,68 @@
   </blockquote>
 </div>
 
+      </div>
     </div>
   </div>
 </div>
 
-</section>
+  </div>
 
-<section class="my-8 animate-slide-in-from-left animation-duration-[0.9s]">
+  <div class="animate-slide-in-from-left animation-duration-[0.95s]">
+    <div class="bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
   <div class="flex space-x-2">
-  <a href="https://www.braidio.com" class="w-16 h-16">
-    <img src="/assets/images/resume/braidio_logo.webp" alt="Braidio Logo" class="w-full aspect-square rounded" />
-  </a>
+    <a href="https://www.braidio.com" class="w-16 h-16">
+      <img src="/assets/images/resume/braidio_logo.webp" alt="Braidio Logo" class="w-full aspect-square rounded" />
+    </a>
+    <div>
+      <h3 class="md:text-lg font-bold">Senior Developer - Braidio</h3>
+      <span class="text-sm text-gray-600 dark:text-gray-300">February 2019 - January 2021</span>
+    </div>
+  </div>
+
+  <p class="mt-2">I had the opportunity to work with ShaShee Interactive Networks, an American company that created Braidio, a project management software.</p>
+
   <div>
-    <h3 class="md:text-lg font-bold">Senior Developer - Braidio</h3>
-    <span class="text-sm text-gray-600 dark:text-gray-300">February 2019 - January 2021</span>
-  </div>
-</div>
-
-<p class="mt-2">I had the opportunity to work with ShaShee Interactive Networks, an American company that created Braidio, a project management software.</p>
-
-<div>
-  <details class="mt-2 peer group" aria-describedby="braidio-key-contributions">
-    <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
-      <span>▸ Key Contributions</span>
-      <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
-      <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
-    </summary>
-  </details>
-  <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
-    <div id="braidio-key-contributions" class="min-h-0">
-      <p class="text-base">During my tenure at Braidio, I worked as a contractor, collaborating with a distributed team of exceptionally skilled developers. Our primary focus encompassed the integration of third-party apps, development of innovative features, reinforcement of data protection measures, and overall improvement of the code base.</p>
+    <details class="mt-2 peer group" aria-describedby="braidio-key-contributions">
+      <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
+        <span>▸ Key Contributions</span>
+        <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
+        <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
+      </summary>
+    </details>
+    <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
+      <div id="braidio-key-contributions" class="min-h-0">
+        <p class="text-base">During my tenure at Braidio, I worked as a contractor, collaborating with a distributed team of exceptionally skilled developers. Our primary focus encompassed the integration of third-party apps, development of innovative features, reinforcement of data protection measures, and overall improvement of the code base.</p>
+      </div>
     </div>
   </div>
-</div>
 
-<div>
-  <details class="mt-2 peer group" aria-describedby="braidio-technical-skills">
-    <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
-      <span>▸ Technical Skills</span>
-      <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
-      <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
-    </summary>
-  </details>
-  <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
-    <div id="braidio-technical-skills" class="min-h-0">
-      <p class="text-base">Ruby on Rails · React.js · Postgres · React Native · Live Video Streaming</p>
+  <div>
+    <details class="mt-2 peer group" aria-describedby="braidio-technical-skills">
+      <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
+        <span>▸ Technical Skills</span>
+        <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
+        <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
+      </summary>
+    </details>
+    <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
+      <div id="braidio-technical-skills" class="min-h-0">
+        <p class="text-base">Ruby on Rails · React.js · Postgres · React Native · Live Video Streaming</p>
+      </div>
     </div>
   </div>
-</div>
 
-<div>
-  <details class="mt-2 peer group" aria-describedby="braidio-recommendations">
-    <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
-      <span>▸ Recommendations</span>
-      <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
-      <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
-    </summary>
-  </details>
-  <div class="grid grid-rows-[0fr] peer-open:mt-4 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
-    <div id="braidio-recommendations" class="min-h-0 w-full flex gap-6 snap-x snap-mandatory overflow-x-auto">
-      <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
+  <div>
+    <details class="mt-2 peer group" aria-describedby="braidio-recommendations">
+      <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
+        <span>▸ Recommendations</span>
+        <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
+        <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
+      </summary>
+    </details>
+    <div class="grid grid-rows-[0fr] peer-open:mt-4 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
+      <div id="braidio-recommendations" class="min-h-0 w-full flex gap-6 snap-x snap-mandatory overflow-x-auto">
+        <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
   <div class="flex space-x-2 mb-4">
     <a href="https://www.linkedin.com/in/trip-shanti-b38ba257/">
       <img src="/assets/images/recommendations/trip.webp" alt="Trip's Avatar" class="w-12 h-12 rounded-full object-cover" />
@@ -1078,7 +1126,7 @@
   </blockquote>
 </div>
 
-      <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
+        <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
   <div class="flex space-x-2 mb-4">
     <a href="https://www.linkedin.com/in/edraper/">
       <img src="/assets/images/recommendations/elliott.webp" alt="Elliott's Avatar" class="w-12 h-12 rounded-full object-cover" />
@@ -1115,70 +1163,72 @@
   </blockquote>
 </div>
 
+      </div>
     </div>
   </div>
 </div>
 
-</section>
+  </div>
 
-<section class="my-8 animate-slide-in-from-left animation-duration-1000">
+  <div class="animate-slide-in-from-left animation-duration-1000">
+    <div class="bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
   <div class="flex space-x-2">
-  <a href="https://www.checksub.com" class="w-16 h-16">
-    <img src="/assets/images/resume/checksub_logo.webp" alt="CheckSub Logo" class="w-full aspect-square object-contain rounded bg-black dark:bg-transparent" />
-  </a>
+    <a href="https://www.checksub.com" class="w-16 h-16">
+      <img src="/assets/images/resume/checksub_logo.webp" alt="CheckSub Logo" class="w-full aspect-square object-contain rounded bg-black dark:bg-transparent" />
+    </a>
+    <div>
+      <h3 class="md:text-lg font-bold">Developer - CheckSub</h3>
+      <span class="text-sm text-gray-600 dark:text-gray-300">January 2018 - July 2018</span>
+    </div>
+  </div>
+
+  <p class="mt-2">My first client as a freelancer was CheckSub, a company that provides a transcription platform for content creators.</p>
+
   <div>
-    <h3 class="md:text-lg font-bold">Developer - CheckSub</h3>
-    <span class="text-sm text-gray-600 dark:text-gray-300">January 2018 - July 2018</span>
-  </div>
-</div>
-
-<p class="mt-2">My first client as a freelancer was CheckSub, a company that provides a transcription platform for content creators.</p>
-
-<div>
-  <details class="mt-2 peer group" aria-describedby="checksub-key-contributions">
-    <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
-      <span>▸ Key Contributions</span>
-      <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
-      <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
-    </summary>
-  </details>
-  <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
-    <div id="checksub-key-contributions" class="min-h-0">
-      <ul class="text-base space-y-1">
-        <li>Automated the transcription process for captioners by integrating with the Trello API.</li>
-        <li>Developed a new feature to allow users generate subtitles from their own audio files.</li>
-        <li>Implemented a a dashboard to edit a content's subtitles at the granular level, using React, Redux and Wavesurfer.js</li>
-      </ul>
+    <details class="mt-2 peer group" aria-describedby="checksub-key-contributions">
+      <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
+        <span>▸ Key Contributions</span>
+        <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
+        <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
+      </summary>
+    </details>
+    <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
+      <div id="checksub-key-contributions" class="min-h-0">
+        <ul class="text-base space-y-1">
+          <li>Automated the transcription process for captioners by integrating with the Trello API.</li>
+          <li>Developed a new feature to allow users generate subtitles from their own audio files.</li>
+          <li>Implemented a a dashboard to edit a content's subtitles at the granular level, using React, Redux and Wavesurfer.js</li>
+        </ul>
+      </div>
     </div>
   </div>
-</div>
 
-<div>
-  <details class="mt-2 peer group" aria-describedby="braidio-technical-skills">
-    <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
-      <span>▸ Technical Skills</span>
-      <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
-      <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
-    </summary>
-  </details>
-  <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
-    <div id="braidio-technical-skills" class="min-h-0">
-      <p class="text-base">Ruby on Rails · React.js · Redux · Wavesurfer.js · Postgres · Trello API</p>
+  <div>
+    <details class="mt-2 peer group" aria-describedby="checksub-technical-skills">
+      <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
+        <span>▸ Technical Skills</span>
+        <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
+        <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
+      </summary>
+    </details>
+    <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
+      <div id="checksub-technical-skills" class="min-h-0">
+        <p class="text-base">Ruby on Rails · React.js · Redux · Wavesurfer.js · Postgres · Trello API</p>
+      </div>
     </div>
   </div>
-</div>
 
-<div>
-  <details class="mt-2 peer group" aria-describedby="checksub-recommendations">
-    <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
-      <span>▸ Recommendations</span>
-      <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
-      <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
-    </summary>
-  </details>
-  <div class="grid grid-rows-[0fr] peer-open:mt-4 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
-    <div id="checksub-recommendations" class="min-h-0 w-full flex gap-6 snap-x snap-mandatory overflow-x-auto">
-      <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
+  <div>
+    <details class="mt-2 peer group" aria-describedby="checksub-recommendations">
+      <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
+        <span>▸ Recommendations</span>
+        <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
+        <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
+      </summary>
+    </details>
+    <div class="grid grid-rows-[0fr] peer-open:mt-4 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
+      <div id="checksub-recommendations" class="min-h-0 w-full flex gap-6 snap-x snap-mandatory overflow-x-auto">
+        <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
   <div class="flex space-x-2 mb-4">
     <a href="https://www.linkedin.com/in/florianstegre/">
       <img src="/assets/images/recommendations/florian.webp" alt="Florian's Avatar" class="w-12 h-12 rounded-full object-cover" />
@@ -1205,127 +1255,131 @@
   </blockquote>
 </div>
 
+      </div>
     </div>
   </div>
 </div>
 
-</section>
+  </div>
 
-<section class="my-8 animate-slide-in-from-left animation-duration-[1.1s]">
+  <div class="animate-slide-in-from-left animation-duration-[1.1s]">
+    <div class="bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
   <div class="flex space-x-2">
-  <a href="https://www.myjobglasses.com" class="w-16 h-16">
-    <img src="/assets/images/resume/my_job_glasses_logo.webp" alt="My Job Glasses Logo" class="w-full aspect-square rounded" />
-  </a>
+    <a href="https://www.myjobglasses.com" class="w-16 h-16">
+      <img src="/assets/images/resume/my_job_glasses_logo.webp" alt="My Job Glasses Logo" class="w-full aspect-square rounded" />
+    </a>
+    <div>
+      <h3 class="md:text-lg font-bold">Web Developer - My Job Glasses</h3>
+      <span class="text-sm text-gray-600 dark:text-gray-300">July 2017 - December 2017</span>
+    </div>
+  </div>
+
+  <p class="mt-2">My Job Glasses, founded in November 2015, aims to redefine networking between students and professionals in Europe. The goal is to assist students in finding their dream job while helping professionals save time and money by connecting with the right profiles. This is facilitated through a user-friendly web platform that empowers everyone to build their professional network.</p>
+
   <div>
-    <h3 class="md:text-lg font-bold">Web Developer - My Job Glasses</h3>
-    <span class="text-sm text-gray-600 dark:text-gray-300">July 2017 - December 2017</span>
+    <details class="mt-2 peer group" aria-describedby="my-job-glasses-contributions">
+      <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
+        <span>▸ Key Contributions</span>
+        <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
+        <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
+      </summary>
+    </details>
+    <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
+      <div id="my-job-glasses-contributions" class="min-h-0 text-base space-y-2">
+        <p>During my tenure as a full-stack web developer, predominantly utilizing Ruby-on-Rails and React, I played a pivotal role in several key initiatives:</p>
+        <ul class="space-y-1">
+          <li>Successfully launched V2, encompassing both back and front ends.</li>
+          <li>Introduced a KANBAN workflow within the tech team.</li>
+          <li>Implemented effective inter-team processes within the company.</li>
+        </ul>
+      </div>
+    </div>
   </div>
-</div>
 
-<p class="mt-2">My Job Glasses, founded in November 2015, aims to redefine networking between students and professionals in Europe. The goal is to assist students in finding their dream job while helping professionals save time and money by connecting with the right profiles. This is facilitated through a user-friendly web platform that empowers everyone to build their professional network.</p>
-
-<div>
-  <details class="mt-2 peer group" aria-describedby="my-job-glasses-contributions">
-    <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
-      <span>▸ Key Contributions</span>
-      <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
-      <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
-    </summary>
-  </details>
-  <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
-    <div id="my-job-glasses-contributions" class="min-h-0 text-base space-y-2">
-      <p>During my tenure as a full-stack web developer, predominantly utilizing Ruby-on-Rails and React, I played a pivotal role in several key initiatives:</p>
-      <ul class="space-y-1">
-        <li>Successfully launched V2, encompassing both back and front ends.</li>
-        <li>Introduced a KANBAN workflow within the tech team.</li>
-        <li>Implemented effective inter-team processes within the company.</li>
-      </ul>
+  <div>
+    <details class="mt-2 peer group" aria-describedby="my-job-glasses-technical-skills">
+      <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
+        <span>▸ Technical Skills</span>
+        <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
+        <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
+      </summary>
+    </details>
+    <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
+      <div id="my-job-glasses-technical-skills" class="min-h-0 space-y-2">
+        <p class="text-base">Ruby on Rails · React.js · MongoDB · Amazon Web Services</p>
+      </div>
     </div>
   </div>
 </div>
 
-<div>
-  <details class="mt-2 peer group" aria-describedby="my-job-glasses-technical-skills">
-    <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
-      <span>▸ Technical Skills</span>
-      <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
-      <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
-    </summary>
-  </details>
-  <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
-    <div id="my-job-glasses-technical-skills" class="min-h-0 space-y-2">
-      <p class="text-base">Ruby on Rails · React.js · MongoDB · Amazon Web Services</p>
-    </div>
   </div>
-</div>
 
-</section>
-
-<section class="my-8 animate-slide-in-from-left animation-duration-[1.2s]">
+  <div class="animate-slide-in-from-left animation-duration-[1.2s]">
+    <div class="bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
   <div class="flex space-x-2">
-  <a href="https://www.captaincontrat.com" class="w-16 h-16">
-    <img src="/assets/images/resume/captain_contrat_logo.webp" alt="Captain Contrat Logo" class="w-full aspect-square rounded object-cover" />
-  </a>
+    <a href="https://www.captaincontrat.com" class="w-16 h-16">
+      <img src="/assets/images/resume/captain_contrat_logo.webp" alt="Captain Contrat Logo" class="w-full aspect-square rounded object-cover" />
+    </a>
+    <div>
+      <h3 class="md:text-lg font-bold">Web Developer - Captain Contrat</h3>
+      <span class="text-sm text-gray-600 dark:text-gray-300">January 2015 - July 2017</span>
+    </div>
+  </div>
+
+  <p class="mt-2">Captain Contrat, a transformative startup, is committed to empowering entrepreneurs with an economical web solution, facilitating the creation of robust and legally sound documents for establishing companies and job positions. Simultaneously, it serves as a valuable tool for lawyers, offering an integrated web app to enhance their efficiency and connectivity with entrepreneurs.</p>
+
   <div>
-    <h3 class="md:text-lg font-bold">Web Developer - Captain Contrat</h3>
-    <span class="text-sm text-gray-600 dark:text-gray-300">January 2015 - July 2017</span>
-  </div>
-</div>
+    <details class="mt-2 peer group" aria-describedby="captain-contrat-contributions">
+      <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
+        <span>▸ Key Contributions</span>
+        <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
+        <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
+      </summary>
+    </details>
+    <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
+      <div id="captain-contrat-contributions" class="min-h-0 text-base space-y-2">
+        <p>Joining this dynamic startup in January 2015, I witnessed significant growth over my two and a half years tenure. The team expanded from three co-founders and a handful of interns to a thriving unit of 34 employees, securing 1 million euros in fundraising.</p>
+        <p>During my tenure at Captain Contrat, I played a major role in the following initiatives:</p>
 
-<p class="mt-2">Captain Contrat, a transformative startup, is committed to empowering entrepreneurs with an economical web solution, facilitating the creation of robust and legally sound documents for establishing companies and job positions. Simultaneously, it serves as a valuable tool for lawyers, offering an integrated web app to enhance their efficiency and connectivity with entrepreneurs.</p>
-
-<div>
-  <details class="mt-2 peer group" aria-describedby="captain-contrat-contributions">
-    <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
-      <span>▸ Key Contributions</span>
-      <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
-      <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
-    </summary>
-  </details>
-  <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
-    <div id="captain-contrat-contributions" class="min-h-0 text-base space-y-2">
-      <p>Joining this dynamic startup in January 2015, I witnessed significant growth over my two and a half years tenure. The team expanded from three co-founders and a handful of interns to a thriving unit of 34 employees, securing 1 million euros in fundraising.</p>
-      <p>During my tenure at Captain Contrat, I played a major role in the following initiatives:</p>
-
-      <ul class="space-y-1">
-        <li>Implemented and maintained various features, enriching the main app with functionalities such as appointment scheduling and customized dashboards for customers and lawyer partners.</li>
-        <li>Developed an automated invoicing service seamlessly integrated into the main business workflow.</li>
-        <li>Established and maintained a customer service dashboard for the Customer Success Team.</li>
-        <li>Nurtured the company's internal culture and values, drawing inspiration from the principles of Tony Hsieh.</li>
-        <li>Enhanced the Technical team's workflow by implementing a methodology inspired by both Agile and Lean philosophies.</li>
-        <li>Conducted numerous training workshops on internal tool best practices and technical skills.</li>
-        <li>Successfully recruited and mentored a student who has since flourished in a rewarding career as a Rails developer.</li>
-      </ul>
+        <ul class="space-y-1">
+          <li>Implemented and maintained various features, enriching the main app with functionalities such as appointment scheduling and customized dashboards for customers and lawyer partners.</li>
+          <li>Developed an automated invoicing service seamlessly integrated into the main business workflow.</li>
+          <li>Established and maintained a customer service dashboard for the Customer Success Team.</li>
+          <li>Nurtured the company's internal culture and values, drawing inspiration from the principles of Tony Hsieh.</li>
+          <li>Enhanced the Technical team's workflow by implementing a methodology inspired by both Agile and Lean philosophies.</li>
+          <li>Conducted numerous training workshops on internal tool best practices and technical skills.</li>
+          <li>Successfully recruited and mentored a student who has since flourished in a rewarding career as a Rails developer.</li>
+        </ul>
+      </div>
     </div>
   </div>
-</div>
 
-<div>
-  <details class="mt-2 peer group" aria-describedby="captain-contrat-technical-skills">
-    <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
-      <span>▸ Technical Skills</span>
-      <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
-      <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
-    </summary>
-  </details>
-  <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
-    <div id="captain-contrat-technical-skills" class="min-h-0 space-y-2">
-      <p class="text-base">Ruby on Rails · Javascript · MySQL · Postgres · Amazon Web Services</p>
+  <div>
+    <details class="mt-2 peer group" aria-describedby="captain-contrat-technical-skills">
+      <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
+        <span>▸ Technical Skills</span>
+        <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
+        <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
+      </summary>
+    </details>
+    <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
+      <div id="captain-contrat-technical-skills" class="min-h-0 space-y-2">
+        <p class="text-base">Ruby on Rails · Javascript · MySQL · Postgres · Amazon Web Services</p>
+      </div>
     </div>
   </div>
-</div>
 
-<div>
-  <details class="mt-2 peer group" aria-describedby="captain-contrat-recommendations">
-    <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
-      <span>▸ Recommendations</span>
-      <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
-      <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
-    </summary>
-  </details>
-  <div class="grid grid-rows-[0fr] peer-open:mt-4 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
-    <div id="captain-contrat-recommendations" class="min-h-0 w-full flex gap-6 snap-x snap-mandatory overflow-x-auto">
-      <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
+  <div>
+    <details class="mt-2 peer group" aria-describedby="captain-contrat-recommendations">
+      <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
+        <span>▸ Recommendations</span>
+        <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
+        <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
+      </summary>
+    </details>
+    <div class="grid grid-rows-[0fr] peer-open:mt-4 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
+      <div id="captain-contrat-recommendations" class="min-h-0 w-full flex gap-6 snap-x snap-mandatory overflow-x-auto">
+        <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
   <div class="flex space-x-2 mb-4">
     <a href="https://www.linkedin.com/in/pierregielen/">
       <img src="/assets/images/recommendations/pierre.webp" alt="Pierre's Avatar" class="w-12 h-12 rounded-full object-cover" />
@@ -1362,7 +1416,7 @@
   </blockquote>
 </div>
 
-      <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
+        <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
   <div class="flex space-x-2 mb-4">
     <a href="https://www.linkedin.com/in/mbudin/">
       <img src="/assets/images/recommendations/manon.webp" alt="Manon's Avatar" class="w-12 h-12 rounded-full object-cover" />
@@ -1401,7 +1455,7 @@
   </blockquote>
 </div>
 
-      <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
+        <div class="w-full snap-center shrink-0 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
   <div class="flex space-x-2 mb-4">
     <a href="https://www.linkedin.com/in/yannickfonjallaz/">
       <img src="/assets/images/recommendations/avatar-placeholder.svg" alt="Yannick's Avatar" class="bg-white w-12 h-12 rounded-full object-cover" />
@@ -1438,14 +1492,68 @@
   </blockquote>
 </div>
 
+      </div>
     </div>
   </div>
 </div>
 
+  </div>
 </section>
 
     </main>
 
+    <nav class="hidden lg:block fixed bottom-0 left-1/2 -translate-x-1/2 z-50" aria-label="Main navigation">
+      <div data-dock class="px-32 pt-40">
+        <div class="flex items-end justify-center gap-8 px-10 py-5 rounded-t-3xl bg-white/30 dark:bg-slate-800/30 backdrop-blur-sm border border-b-0 border-white/20 dark:border-slate-700/30 shadow-lg [&_img]:w-14">
+          <a href="/" title="Home" aria-label="Go to home page" data-dock-item class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-home">
+  <img src="/assets/images/icons/home.svg" alt="" class="w-8" aria-hidden="true" />
+  <span class="sr-only">Home</span>
+</a>
+
+<a href="/resume" title="Resume" aria-label="View my resume" data-dock-item class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-resume">
+  <img src="/assets/images/icons/resume.svg" alt="" class="w-8" aria-hidden="true" />
+  <span class="sr-only">Resume</span>
+</a>
+
+<a href="/projects" title="Projects" aria-label="View my open source projects" data-dock-item class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-projects">
+  <img src="/assets/images/icons/projects.svg" alt="" class="w-8" aria-hidden="true" />
+  <span class="sr-only">Projects</span>
+</a>
+
+<a href="/recommendations" title="Recommendations" aria-label="Read recommendations from colleagues" data-dock-item class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-recommendations">
+  <img src="/assets/images/icons/recommended.svg" alt="" class="w-8" aria-hidden="true" />
+  <span class="sr-only">Recommendations</span>
+</a>
+
+<a href="mailto:emmanuel@hey.com" title="Email" aria-label="Send me an email" data-dock-item class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-email">
+  <img src="/assets/images/icons/mail.svg" alt="" class="w-8" aria-hidden="true" />
+  <span class="sr-only">Email</span>
+</a>
+
+<a href="/llms.txt" title="LLM Profile" aria-label="View LLM-friendly version of this site" data-dock-item class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-llm">
+  <img src="/assets/images/icons/ai.svg" alt="" class="w-8" aria-hidden="true" />
+  <span class="sr-only">LLM-friendly profile</span>
+</a>
+
+<a href="https://www.linkedin.com/in/cousinemmanuel/" title="LinkedIn" aria-label="Visit my LinkedIn profile" target="_blank" rel="noopener noreferrer" data-dock-item class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-linkedin">
+  <img src="/assets/images/icons/linkedin.svg" alt="" class="w-8 rounded-lg" aria-hidden="true" />
+  <span class="sr-only">LinkedIn</span>
+</a>
+
+<a href="https://github.com/emcousin" title="GitHub" aria-label="Visit my GitHub profile" target="_blank" rel="noopener noreferrer" data-dock-item class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-github">
+  <img src="/assets/images/icons/github.svg" alt="" class="w-8 dark:hidden" aria-hidden="true" />
+  <img src="/assets/images/icons/github-white.svg" alt="" class="w-8 hidden dark:block" aria-hidden="true" />
+  <span class="sr-only">GitHub</span>
+</a>
+
+        </div>
+      </div>
+    </nav>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/ruby.min.js"></script>
+    <script>hljs.highlightAll();</script>
     <script type="text/javascript" src="/assets/js/pwa.js"></script>
+    <script type="text/javascript" src="/assets/js/dock.js"></script>
   </body>
 </html>

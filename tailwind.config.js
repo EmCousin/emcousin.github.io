@@ -40,7 +40,8 @@ module.exports = {
         'slide-in-from-left': 'slide-in-from-left var(--animation-duration) both',
         'slide-in-from-right': 'slide-in-from-right var(--animation-duration) both',
         'flip-and-zoom-in': 'flip-and-zoom-in var(--animation-duration) both',
-        'fade-in': 'fade-in var(--animation-duration) both'
+        'fade-in': 'fade-in var(--animation-duration) both',
+        'scale-up': 'scale-up var(--animation-duration) both'
       },
       keyframes: {
         'slide-in-from-left': {
@@ -59,6 +60,10 @@ module.exports = {
         'fade-in': {
           '0%': { opacity: 0 },
           '100%': { opacity: 1 }
+        },
+        'scale-up': {
+          '0%': { transform: 'scale(0.8)', opacity: 0 },
+          '100%': { transform: 'scale(1)', opacity: 1 }
         }
       }
     }

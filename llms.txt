@@ -325,8 +325,56 @@ Emmanuel has 19 professional recommendations from colleagues across 8 different 
 
 ---
 
+## Open Source Projects
+
+### Ruby Gems
+
+**grape-jsonapi**
+Use jsonapi-serializer with Grape. Provides formatters and a model parser for automatic Swagger response documentation via grape-swagger.
+- GitHub: https://github.com/EmCousin/grape-jsonapi
+- RubyGems: https://rubygems.org/gems/grape-jsonapi
+
+**activerecord-deepstore**
+Store and access deeply nested data structures within ActiveRecord columns. Generates accessors for every level of nested hashes with automatic typecasting.
+- GitHub: https://github.com/EmCousin/activerecord-deepstore
+- RubyGems: https://rubygems.org/gems/activerecord-deepstore
+
+**activemodel-caching**
+Object-level caching for ActiveModel. Cache strings, integers, decimals, datetimes, lists, and JSON directly on your models with a simple DSL.
+- GitHub: https://github.com/EmCousin/activemodel-caching
+- RubyGems: https://rubygems.org/gems/activemodel-caching
+
+**influxdb-query-builder**
+A fluent Ruby DSL for building InfluxDB Flux queries. Chainable API for constructing queries with measurements, fields, tags, aggregations, and more.
+- PR: https://github.com/EmCousin/influxdb-client-ruby/pull/1
+
+**provet-client**
+A Ruby client for the ProvetCloud API, used by veterinary practices for practice management.
+- GitHub: https://github.com/EmCousin/provet-client
+- RubyGems: https://rubygems.org/gems/provet-client
+
+### Applications
+
+**Parkour Paris (pkp)**
+Back-office platform for Parkour Paris, enabling members to register for parkour classes across Paris. Full-featured scheduling, payments, and member management.
+- Live: https://inscriptions.parkourparis.fr
+- GitHub: https://github.com/EmCousin/pkp
+
+**ActivityPub Engine**
+A Rails engine implementing the ActivityPub protocol for federated social networking. Enables Rails apps to join the Fediverse with customizable authentication and actor management.
+- GitHub: https://github.com/EmCousin/simple_social_network
+
+### Major Contributions
+
+**Gumroad (antiwork/gumroad)** — 73 merged PRs
+Major contributor to Gumroad's open-source codebase. Led the frontend migration from ERB/React on Rails to Inertia.js/React, migrated the admin panel, and shipped features including Black Friday 2025 and subscription lifecycle improvements.
+- All PRs: https://github.com/antiwork/gumroad/pulls?q=is%3Apr+author%3Aemcousin+is%3Amerged
+
+---
+
 ## Pages
 
 - Home: https://emcousin.github.io/
 - Resume: https://emcousin.github.io/resume
 - Recommendations: https://emcousin.github.io/recommendations
+- Projects: https://emcousin.github.io/projects

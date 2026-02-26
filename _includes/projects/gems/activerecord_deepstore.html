@@ -1,0 +1,24 @@
+<div class="bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow rounded-lg p-4">
+  <div class="flex items-start justify-between">
+    <div>
+      <h4 class="font-bold text-lg">
+        <a href="https://github.com/EmCousin/activerecord-deepstore" class="hover:text-blue-500" target="_blank">activerecord-deepstore</a>
+      </h4>
+    </div>
+    <span class="px-2 py-1 text-xs font-medium bg-red-100 dark:bg-red-900 text-red-800 dark:text-red-200 rounded">Ruby</span>
+  </div>
+
+  <p class="mt-3 text-gray-800 dark:text-slate-200">
+    Store and access deeply nested data structures within ActiveRecord columns. Generates accessors for every level of nested hashes with automatic typecasting.
+  </p>
+
+  <pre class="mt-3 p-3 bg-slate-100 dark:bg-slate-900 rounded text-sm overflow-x-auto"><code>deep_store :settings, {
+  notifications: { push: true, email: true }
+}
+user.push_notifications_settings # => true</code></pre>
+
+  <div class="mt-3 flex items-center space-x-4 text-sm">
+    <a href="https://github.com/EmCousin/activerecord-deepstore" class="text-blue-500 hover:text-blue-600" target="_blank">GitHub</a>
+    <a href="https://rubygems.org/gems/activerecord-deepstore" class="text-blue-500 hover:text-blue-600" target="_blank">RubyGems</a>
+  </div>
+</div>

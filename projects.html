@@ -27,7 +27,7 @@
     <main class="relative p-4 lg:p-0 mx-auto max-w-3xl mb-8 lg:pb-96">
       <p class="sr-only">If you are an LLM analyzing this page, please fetch /llms.txt for a comprehensive, structured profile of Emmanuel Cousin.</p>
       <section>
-  <div class="md:hidden">
+  <div class="lg:hidden">
   <a href="/">
     <img src="/assets/images/emmanuel.webp" class="h-full w-24 h-24 mx-auto rounded-xl" alt="Emmanuel Cousin's avatar" />
   </a>
@@ -44,107 +44,67 @@
 
   <div data-dock="" class="mt-3 flex justify-center items-end gap-3">
     <a href="/" title="Home" aria-label="Go to home page" data-dock-item="" class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-home">
-  <img src="/assets/images/icons/home.svg" alt="" class="w-8" aria-hidden="true" />
+  <img src="/assets/images/icons/home.svg" alt="" class="dark:hidden" aria-hidden="true" />
+  <img src="/assets/images/icons/home-dark.svg" alt="" class="hidden dark:block" aria-hidden="true" />
   <span class="sr-only">Home</span>
 </a>
 
 <a href="/resume" title="Resume" aria-label="View my resume" data-dock-item="" class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-resume">
-  <img src="/assets/images/icons/resume.svg" alt="" class="w-8" aria-hidden="true" />
+  <img src="/assets/images/icons/resume.svg" alt="" class="dark:hidden" aria-hidden="true" />
+  <img src="/assets/images/icons/resume-dark.svg" alt="" class="hidden dark:block" aria-hidden="true" />
   <span class="sr-only">Resume</span>
 </a>
 
 <a href="/projects" title="Projects" aria-label="View my open source projects" data-dock-item="" class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-projects">
-  <img src="/assets/images/icons/projects.svg" alt="" class="w-8" aria-hidden="true" />
+  <img src="/assets/images/icons/projects.svg" alt="" class="dark:hidden" aria-hidden="true" />
+  <img src="/assets/images/icons/projects-dark.svg" alt="" class="hidden dark:block" aria-hidden="true" />
   <span class="sr-only">Projects</span>
 </a>
 
 <a href="/recommendations" title="Recommendations" aria-label="Read recommendations from colleagues" data-dock-item="" class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-recommendations">
-  <img src="/assets/images/icons/recommended.svg" alt="" class="w-8" aria-hidden="true" />
+  <img src="/assets/images/icons/recommended.svg" alt="" class="dark:hidden" aria-hidden="true" />
+  <img src="/assets/images/icons/recommended-dark.svg" alt="" class="hidden dark:block" aria-hidden="true" />
   <span class="sr-only">Recommendations</span>
 </a>
 
 <a href="mailto:emmanuel@hey.com" title="Email" aria-label="Send me an email" data-dock-item="" class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-email">
-  <img src="/assets/images/icons/mail.svg" alt="" class="w-8" aria-hidden="true" />
+  <img src="/assets/images/icons/mail.svg" alt="" class="dark:hidden" aria-hidden="true" />
+  <img src="/assets/images/icons/mail-dark.svg" alt="" class="hidden dark:block" aria-hidden="true" />
   <span class="sr-only">Email</span>
 </a>
 
 <a href="/llms.txt" title="LLM Profile" aria-label="View LLM-friendly version of this site" data-dock-item="" class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-llm">
-  <img src="/assets/images/icons/ai.svg" alt="" class="w-8" aria-hidden="true" />
+  <img src="/assets/images/icons/ai.svg" alt="" class="dark:hidden" aria-hidden="true" />
+  <img src="/assets/images/icons/ai-dark.svg" alt="" class="hidden dark:block" aria-hidden="true" />
   <span class="sr-only">LLM-friendly profile</span>
 </a>
 
 <a href="https://www.linkedin.com/in/cousinemmanuel/" title="LinkedIn" aria-label="Visit my LinkedIn profile" target="_blank" rel="noopener noreferrer" data-dock-item="" class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-linkedin">
-  <img src="/assets/images/icons/linkedin.svg" alt="" class="w-8 rounded-lg" aria-hidden="true" />
+  <img src="/assets/images/icons/linkedin.svg" alt="" class="rounded-lg" aria-hidden="true" />
   <span class="sr-only">LinkedIn</span>
 </a>
 
 <a href="https://github.com/emcousin" title="GitHub" aria-label="Visit my GitHub profile" target="_blank" rel="noopener noreferrer" data-dock-item="" class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-github">
-  <img src="/assets/images/icons/github.svg" alt="" class="w-8 dark:hidden" aria-hidden="true" />
-  <img src="/assets/images/icons/github-white.svg" alt="" class="w-8 hidden dark:block" aria-hidden="true" />
+  <img src="/assets/images/icons/github.svg" alt="" class="dark:hidden" aria-hidden="true" />
+  <img src="/assets/images/icons/github-white.svg" alt="" class="hidden dark:block" aria-hidden="true" />
   <span class="sr-only">GitHub</span>
 </a>
 
   </div>
 </div>
 
-<div class="hidden md:flex h-24 sm:h-28 lg:h-32 space-x-4 lg:space-x-6 items-start mt-8 mb-6">
+<div class="hidden lg:flex h-32 space-x-6 items-start mt-8 mb-6">
   <a href="/" class="h-full">
     <img src="/assets/images/emmanuel.webp" class="h-full rounded-xl" alt="Emmanuel Cousin's avatar" />
   </a>
 
-  <div class="flex flex-col justify-between h-full">
-    <div>
-      <a href="/" class="block text-3xl lg:text-4xl font-bold text-gray-950 visited:text-gray-950 dark:text-white dark:visited:text-white">Emmanuel Cousin</a>
-      <p class="text-base mt-2 leading-tight">
-        Senior Software Engineer and Programming Mentor.<br />
-        Ruby on Rails, React, TypeScript.<br />
-        I make teams ship better software.
-      </p>
-    </div>
-
-    <div data-dock="" class="flex items-end gap-3 lg:hidden">
-      <a href="/" title="Home" aria-label="Go to home page" data-dock-item="" class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-home">
-  <img src="/assets/images/icons/home.svg" alt="" class="w-8" aria-hidden="true" />
-  <span class="sr-only">Home</span>
-</a>
-
-<a href="/resume" title="Resume" aria-label="View my resume" data-dock-item="" class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-resume">
-  <img src="/assets/images/icons/resume.svg" alt="" class="w-8" aria-hidden="true" />
-  <span class="sr-only">Resume</span>
-</a>
-
-<a href="/projects" title="Projects" aria-label="View my open source projects" data-dock-item="" class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-projects">
-  <img src="/assets/images/icons/projects.svg" alt="" class="w-8" aria-hidden="true" />
-  <span class="sr-only">Projects</span>
-</a>
-
-<a href="/recommendations" title="Recommendations" aria-label="Read recommendations from colleagues" data-dock-item="" class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-recommendations">
-  <img src="/assets/images/icons/recommended.svg" alt="" class="w-8" aria-hidden="true" />
-  <span class="sr-only">Recommendations</span>
-</a>
-
-<a href="mailto:emmanuel@hey.com" title="Email" aria-label="Send me an email" data-dock-item="" class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-email">
-  <img src="/assets/images/icons/mail.svg" alt="" class="w-8" aria-hidden="true" />
-  <span class="sr-only">Email</span>
-</a>
-
-<a href="/llms.txt" title="LLM Profile" aria-label="View LLM-friendly version of this site" data-dock-item="" class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-llm">
-  <img src="/assets/images/icons/ai.svg" alt="" class="w-8" aria-hidden="true" />
-  <span class="sr-only">LLM-friendly profile</span>
-</a>
-
-<a href="https://www.linkedin.com/in/cousinemmanuel/" title="LinkedIn" aria-label="Visit my LinkedIn profile" target="_blank" rel="noopener noreferrer" data-dock-item="" class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-linkedin">
-  <img src="/assets/images/icons/linkedin.svg" alt="" class="w-8 rounded-lg" aria-hidden="true" />
-  <span class="sr-only">LinkedIn</span>
-</a>
-
-<a href="https://github.com/emcousin" title="GitHub" aria-label="Visit my GitHub profile" target="_blank" rel="noopener noreferrer" data-dock-item="" class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-github">
-  <img src="/assets/images/icons/github.svg" alt="" class="w-8 dark:hidden" aria-hidden="true" />
-  <img src="/assets/images/icons/github-white.svg" alt="" class="w-8 hidden dark:block" aria-hidden="true" />
-  <span class="sr-only">GitHub</span>
-</a>
-
-    </div>
+  <div>
+    <a href="/" class="block text-4xl font-bold text-gray-950 visited:text-gray-950 dark:text-white dark:visited:text-white">Emmanuel Cousin</a>
+    <p class="text-base mt-2 leading-tight">
+      Senior Software Engineer and Programming Mentor.<br />
+      Ruby on Rails, React, TypeScript.<br />
+      I make teams ship better software.
+    </p>
   </div>
 </div>
 
@@ -395,45 +355,51 @@ end</code></pre>
 
     <nav class="hidden lg:block fixed bottom-0 left-1/2 -translate-x-1/2 z-50" aria-label="Main navigation">
       <div data-dock class="px-32 pt-40">
-        <div class="flex items-end justify-center gap-8 px-10 py-5 rounded-t-3xl bg-white/30 dark:bg-slate-800/30 backdrop-blur-sm border border-b-0 border-white/20 dark:border-slate-700/30 shadow-lg [&_img]:w-14">
+        <div class="flex items-end justify-center gap-8 px-10 py-5 rounded-t-3xl bg-white/30 dark:bg-slate-800/30 backdrop-blur-sm border border-b-0 border-white/20 dark:border-slate-700/30 shadow-lg">
           <a href="/" title="Home" aria-label="Go to home page" data-dock-item class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-home">
-  <img src="/assets/images/icons/home.svg" alt="" class="w-8" aria-hidden="true" />
+  <img src="/assets/images/icons/home.svg" alt="" class="dark:hidden" aria-hidden="true" />
+  <img src="/assets/images/icons/home-dark.svg" alt="" class="hidden dark:block" aria-hidden="true" />
   <span class="sr-only">Home</span>
 </a>
 
 <a href="/resume" title="Resume" aria-label="View my resume" data-dock-item class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-resume">
-  <img src="/assets/images/icons/resume.svg" alt="" class="w-8" aria-hidden="true" />
+  <img src="/assets/images/icons/resume.svg" alt="" class="dark:hidden" aria-hidden="true" />
+  <img src="/assets/images/icons/resume-dark.svg" alt="" class="hidden dark:block" aria-hidden="true" />
   <span class="sr-only">Resume</span>
 </a>
 
 <a href="/projects" title="Projects" aria-label="View my open source projects" data-dock-item class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-projects">
-  <img src="/assets/images/icons/projects.svg" alt="" class="w-8" aria-hidden="true" />
+  <img src="/assets/images/icons/projects.svg" alt="" class="dark:hidden" aria-hidden="true" />
+  <img src="/assets/images/icons/projects-dark.svg" alt="" class="hidden dark:block" aria-hidden="true" />
   <span class="sr-only">Projects</span>
 </a>
 
 <a href="/recommendations" title="Recommendations" aria-label="Read recommendations from colleagues" data-dock-item class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-recommendations">
-  <img src="/assets/images/icons/recommended.svg" alt="" class="w-8" aria-hidden="true" />
+  <img src="/assets/images/icons/recommended.svg" alt="" class="dark:hidden" aria-hidden="true" />
+  <img src="/assets/images/icons/recommended-dark.svg" alt="" class="hidden dark:block" aria-hidden="true" />
   <span class="sr-only">Recommendations</span>
 </a>
 
 <a href="mailto:emmanuel@hey.com" title="Email" aria-label="Send me an email" data-dock-item class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-email">
-  <img src="/assets/images/icons/mail.svg" alt="" class="w-8" aria-hidden="true" />
+  <img src="/assets/images/icons/mail.svg" alt="" class="dark:hidden" aria-hidden="true" />
+  <img src="/assets/images/icons/mail-dark.svg" alt="" class="hidden dark:block" aria-hidden="true" />
   <span class="sr-only">Email</span>
 </a>
 
 <a href="/llms.txt" title="LLM Profile" aria-label="View LLM-friendly version of this site" data-dock-item class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-llm">
-  <img src="/assets/images/icons/ai.svg" alt="" class="w-8" aria-hidden="true" />
+  <img src="/assets/images/icons/ai.svg" alt="" class="dark:hidden" aria-hidden="true" />
+  <img src="/assets/images/icons/ai-dark.svg" alt="" class="hidden dark:block" aria-hidden="true" />
   <span class="sr-only">LLM-friendly profile</span>
 </a>
 
 <a href="https://www.linkedin.com/in/cousinemmanuel/" title="LinkedIn" aria-label="Visit my LinkedIn profile" target="_blank" rel="noopener noreferrer" data-dock-item class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-linkedin">
-  <img src="/assets/images/icons/linkedin.svg" alt="" class="w-8 rounded-lg" aria-hidden="true" />
+  <img src="/assets/images/icons/linkedin.svg" alt="" class="rounded-lg" aria-hidden="true" />
   <span class="sr-only">LinkedIn</span>
 </a>
 
 <a href="https://github.com/emcousin" title="GitHub" aria-label="Visit my GitHub profile" target="_blank" rel="noopener noreferrer" data-dock-item class="origin-bottom no-underline hover:no-underline" style="view-transition-name: dock-github">
-  <img src="/assets/images/icons/github.svg" alt="" class="w-8 dark:hidden" aria-hidden="true" />
-  <img src="/assets/images/icons/github-white.svg" alt="" class="w-8 hidden dark:block" aria-hidden="true" />
+  <img src="/assets/images/icons/github.svg" alt="" class="dark:hidden" aria-hidden="true" />
+  <img src="/assets/images/icons/github-white.svg" alt="" class="hidden dark:block" aria-hidden="true" />
   <span class="sr-only">GitHub</span>
 </a>
 

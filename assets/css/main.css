@@ -34,4 +34,18 @@
   ul > li {
     @apply ml-4;
   }
+
+  [data-dock-item] {
+    flex-shrink: 0;
+  }
+
+  [data-dock-item] img {
+    width: 32px;
+    min-width: 32px;
+  }
+
+  nav [data-dock-item] img {
+    width: 48px;
+    min-width: 48px;
+  }
 }

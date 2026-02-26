@@ -127,12 +127,12 @@ class Dock {
     let offset = 0
 
     for (let i = 0; i < index; i++) {
-      const extraWidth = (scales[i] - minScale) * 56
+      const extraWidth = (scales[i] - minScale) * 48
       offset += extraWidth / 2
     }
 
     for (let i = index + 1; i < scales.length; i++) {
-      const extraWidth = (scales[i] - minScale) * 56
+      const extraWidth = (scales[i] - minScale) * 48
       offset -= extraWidth / 2
     }
 

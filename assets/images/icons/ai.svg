@@ -1,0 +1,13 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="32" cy="32" r="32" fill="#8b5cf6"/>
+  <!-- Robot head -->
+  <rect x="18" y="22" width="28" height="24" rx="4" fill="#fff"/>
+  <!-- Antenna -->
+  <line x1="32" y1="22" x2="32" y2="14" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="32" cy="12" r="3" fill="#fff"/>
+  <!-- Eyes -->
+  <circle cx="24" cy="32" r="4" fill="#8b5cf6"/>
+  <circle cx="40" cy="32" r="4" fill="#8b5cf6"/>
+  <!-- Mouth grid -->
+  <rect x="24" y="40" width="16" height="4" rx="1" fill="#8b5cf6"/>
+</svg>

@@ -19,6 +19,6 @@ description: "Welcome to my personal website. You'll learn to know who I am and 
 
   <p class="animate-fade-in animation-duration-1000 animation-delay-1000">I’m open to remote senior IC or tech lead roles, especially with teams building software that makes a real difference in people’s lives. I like being hands-on: writing code, reviewing code, and raising the bar for the engineers around me. If you have a project, a team, or just a good feeling about me, feel free to <a href="/resume">check my resume</a> or <a href="mailto:emmanuel@hey.com">reach out</a>.</p>
 
-  <p class="animate-fade-in animation-duration-1000 animation-delay-1000">You can also find me on <a href="https://twitter.com/emcousin/">Twitter</a> or <a href="https://www.linkedin.com/in/cousinemmanuel/">LinkedIn</a>.</p>
+  <p class="animate-fade-in animation-duration-1000 animation-delay-1000">You can also find me on my <a href="https://world.hey.com/emmanuel/">blog</a>, <a href="https://twitter.com/emcousin/">Twitter</a> or <a href="https://www.linkedin.com/in/cousinemmanuel/">LinkedIn</a>.</p>
 </article>
 

@@ -7,6 +7,7 @@
 - Email: emmanuel@hey.com
 - Website: https://emcousin.github.io
 - LinkedIn: https://www.linkedin.com/in/cousinemmanuel/
+- Blog: https://world.hey.com/emmanuel/
 - GitHub: https://github.com/emcousin
 - Twitter: https://twitter.com/emcousin/
 

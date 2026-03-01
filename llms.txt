@@ -57,7 +57,7 @@ Currently open to new opportunities, especially with teams building software tha
 
 ## Professional Experience
 
-### Gumroad (Antiwork) — Senior Software Engineer
+### Gumroad (Antiwork) — Senior Software Engineer (Contract)
 **August 2025 - March 2026**
 
 Gumroad is a digital product e-commerce platform serving hundreds of thousands of creators and millions of buyers worldwide, processing payments through Stripe and PayPal. The codebase is fully open-source.
@@ -80,7 +80,7 @@ Gumroad is a digital product e-commerce platform serving hundreds of thousands o
 
 ---
 
-### Spring.net — Senior Software Engineer
+### Spring.net — Senior Software Engineer (Contract)
 **June 2024 - April 2025**
 
 Spring creates equal investment opportunities for everyday investors through a single, user-friendly platform. By handling everything from opportunity discovery to trading in one system, Spring simplifies complex processes so regular people can access markets previously reserved for financial professionals.
@@ -95,7 +95,7 @@ Spring creates equal investment opportunities for everyday investors through a s
 
 ---
 
-### Reprtoir (Rendez-Vous Digital) — Senior Software Engineer
+### Reprtoir (Rendez-Vous Digital) — Senior Software Engineer (Contract)
 **July 2021 - April 2024**
 
 Reprtoir is a software-as-a-service platform driving innovation in the music industry, helping rights holders manage and monetize their catalogs.
@@ -140,7 +140,7 @@ First Ruby Friend is a mentorship program connecting aspiring Ruby developers wi
 
 ---
 
-### Small Door Veterinary — Lead Developer
+### Small Door Veterinary — Lead Developer (Contract)
 **January 2021 - July 2021**
 
 Small Door is a membership-based veterinary practice providing modern, high-quality pet care.
@@ -156,7 +156,7 @@ As part of overseeing the maintenance and feature development of web and mobile 
 
 ---
 
-### Braidio (ShaShee Interactive Networks) — Senior Developer
+### Braidio (ShaShee Interactive Networks) — Senior Developer (Contract)
 **February 2019 - January 2021**
 
 Braidio is a project management software created by ShaShee Interactive Networks, an American company.
@@ -172,7 +172,7 @@ Braidio is a project management software created by ShaShee Interactive Networks
 
 ---
 
-### CheckSub — Developer
+### CheckSub — Developer (Freelance)
 **January 2018 - July 2018**
 
 CheckSub provides a transcription platform for content creators. This was Emmanuel's first client as a freelancer.

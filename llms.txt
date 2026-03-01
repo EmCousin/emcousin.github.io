@@ -60,7 +60,7 @@ Currently open to new opportunities, especially with teams building software tha
 ### Gumroad (Antiwork) — Senior Software Engineer (Contract)
 **August 2025 - March 2026**
 
-Gumroad is a digital product e-commerce platform serving hundreds of thousands of creators and millions of buyers worldwide, processing payments through Stripe and PayPal. The codebase is fully open-source.
+Gumroad is a digital product e-commerce platform with 26M+ registered users, 11M+ products, and 330M+ purchases to date, handling 20,000–50,000 concurrent users. Processing payments through Stripe and PayPal. The codebase is fully open-source.
 
 **Impact:**
 - Authored 68 merged PRs (48K+ lines of code, 889 files touched)

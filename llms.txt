@@ -220,6 +220,22 @@ Captain Contrat is a transformative startup committed to empowering entrepreneur
 
 ---
 
+## Education
+
+### ITEEM, École Centrale de Lille - Master's Degree, Engineer Manager Entrepreneur
+**September 2007 - October 2012**
+
+Graduated as an Engineer from ITEEM, a programme of École Centrale de Lille, with studies in Computer Science and a specialisation in Industrial and Entrepreneurial Engineering.
+- Website: https://iteem.centralelille.fr/
+
+### Sherbrooke University - Exchange Program
+**September 2011 - April 2012**
+
+Certificate of Applied Sciences at Sherbrooke University in Quebec, Canada. Coursework in engineering project management, budget management, functional analysis, quality management, and change management.
+- Website: https://www.usherbrooke.ca/
+
+---
+
 ## Professional Recommendations
 
 Emmanuel has 19 professional recommendations from colleagues across 8 different companies. Below are all recommendations organized by theme.
@@ -376,5 +392,6 @@ Major contributor to Gumroad's open-source codebase. Led the frontend migration 
 
 - Home: https://emcousin.github.io/
 - Resume: https://emcousin.github.io/resume
-- Recommendations: https://emcousin.github.io/recommendations
+- Education: https://emcousin.github.io/education
 - Projects: https://emcousin.github.io/projects
+- Recommendations: https://emcousin.github.io/recommendations

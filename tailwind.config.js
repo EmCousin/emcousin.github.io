@@ -41,7 +41,8 @@ module.exports = {
         'slide-in-from-right': 'slide-in-from-right var(--animation-duration) both',
         'flip-and-zoom-in': 'flip-and-zoom-in var(--animation-duration) both',
         'fade-in': 'fade-in var(--animation-duration) both',
-        'scale-up': 'scale-up var(--animation-duration) both'
+        'scale-up': 'scale-up var(--animation-duration) both',
+        'unfurl': 'unfurl var(--animation-duration) cubic-bezier(0.34, 1.56, 0.64, 1) both'
       },
       keyframes: {
         'slide-in-from-left': {
@@ -64,6 +65,10 @@ module.exports = {
         'scale-up': {
           '0%': { transform: 'scale(0.8)', opacity: 0 },
           '100%': { transform: 'scale(1)', opacity: 1 }
+        },
+        'unfurl': {
+          '0%': { transform: 'scaleY(0) rotateX(60deg)', opacity: 0, transformOrigin: 'top center' },
+          '100%': { transform: 'scaleY(1) rotateX(0deg)', opacity: 1, transformOrigin: 'top center' }
         }
       }
     }

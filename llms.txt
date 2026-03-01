@@ -18,7 +18,7 @@ His focus areas include code review, architectural guidance, and hands-on mentor
 
 Emmanuel is known for elevating the engineers around him through thorough code reviews, architectural discussions, and patient mentorship. He brings thoughtfulness to every codebase he works on—challenging assumptions when needed to reach better outcomes.
 
-Currently open to new opportunities, especially with teams building software that makes a real difference in people's lives.
+Currently open to senior IC or tech lead roles, especially with teams building software that makes a real difference in people's lives. He likes being hands-on: writing code, reviewing code, and raising the bar for the engineers around him.
 
 ## Core Technical Skills
 

@@ -17,7 +17,7 @@ description: "Welcome to my personal website. You'll learn to know who I am and 
 
   <p class="animate-fade-in animation-duration-1000 animation-delay-1000">Most recently at <a href="https://gumroad.com">Gumroad</a>, I led the frontend architecture migration to Inertia.js in a public open-source codebase, authoring 68 merged PRs and reviewing 425+ more in 6 months.</p>
 
-  <p class="animate-fade-in animation-duration-1000 animation-delay-1000">I’m open to new opportunities, especially with teams building software that makes a real difference in people’s lives. If you have a project, a team, or just a good feeling about me, feel free to <a href="/resume">check my resume</a> or <a href="mailto:emmanuel@hey.com">reach out</a>.</p>
+  <p class="animate-fade-in animation-duration-1000 animation-delay-1000">I’m open to senior IC or tech lead roles, especially with teams building software that makes a real difference in people’s lives. I like being hands-on: writing code, reviewing code, and raising the bar for the engineers around me. If you have a project, a team, or just a good feeling about me, feel free to <a href="/resume">check my resume</a> or <a href="mailto:emmanuel@hey.com">reach out</a>.</p>
 
   <p class="animate-fade-in animation-duration-1000 animation-delay-1000">You can also find me on <a href="https://twitter.com/emcousin/">Twitter</a> or <a href="https://www.linkedin.com/in/cousinemmanuel/">LinkedIn</a>.</p>
 </article>

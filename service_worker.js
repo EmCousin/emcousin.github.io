@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v24'
+const CACHE_VERSION = 'v25'
 const CACHE_NAME = CACHE_VERSION + ':sw-cache-emmanuel-cousin'
 
 function onInstall(event) {
@@ -16,6 +16,8 @@ function onInstall(event) {
         '/assets/images/icons/resume.svg',
         '/assets/images/icons/projects.svg',
         '/assets/images/icons/recommended.svg',
+        '/assets/images/icons/education.svg',
+        '/assets/images/icons/education-dark.svg',
         '/assets/images/resume/gumroad_logo.webp',
         '/assets/images/resume/spring_logo.jpg',
         '/assets/images/resume/first_ruby_friend_logo.svg',
@@ -24,6 +26,8 @@ function onInstall(event) {
         '/assets/images/resume/checksub_logo.webp',
         '/assets/images/resume/my_job_glasses_logo.webp',
         '/assets/images/resume/captain_contrat_logo.webp',
+        '/assets/images/resume/iteem_logo.webp',
+        '/assets/images/resume/sherbrooke_logo.webp',
         '/assets/images/recommendations/avatar-placeholder.svg',
         '/assets/images/recommendations/gianfranco.webp',
         '/assets/images/recommendations/sebastian.webp',
@@ -49,6 +53,7 @@ function onInstall(event) {
         '/',
         '/resume',
         '/recommendations',
+        '/education',
         '/projects',
         '/llms.txt',
         '/favicon.ico',

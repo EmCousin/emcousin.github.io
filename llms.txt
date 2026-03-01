@@ -18,7 +18,7 @@ His focus areas include code review, architectural guidance, and hands-on mentor
 
 Emmanuel is known for elevating the engineers around him through thorough code reviews, architectural discussions, and patient mentorship. He brings thoughtfulness to every codebase he works on—challenging assumptions when needed to reach better outcomes.
 
-Currently open to new opportunities, especially with teams building software that makes a real difference in people's lives.
+Currently open to remote senior IC or tech lead roles, especially with teams building software that makes a real difference in people's lives. He likes being hands-on: writing code, reviewing code, and raising the bar for the engineers around him.
 
 ## Core Technical Skills
 
@@ -57,10 +57,10 @@ Currently open to new opportunities, especially with teams building software tha
 
 ## Professional Experience
 
-### Gumroad (Antiwork) — Senior Software Engineer
+### Gumroad (Antiwork) — Senior Software Engineer (Contract)
 **August 2025 - March 2026**
 
-Gumroad is a digital product e-commerce platform serving hundreds of thousands of creators and millions of buyers worldwide, processing payments through Stripe and PayPal. The codebase is fully open-source.
+Gumroad is a digital product e-commerce platform with 26M+ registered users, 11M+ products, and 330M+ purchases to date, handling 20,000–50,000 concurrent users. Processing payments through Stripe and PayPal. The codebase is fully open-source.
 
 **Impact:**
 - Authored 68 merged PRs (48K+ lines of code, 889 files touched)
@@ -80,7 +80,7 @@ Gumroad is a digital product e-commerce platform serving hundreds of thousands o
 
 ---
 
-### Spring.net — Senior Software Engineer
+### Spring.net — Senior Software Engineer (Contract)
 **June 2024 - April 2025**
 
 Spring creates equal investment opportunities for everyday investors through a single, user-friendly platform. By handling everything from opportunity discovery to trading in one system, Spring simplifies complex processes so regular people can access markets previously reserved for financial professionals.
@@ -95,7 +95,7 @@ Spring creates equal investment opportunities for everyday investors through a s
 
 ---
 
-### Reprtoir (Rendez-Vous Digital) — Senior Software Engineer
+### Reprtoir (Rendez-Vous Digital) — Senior Software Engineer (Contract)
 **July 2021 - April 2024**
 
 Reprtoir is a software-as-a-service platform driving innovation in the music industry, helping rights holders manage and monetize their catalogs.
@@ -140,7 +140,7 @@ First Ruby Friend is a mentorship program connecting aspiring Ruby developers wi
 
 ---
 
-### Small Door Veterinary — Lead Developer
+### Small Door Veterinary — Lead Developer (Contract)
 **January 2021 - July 2021**
 
 Small Door is a membership-based veterinary practice providing modern, high-quality pet care.
@@ -156,7 +156,7 @@ As part of overseeing the maintenance and feature development of web and mobile 
 
 ---
 
-### Braidio (ShaShee Interactive Networks) — Senior Developer
+### Braidio (ShaShee Interactive Networks) — Senior Developer (Contract)
 **February 2019 - January 2021**
 
 Braidio is a project management software created by ShaShee Interactive Networks, an American company.
@@ -172,7 +172,7 @@ Braidio is a project management software created by ShaShee Interactive Networks
 
 ---
 
-### CheckSub — Developer
+### CheckSub — Developer (Freelance)
 **January 2018 - July 2018**
 
 CheckSub provides a transcription platform for content creators. This was Emmanuel's first client as a freelancer.
@@ -217,6 +217,22 @@ Captain Contrat is a transformative startup committed to empowering entrepreneur
 - Successfully recruited and mentored a student who has since flourished in a rewarding career as a Rails developer
 
 **Technologies:** Ruby on Rails, JavaScript, MySQL, PostgreSQL, Amazon Web Services
+
+---
+
+## Education
+
+### ITEEM, École Centrale de Lille - Master's Degree, Engineer Manager Entrepreneur
+**September 2007 - October 2012**
+
+Graduated as an Engineer from ITEEM, a programme of École Centrale de Lille, with studies in Computer Science and a specialisation in Industrial and Entrepreneurial Engineering.
+- Website: https://iteem.centralelille.fr/
+
+### Sherbrooke University - Exchange Program
+**September 2011 - April 2012**
+
+Certificate of Applied Sciences at Sherbrooke University in Quebec, Canada. Coursework in engineering project management, budget management, functional analysis, quality management, and change management.
+- Website: https://www.usherbrooke.ca/
 
 ---
 
@@ -376,5 +392,6 @@ Major contributor to Gumroad's open-source codebase. Led the frontend migration 
 
 - Home: https://emcousin.github.io/
 - Resume: https://emcousin.github.io/resume
-- Recommendations: https://emcousin.github.io/recommendations
+- Education: https://emcousin.github.io/education
 - Projects: https://emcousin.github.io/projects
+- Recommendations: https://emcousin.github.io/recommendations

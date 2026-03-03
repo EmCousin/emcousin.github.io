@@ -1,6 +1,6 @@
 # Emmanuel Cousin
 
-> Senior Software Engineer and Programming Mentor with 10+ years of experience building and scaling web applications.
+> Senior Software Engineer, Technical Lead & Mentor with 10+ years of experience leading teams and building web applications.
 
 ## Contact & Profiles
 
@@ -13,13 +13,13 @@
 
 ## About
 
-Emmanuel Cousin is a Senior Software Engineer specializing in Ruby on Rails, React, and TypeScript. He has over a decade of experience building web applications and is passionate about mentoring developers through First Ruby Friend.
+Emmanuel Cousin is a Senior Software Engineer and Technical Lead specializing in Ruby on Rails, React, and TypeScript. He has over a decade of experience building web applications and is passionate about mentoring developers through First Ruby Friend.
 
 His focus areas include code review, architectural guidance, and hands-on mentoring. He believes that as AI reshapes how we write software, the bottleneck is shifting from writing code to knowing what to build and helping teams build it well.
 
 Emmanuel is known for elevating the engineers around him through thorough code reviews, architectural discussions, and patient mentorship. He brings thoughtfulness to every codebase he works on—challenging assumptions when needed to reach better outcomes.
 
-Currently open to remote senior IC or tech lead roles, especially with teams building software that makes a real difference in people's lives. He likes being hands-on: writing code, reviewing code, and raising the bar for the engineers around him.
+Currently open to remote senior IC or tech lead roles, especially with teams building software that makes a real difference in people's lives. He likes being hands-on: writing code, reviewing code, and raising the bar for the engineers around him. Fluent in English, French, and Portuguese.
 
 ## Core Technical Skills
 
@@ -58,15 +58,12 @@ Currently open to remote senior IC or tech lead roles, especially with teams bui
 
 ## Professional Experience
 
-### Gumroad (Antiwork) — Senior Software Engineer (Contract)
+### Gumroad (Antiwork) — Core Maintainer (Contract)
 **August 2025 - March 2026**
 
-Gumroad is a digital product e-commerce platform with 26M+ registered users, 11M+ products, and 330M+ purchases to date, handling 20,000–50,000 concurrent users. Processing payments through Stripe and PayPal. The codebase is fully open-source.
+Led the frontend architecture modernization and shipped major backend features including Stripe subscription lifecycle and fraud detection. Set quality standards through 425+ PR reviews and authored 68 merged PRs (48K+ lines, 889 files) in 6 months.
 
-**Impact:**
-- Authored 68 merged PRs (48K+ lines of code, 889 files touched)
-- Reviewed 425+ pull requests in 6 months
-- Led the company-wide frontend architecture modernization
+**About Gumroad:** Gumroad is a digital product e-commerce platform with 26M+ registered users, 11M+ products, and 330M+ purchases to date, handling 20,000–50,000 concurrent users. Processing payments through Stripe and PayPal. The codebase is fully open-source.
 
 **Key Contributions:**
 - Led the frontend migration from ERB/React on Rails to Inertia.js/React. Designed the multi-phase modernization roadmap, authored architectural guidelines, and decomposed the initiative into 42+ individually-scoped tasks enabling parallel execution by internal and open-source contributors. Drove 25+ page migrations to completion in 3 weeks through hands-on code review and mentorship.
@@ -84,13 +81,15 @@ Gumroad is a digital product e-commerce platform with 26M+ registered users, 11M
 ### Spring.net — Senior Software Engineer (Contract)
 **June 2024 - April 2025**
 
-Spring creates equal investment opportunities for everyday investors through a single, user-friendly platform. By handling everything from opportunity discovery to trading in one system, Spring simplifies complex processes so regular people can access markets previously reserved for financial professionals.
+Redesigned core investment platform systems, chose key technology decisions (InfluxDB for time-series data), and led codebase architecture improvements, raising code quality standards through thorough reviews.
+
+**About Spring:** Spring creates equal investment opportunities for everyday investors through a single, user-friendly platform. By handling everything from opportunity discovery to trading in one system, Spring simplifies complex processes so regular people can access markets previously reserved for financial professionals.
 
 **Key Contributions:**
-- Overhauled the investors' allocation management system for pre-TGE (Token Generation Event) and post-TGE deals
-- Developed a new modal navigation system using Turbo Frames
-- Implemented new price history data source, allowing users to see the price changes of the tokens in real time, leveraging InfluxDB and the Coingecko API
-- Massive architecture improvements to the codebase
+- Redesigned the investors' allocation management system to support both pre-TGE (Token Generation Event) and post-TGE deal lifecycles
+- Introduced a modal navigation pattern using Turbo Frames, replacing full-page reloads across the platform
+- Chose InfluxDB as the time-series backend for real-time token price tracking, integrating the Coingecko API as the data source
+- Led codebase architecture improvements, raising code quality standards through thorough reviews and refactoring
 
 **Technologies:** Software Infrastructure, Ruby on Rails, PostgreSQL, InfluxDB, Hotwire, Heroku, Web3, Blockchain
 
@@ -99,7 +98,9 @@ Spring creates equal investment opportunities for everyday investors through a s
 ### Reprtoir (Rendez-Vous Digital) — Senior Software Engineer (Contract)
 **July 2021 - April 2024**
 
-Reprtoir is a software-as-a-service platform driving innovation in the music industry, helping rights holders manage and monetize their catalogs.
+Enhanced Elasticsearch infrastructure for rights-holder portals, integrated Elasticsearch with Redshift for advanced analytics, and introduced AI-driven search capabilities for music compositions.
+
+**About Reprtoir:** Reprtoir is a software-as-a-service platform driving innovation in the music industry, helping rights holders manage and monetize their catalogs.
 
 **Key Contributions:**
 - Improved the existing ElasticSearch infrastructure, creating user-friendly and responsive portals for clients' Rights-Holders
@@ -144,14 +145,15 @@ First Ruby Friend is a mentorship program connecting aspiring Ruby developers wi
 ### Small Door Veterinary — Lead Developer (Contract)
 **January 2021 - July 2021**
 
-Small Door is a membership-based veterinary practice providing modern, high-quality pet care.
-
-As part of overseeing the maintenance and feature development of web and mobile apps, Emmanuel facilitated the shift in the company's product development strategy—transitioning from relying on external consultants for a single veterinary practice to establishing an internal team of diverse specialists serving multiple practices across various regions.
+As Lead Developer, Emmanuel drove the company's transition from outsourced development to a full internal engineering team, overseeing web and mobile apps while recruiting key hires and scaling the organization for multi-location expansion.
 
 **Key Contributions:**
-- Involvement in recruiting the Head of Product and Technology, along with two seasoned software developers
-- Led maintenance and feature development for web and mobile applications
-- Helped scale the engineering organization for multi-location expansion
+- Recruited the Head of Product and Technology, plus two senior software developers
+- Led maintenance and feature development across web (Rails/React) and mobile (React Native) applications
+- Defined engineering processes and team structure for scaling from one to multiple veterinary practices
+- Facilitated the organizational shift from external consultants to a self-sufficient internal team
+
+**About Small Door:** Small Door is a membership-based veterinary practice providing modern, high-quality pet care.
 
 **Technologies:** Leading Development Teams, Ruby on Rails, PostgreSQL, React.js, React Native, Amazon Web Services
 
@@ -160,14 +162,9 @@ As part of overseeing the maintenance and feature development of web and mobile 
 ### Braidio (ShaShee Interactive Networks) — Senior Developer (Contract)
 **February 2019 - January 2021**
 
-Braidio is a project management software created by ShaShee Interactive Networks, an American company.
+Collaborated with a distributed team, integrating third-party applications, developing features, strengthening data protection, and improving overall codebase quality.
 
-**Key Contributions:**
-- Collaborated with a distributed team of skilled developers
-- Integration of third-party apps
-- Development of innovative features
-- Reinforcement of data protection measures
-- Overall improvement of the code base
+**About Braidio:** Braidio is a project management software created by ShaShee Interactive Networks, an American company.
 
 **Technologies:** Ruby on Rails, React.js, PostgreSQL, React Native, Live Video Streaming
 
@@ -176,7 +173,9 @@ Braidio is a project management software created by ShaShee Interactive Networks
 ### CheckSub — Developer (Freelance)
 **January 2018 - July 2018**
 
-CheckSub provides a transcription platform for content creators. This was Emmanuel's first client as a freelancer.
+Built transcription workflow automation via Trello API integration and a granular subtitle editing dashboard using React, Redux, and Wavesurfer.js.
+
+**About CheckSub:** CheckSub provides a transcription platform for content creators.
 
 **Key Contributions:**
 - Automated the transcription process for captioners by integrating with the Trello API
@@ -190,7 +189,9 @@ CheckSub provides a transcription platform for content creators. This was Emmanu
 ### My Job Glasses — Web Developer
 **July 2017 - December 2017**
 
-My Job Glasses aims to redefine networking between students and professionals in Europe. The goal is to assist students in finding their dream job while helping professionals save time and money by connecting with the right profiles through a user-friendly web platform.
+Launched the V2 platform (frontend and backend), introduced KANBAN workflow to the tech team, and implemented inter-team processes.
+
+**About My Job Glasses:** My Job Glasses aims to redefine networking between students and professionals in Europe, helping students find their dream job while connecting professionals with the right profiles through a user-friendly web platform.
 
 **Key Contributions:**
 - Successfully launched V2, encompassing both back and front ends
@@ -204,9 +205,9 @@ My Job Glasses aims to redefine networking between students and professionals in
 ### Captain Contrat — Web Developer
 **January 2015 - July 2017**
 
-Captain Contrat is a transformative startup committed to empowering entrepreneurs with an economical web solution, facilitating the creation of robust and legally sound documents for establishing companies and job positions. It also serves as a valuable tool for lawyers.
+First salaried developer. Shipped core features (scheduling, dashboards, automated invoicing), implemented Agile/Lean methodologies, conducted training workshops, and mentored a junior developer. The team grew from 3 co-founders to 34 employees during his tenure.
 
-**Company Growth:** The team expanded from three co-founders and a handful of interns to a thriving unit of 34 employees, securing 1 million euros in fundraising during Emmanuel's tenure.
+**About Captain Contrat:** Captain Contrat is a legal tech startup empowering entrepreneurs with an economical web solution for creating legally sound documents. It also serves as a tool for lawyers, enhancing their efficiency and connectivity with entrepreneurs.
 
 **Key Contributions:**
 - Implemented and maintained various features, enriching the main app with functionalities such as appointment scheduling and customized dashboards for customers and lawyer partners

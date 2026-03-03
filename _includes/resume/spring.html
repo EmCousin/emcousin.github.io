@@ -10,7 +10,22 @@
     </div>
   </div>
 
-  <p class="mt-2">Spring creates equal investment opportunities for everyday investors through a single, user-friendly platform. By handling everything from opportunity discovery to trading in one system, Spring simplifies complex processes so regular people can access markets previously reserved for financial professionals.</p>
+  <p class="mt-2">Redesigned core investment platform systems, chose key technology decisions (InfluxDB for time-series data), and led codebase architecture improvements, raising code quality standards through thorough reviews.</p>
+
+  <div>
+    <details class="mt-2 peer group" aria-describedby="spring-about">
+      <summary class="cursor-pointer select-none py-2 font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center justify-between border-b border-gray-200 dark:border-gray-700">
+        <span>▸ About Spring</span>
+        <span class="text-xs opacity-60 group-open:hidden">Click to expand</span>
+        <span class="text-xs opacity-60 hidden group-open:inline">Click to collapse</span>
+      </summary>
+    </details>
+    <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
+      <div id="spring-about" class="min-h-0">
+        <p class="text-base"><a href="https://spring.net" class="text-blue-500 hover:text-blue-600" target="_blank">Spring</a> creates equal investment opportunities for everyday investors through a single, user-friendly platform. By handling everything from opportunity discovery to trading in one system, Spring simplifies complex processes so regular people can access markets previously reserved for financial professionals.</p>
+      </div>
+    </div>
+  </div>
 
   <div>
     <details class="mt-2 peer group" aria-describedby="spring-key-contributions">
@@ -23,11 +38,11 @@
     <div class="grid grid-rows-[0fr] peer-open:mt-3 peer-open:grid-rows-[1fr] overflow-hidden transition-[grid-template-rows] duration-200">
       <ul id="spring-key-contributions" class="min-h-0 text-base space-y-1">
         <li>
-          Overhauled the investors' allocation management system, for pre-<span class="border-b border-dotted cursor-help" title="Token Generation Event">TGE</span> and post-TGE deals
+          Redesigned the investors' allocation management system to support both pre-<span class="border-b border-dotted cursor-help" title="Token Generation Event">TGE</span> and post-TGE deal lifecycles
         </li>
-        <li>Developed a new modal navigation system using Turbo Frames</li>
-        <li>Implemented new price history data source, allowing users to see the price changes of the tokens in real time, leveraging InfluxDB and the Coingecko API</li>
-        <li>Massive architecture improvements to the codebase</li>
+        <li>Introduced a modal navigation pattern using Turbo Frames, replacing full-page reloads across the platform</li>
+        <li>Chose InfluxDB as the time-series backend for real-time token price tracking, integrating the Coingecko API as the data source</li>
+        <li>Led codebase architecture improvements, raising code quality standards through thorough reviews and refactoring</li>
       </ul>
     </div>
   </div>

@@ -15,7 +15,7 @@ description: "Welcome to my personal website. You'll learn to know who I am and 
 
   <p class="animate-fade-in animation-duration-1000 animation-delay-1000">AI is reshaping how we write software. The bottleneck is shifting from writing code to knowing what to build, and helping teams build it well. That’s where I focus. Whether through architectural decisions, thorough code review, or hands-on mentoring, I’ve spent my career making the people I work with better engineers.</p>
 
-  <p class="animate-fade-in animation-duration-1000 animation-delay-1000">Most recently at <a href="https://gumroad.com">Gumroad</a>, I led the frontend architecture migration to Inertia.js, designing the modernization roadmap, setting quality standards across 425+ PR reviews, and shipping 68 merged PRs in a public open-source codebase serving 26M+ users.</p>
+  <p class="animate-fade-in animation-duration-1000 animation-delay-1000">Most recently at <a href="https://gumroad.com">Gumroad</a>, I led the frontend migration to Inertia.js, shipped Stripe subscription features and fraud detection, and set quality standards across 425+ PR reviews and 73 merged PRs in a public open-source codebase serving 26M+ users.</p>
 
   <p class="animate-fade-in animation-duration-1000 animation-delay-1000">I’m open to remote senior IC or tech lead roles, especially with teams building software that makes a real difference in people’s lives. I like being hands-on: writing code, reviewing code, and raising the bar for the engineers around me. Fluent in English, French, and Portuguese. If you have a project, a team, or just a good feeling about me, feel free to <a href="/resume">check my resume</a> or <a href="mailto:emmanuel@hey.com">reach out</a>.</p>
 

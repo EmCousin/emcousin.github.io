@@ -70,7 +70,8 @@ Led the frontend architecture modernization and shipped major backend features i
 - Transitioned the entire admin panel from ERB to Inertia.js/React. Established the architecture, migrated 6+ pages with presenter patterns and infinite scroll, then removed ~4,000 lines of legacy code.
 - Designed a tab-per-controller architecture to decompose a tightly coupled product edit page, breaking a monolithic controller into modular, independently testable endpoints.
 - Shipped major payments and billing features including a full implementation of the subscription restart lifecycle on Stripe and automated fraud detection improvements. Extracted reusable domain concerns (AttributeBlockable, ChargeProcessable) to improve codebase maintainability.
-- Orchestrated delivery of 270,000+ personalized Year in Review emails, each requiring multiple Elasticsearch aggregation queries (creator ranking, sales analytics, geographic breakdowns). Built idempotent production scripts resilient to remote console disconnections to manage the multi-day send operation.
+- Orchestrated delivery of 270,000+ AI-powered personalized Year in Review emails, each requiring multiple Elasticsearch aggregation queries (creator ranking, sales analytics, geographic breakdowns). Built idempotent production scripts resilient to remote console disconnections to manage the multi-day send operation.
+- Designed an agentic developer workflow to review multiple PRs from multiple contributors for a given issue, streamlining the review process across parallel contributions.
 - Delivered the Black Friday 2025 promotional feature for Gumroad's Discover marketplace.
 - Maintained platform health through Rails upgrades, security fixes, and CI/CD pipeline ownership.
 
@@ -162,11 +163,17 @@ As Lead Developer, Emmanuel drove the company's transition from outsourced devel
 ### Braidio (ShaShee Interactive Networks) — Senior Developer (Contract)
 **February 2019 - January 2021**
 
-Collaborated with a distributed team, integrating third-party applications, developing features, strengthening data protection, and improving overall codebase quality.
+Collaborated with a distributed team, integrating third-party applications, developing features, strengthening data protection, and improving overall codebase quality. Contributed to web and mobile development for MyHealthConcierge, a healthcare application, and worked towards HIPAA certification of Braidio's entire tech ecosystem.
 
-**About Braidio:** Braidio is a project management software created by ShaShee Interactive Networks, an American company.
+**About Braidio:** Braidio is a software company created by ShaShee Interactive Networks, building project management and healthcare solutions including MyHealthConcierge, a health concierge application.
 
-**Technologies:** Ruby on Rails, React.js, PostgreSQL, React Native, Live Video Streaming
+**Key Contributions:**
+- Contributed to web and mobile features for MyHealthConcierge, a healthcare application handling sensitive patient data
+- Worked towards HIPAA certification of the entire Braidio tech ecosystem, implementing security and compliance measures across the software stack
+- Integrated third-party applications and strengthened data protection practices
+- Improved overall codebase quality through code reviews and refactoring
+
+**Technologies:** Ruby on Rails, React.js, PostgreSQL, React Native, Live Video Streaming, HIPAA Compliance
 
 ---
 

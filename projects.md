@@ -1,18 +1,24 @@
 ---
 layout: default
 title: "Projects"
-description: "Open source projects, gems, and contributions"
+description: "Glint G2 for Even G2 glasses, payments and AI work at Circle, Gumroad contributions, and Ruby tools."
 ---
 
 <section>
   {% include layouts/profile.html %}
 </section>
 
-<h2 class="mt-8 mb-4 text-2xl font-bold animate-fade-in animation-duration-500">Open Source</h2>
+<h2 class="mt-8 mb-4 text-2xl font-bold animate-fade-in animation-duration-500">Projects</h2>
 
 <p class="mb-8 animate-fade-in animation-duration-500">
-  I build tools that solve real problems. Here are some of my open source projects and contributions.
+  I build tools for Even G2 glasses and Ruby applications, alongside my payments and AI work at Circle and earlier contributions to Gumroad.
 </p>
+
+<h3 class="mt-8 mb-4 text-xl font-semibold animate-scale-up animation-duration-500">Even G2 glasses</h3>
+
+<section class="space-y-6">
+  {% include projects/apps/glint_g2.html %}
+</section>
 
 <h3 class="mt-8 mb-4 text-xl font-semibold animate-scale-up animation-duration-500">Ruby Gems</h3>
 
@@ -53,6 +59,10 @@ description: "Open source projects, gems, and contributions"
 <h3 class="mt-12 mb-4 text-xl font-semibold animate-scale-up animation-duration-[2.2s]">Contributions</h3>
 
 <section class="space-y-6">
+  <div class="animate-scale-up animation-duration-[2.4s]">
+    {% include projects/contributions/circle.html %}
+  </div>
+
   <div class="animate-scale-up animation-duration-[2.4s]">
     {% include projects/contributions/gumroad.html %}
   </div>

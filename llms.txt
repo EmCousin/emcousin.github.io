@@ -1,6 +1,8 @@
 # Emmanuel Cousin
 
-> Senior Software Engineer, Technical Lead & Mentor with 10+ years of experience leading teams and building web applications.
+> Software engineer at Circle, technical lead, and engineering mentor. Over 10 years building web products. Orchestrates AI workflows to ship faster and help teams build better software.
+
+Profile updated: October 6, 2026.
 
 ## Contact & Profiles
 
@@ -13,15 +15,22 @@
 
 ## About
 
-Emmanuel Cousin is a Senior Software Engineer and Technical Lead specializing in Ruby on Rails, React, and TypeScript. He has over a decade of experience building web applications and is passionate about mentoring developers through First Ruby Friend.
+Emmanuel Cousin is a senior software engineer at Circle, where he works on payments. He has over 10 years of experience building web products, leading technical projects, and mentoring engineers. He also volunteers as a mentor through First Ruby Friend.
 
-His focus areas include code review, architectural guidance, and hands-on mentoring. He believes that as AI reshapes how we write software, the bottleneck is shifting from writing code to knowing what to build and helping teams build it well.
+He orchestrates AI workflows from investigation and specifications through implementation and review. This lets him ship faster than ever and focus more of his time on building products, with less spent writing code by hand. At Circle, he ported Paywalls AI, the team's internal AI framework, to OpenCode so the team could work with different AI providers without depending on Claude.
 
-Emmanuel is known for elevating the engineers around him through thorough code reviews, architectural discussions, and patient mentorship. He brings thoughtfulness to every codebase he works on—challenging assumptions when needed to reach better outcomes.
+Colleagues describe him as a patient mentor and a thorough code reviewer. He enjoys learning a product well enough to make useful technical decisions and sharing what he learns with teammates.
 
-Currently open to remote senior IC or tech lead roles, especially with teams building software that makes a real difference in people's lives. He likes being hands-on: writing code, reviewing code, and raising the bar for the engineers around him. Fluent in English, French, and Portuguese.
+He speaks English, French, and Portuguese.
 
-## Core Technical Skills
+## Engineering Strengths
+
+- Understanding product requirements and making technical decisions
+- Payment security, subscription billing, and production reliability
+- AI workflow orchestration across investigation, specifications, implementation, and review
+- Leading technical projects and mentoring engineers
+
+## Technologies
 
 ### Backend
 - Ruby on Rails (primary expertise, 10+ years)
@@ -58,12 +67,31 @@ Currently open to remote senior IC or tech lead roles, especially with teams bui
 
 ## Professional Experience
 
-### Gumroad (Antiwork) — Core Maintainer (Contract)
+### Circle: Senior Software Engineer
+**March 2026 to present**
+
+Works on Circle's Payments Platform team, which maintains checkout, subscriptions, paywalls, and the rules that give members access to paid content.
+
+**About Circle:** Circle is a platform for building and running a digital business under your own brand. Creators and businesses use it to sell courses and memberships, host events, and manage their websites, payments, and email marketing in one place. Circle AI helps them create content and handle day-to-day business tasks.
+
+**Selected Contributions:**
+- Made checkout safer by protecting payment details from unauthorized changes and preventing repeated clicks or retries from processing the same purchase twice.
+- Built Circle AI features that let business owners manage paid memberships and change subscriptions through a conversation. They can review and confirm changes before applying them.
+- Helped business owners set up Stripe payments without leaving Circle. Improved the experience on mobile and added AI help that explains which account details are still needed.
+- Fixed payment and subscription problems, including unfinished purchases that left unwanted subscriptions behind and billing records that no longer matched Stripe.
+- Helped the team use AI more effectively by keeping changes small enough to review, improving how agents respond to feedback, and teaching them lessons from previous work.
+- Ported Paywalls AI, the team's internal AI framework, to OpenCode so the team could use different AI providers without depending on Claude.
+
+**Technologies and domain:** Payments, Stripe, Ruby on Rails, React, TypeScript, Circle AI, AI agent workflows, checkout security, subscriptions
+
+---
+
+### Gumroad (Antiwork): Core Maintainer (Contract)
 **August 2025 - March 2026**
 
 Led the frontend architecture modernization and shipped major backend features including Stripe subscription lifecycle and fraud detection. Set quality standards through 425+ PR reviews and authored 68 merged PRs (48K+ lines, 889 files) in 6 months.
 
-**About Gumroad:** Gumroad is a digital product e-commerce platform with 26M+ registered users, 11M+ products, and 330M+ purchases to date, handling 20,000–50,000 concurrent users. Processing payments through Stripe and PayPal. The codebase is fully open-source.
+**About Gumroad:** Gumroad is a digital product e-commerce platform with 26M+ registered users, 11M+ products, and 330M+ purchases to date, handling 20,000 to 50,000 concurrent users. Processing payments through Stripe and PayPal. The codebase is fully open-source.
 
 **Key Contributions:**
 - Led the frontend migration from ERB/React on Rails to Inertia.js/React. Designed the multi-phase modernization roadmap, authored architectural guidelines, and decomposed the initiative into 42+ individually-scoped tasks enabling parallel execution by internal and open-source contributors. Drove 25+ page migrations to completion in 3 weeks through hands-on code review and mentorship.
@@ -79,7 +107,7 @@ Led the frontend architecture modernization and shipped major backend features i
 
 ---
 
-### Spring.net — Senior Software Engineer (Contract)
+### Spring.net: Senior Software Engineer (Contract)
 **June 2024 - April 2025**
 
 Redesigned core investment platform systems, chose key technology decisions (InfluxDB for time-series data), and led codebase architecture improvements, raising code quality standards through thorough reviews.
@@ -96,7 +124,7 @@ Redesigned core investment platform systems, chose key technology decisions (Inf
 
 ---
 
-### Reprtoir (Rendez-Vous Digital) — Senior Software Engineer (Contract)
+### Reprtoir (Rendez-Vous Digital): Senior Software Engineer (Contract)
 **July 2021 - April 2024**
 
 Enhanced Elasticsearch infrastructure for rights-holder portals, integrated Elasticsearch with Redshift for advanced analytics, and introduced AI-driven search capabilities for music compositions.
@@ -114,7 +142,7 @@ Enhanced Elasticsearch infrastructure for rights-holder portals, integrated Elas
 
 ---
 
-### First Ruby Friend — Volunteer Programming Mentor
+### First Ruby Friend: Volunteer Programming Mentor
 **March 2023 - Present**
 
 First Ruby Friend is a mentorship program connecting aspiring Ruby developers with experienced mentors. Emmanuel delivers impactful mentorship to individuals, including students and professionals transitioning into programming.
@@ -143,7 +171,7 @@ First Ruby Friend is a mentorship program connecting aspiring Ruby developers wi
 
 ---
 
-### Small Door Veterinary — Lead Developer (Contract)
+### Small Door Veterinary: Lead Developer (Contract)
 **January 2021 - July 2021**
 
 As Lead Developer, Emmanuel drove the company's transition from outsourced development to a full internal engineering team, overseeing web and mobile apps while recruiting key hires and scaling the organization for multi-location expansion.
@@ -160,7 +188,7 @@ As Lead Developer, Emmanuel drove the company's transition from outsourced devel
 
 ---
 
-### Braidio (ShaShee Interactive Networks) — Senior Developer (Contract)
+### Braidio (ShaShee Interactive Networks): Senior Developer (Contract)
 **February 2019 - January 2021**
 
 Collaborated with a distributed team, integrating third-party applications, developing features, strengthening data protection, and improving overall codebase quality. Contributed to web and mobile development for MyHealthConcierge, a healthcare application, and worked towards HIPAA certification of Braidio's entire tech ecosystem.
@@ -177,7 +205,7 @@ Collaborated with a distributed team, integrating third-party applications, deve
 
 ---
 
-### CheckSub — Developer (Freelance)
+### CheckSub: Developer (Freelance)
 **January 2018 - July 2018**
 
 Built transcription workflow automation via Trello API integration and a granular subtitle editing dashboard using React, Redux, and Wavesurfer.js.
@@ -193,7 +221,7 @@ Built transcription workflow automation via Trello API integration and a granula
 
 ---
 
-### My Job Glasses — Web Developer
+### My Job Glasses: Web Developer
 **July 2017 - December 2017**
 
 Launched the V2 platform (frontend and backend), introduced KANBAN workflow to the tech team, and implemented inter-team processes.
@@ -209,10 +237,10 @@ Launched the V2 platform (frontend and backend), introduced KANBAN workflow to t
 
 ---
 
-### Captain Contrat — Web Developer
+### Captain Contrat: Web Developer
 **January 2015 - July 2017**
 
-First salaried developer. Shipped core features (scheduling, dashboards, automated invoicing), implemented Agile/Lean methodologies, conducted training workshops, and mentored a junior developer. The team grew from 3 co-founders to 34 employees during his tenure.
+First salaried developer. Shipped core features (scheduling, dashboards, automated invoicing), implemented Agile/Lean methodologies, conducted training workshops, and mentored a junior engineer. The team grew from 3 co-founders to 34 employees during his tenure.
 
 **About Captain Contrat:** Captain Contrat is a legal tech startup empowering entrepreneurs with an economical web solution for creating legally sound documents. It also serves as a tool for lawyers, enhancing their efficiency and connectivity with entrepreneurs.
 
@@ -252,16 +280,16 @@ Emmanuel has 19 professional recommendations from colleagues across 8 different 
 ### Technical Excellence & Rails Expertise
 
 **Sebastian Almnes, Co-Founder & CEO at Spring:**
-> "I've had the chance to work with many developers over the years, but Emmanuel stands out as the most talented Rails developer I've worked with. He brings more than just technical skill — he brings thoughtfulness. He's not afraid to challenge assumptions or start a discussion if it means we get to a better outcome. That kind of mindset has elevated the quality of our code and our team culture. What I admire most is his ability to adapt. Whether the requirements are shifting, or the context isn't perfectly defined, he never gets stuck. He stays focused, finds a path forward, and delivers solid work — always with care and pride in the result. His passion for what he does shows up in the details and in the energy he brings to the team. If you get a chance to work with him, take it."
+> "I've had the chance to work with many developers over the years, but Emmanuel stands out as the most talented Rails developer I've worked with. He brings more than just technical skill; he brings thoughtfulness. He's not afraid to challenge assumptions or start a discussion if it means we get to a better outcome. That kind of mindset has elevated the quality of our code and our team culture. What I admire most is his ability to adapt. Whether the requirements are shifting, or the context isn't perfectly defined, he never gets stuck. He stays focused, finds a path forward, and delivers solid work, always with care and pride in the result. His passion for what he does shows up in the details and in the energy he brings to the team. If you get a chance to work with him, take it."
 
 **Xurxo Mendez Perez, Principal Developer (Ruby on Rails) & Solutions Architect at Spring:**
-> "I've had the chance to work closely with Emmanuel, and I can honestly say he's probably the Rails developer who knows the framework best out of anyone I've worked with. His technical knowledge is solid, but what really stands out is how he uses it to help the whole team. Having someone like Emmanuel on a team is a game changer. He motivates people around him just by the way he works—sharing what he knows, asking good questions, and always looking for ways to improve things. It naturally pushes everyone to learn and grow. He cares about clean code, has a strong engineering mindset, and is always looking out for the quality of the codebase. He doesn't just build what's asked—he makes sure it's done right and looks for chances to make it even better. If you're looking for a Rails developer who's skilled, thoughtful, and great to work with, I'd definitely recommend Emmanuel."
+> "I've had the chance to work closely with Emmanuel, and I can honestly say he's probably the Rails developer who knows the framework best out of anyone I've worked with. His technical knowledge is solid, but what really stands out is how he uses it to help the whole team. Having someone like Emmanuel on a team is a game changer. He motivates people around him just by the way he works: sharing what he knows, asking good questions, and always looking for ways to improve things. It naturally pushes everyone to learn and grow. He cares about clean code, has a strong engineering mindset, and is always looking out for the quality of the codebase. He doesn't just build what's asked; he makes sure it's done right and looks for chances to make it even better. If you're looking for a Rails developer who's skilled, thoughtful, and great to work with, I'd definitely recommend Emmanuel."
 
 **Steve Verlinden, CTO at Reprtoir:**
 > "I highly recommend Emmanuel as a skilled Ruby on Rails developer. During our time working together, I was continually impressed by his deep understanding of both the Ruby language and the Rails framework. His ability to tackle complex problems and deliver high-quality solutions made him a valuable asset to our team. Emmanuel's dedication to continuous learning and his strong work ethic make him an excellent choice for any Ruby on Rails project."
 
 **Gianfranco Piana, Senior Software Engineer at Antiwork:**
-> "Emmanuel truly knows Rails inside and out. When you're stuck on something, he's the person you go to and he always makes time to help. Beyond his technical chops, Emmanuel is just a genuinely good person to work with. He's calm, straightforward, and incredibly patient – I've seen it firsthand with how he handles OSS contributors and code reviews. You always walk away learning something."
+> "Emmanuel truly knows Rails inside and out. When you're stuck on something, he's the person you go to and he always makes time to help. Beyond his technical chops, Emmanuel is just a genuinely good person to work with. He's calm, straightforward, and incredibly patient. I've seen it firsthand with how he handles OSS contributors and code reviews. You always walk away learning something."
 
 **Jean-François Dumas, Software Engineer and former Staff Developer at Small Door:**
 > "Emmanuel possesses a vast knowledge of the Ruby on Rails ecosystem, and his expertise extends beyond it. During our time working together, he skillfully addressed issues encountered in React Native while simultaneously managing his Rails deliverables. He provided quick and insightful analysis of any problem at hand and devised excellent solutions within tight timeframes, all without compromising the quality of his work. His code reviews were clear and well-reasoned. Working with him was a genuine pleasure, and I would welcome the opportunity to collaborate with him again in the future."
@@ -325,16 +353,16 @@ Emmanuel has 19 professional recommendations from colleagues across 8 different 
 ## Summary of Strengths
 
 **Technical Excellence:**
-- 10+ years of Ruby on Rails expertise
-- Full-stack capabilities (backend, frontend, infrastructure)
-- Experience with large-scale systems processing millions of transactions
+- Over 10 years building web products
+- Checkout security, subscriptions, Stripe integrations, and production fixes
+- Experience with backend, frontend, and infrastructure work
 - Open-source contribution in public codebases
 
 **Leadership & Collaboration:**
-- Led frontend architecture migrations affecting entire codebases
-- Hired and built engineering teams
+- Led frontend migrations and helped build an internal engineering team
+- Orchestrates AI workflows to ship faster and focus on building products
 - Reviewed 425+ PRs in 6 months at Gumroad
-- Mentored junior developers and career changers
+- Mentored engineers and career changers
 
 **Communication & Mentorship:**
 - Active volunteer mentor through First Ruby Friend
@@ -351,6 +379,13 @@ Emmanuel has 19 professional recommendations from colleagues across 8 different 
 ---
 
 ## Open Source Projects
+
+### Even G2 Glasses
+
+**Glint G2**
+Signal, WhatsApp, and HEY integrations for Even G2 glasses. Displays conversations and transcribes voice replies using Whisper. Bridges run on the user's own computer and connect to the glasses over Tailscale. Includes a shared glasses and mobile companion runtime and a unified app for switching between all three services.
+- GitHub: https://github.com/EmCousin/glint-g2
+- Technologies: Node.js, Vite, Whisper, Tailscale, Even G2
 
 ### Ruby Gems
 
@@ -391,9 +426,29 @@ A Rails engine implementing the ActivityPub protocol for federated social networ
 
 ### Major Contributions
 
-**Gumroad (antiwork/gumroad)** — 73 merged PRs
+**Gumroad (antiwork/gumroad)**: 73 merged PRs
 Major contributor to Gumroad's open-source codebase. Led the frontend migration from ERB/React on Rails to Inertia.js/React, migrated the admin panel, and shipped features including Black Friday 2025 and subscription lifecycle improvements.
 - All PRs: https://github.com/antiwork/gumroad/pulls?q=is%3Apr+author%3Aemcousin+is%3Amerged
+
+---
+
+## Published Writing
+
+These are dated essays, not a statement of Emmanuel's current position on every topic. His views may have evolved since publication.
+
+**You were a slave to The Machine long before AI** (April 16, 2026)
+Criticizes chasing engagement metrics and treating AI primarily as a way to cut staff costs. Encourages using AI to challenge one's own opinions before publishing them.
+- Article: https://world.hey.com/emmanuel/you-were-a-slave-to-the-machine-long-before-ai-dfbf95cb
+
+**Optimize for Humans** (March 1, 2026)
+Argues that readable code, good abstractions, and human judgment remain important when working with AI. Warns that faster code generation can increase maintenance costs when simplicity and design are neglected.
+- Article: https://world.hey.com/emmanuel/optimize-for-humans-2c80baec
+
+**You might not need JavaScript** (April 17, 2025)
+- Article: https://world.hey.com/emmanuel/you-might-not-need-javascript-97560cdf
+
+- Blog and newer posts: https://world.hey.com/emmanuel/
+- Feed: https://world.hey.com/emmanuel/feed.atom
 
 ---
 
@@ -404,3 +459,4 @@ Major contributor to Gumroad's open-source codebase. Led the frontend migration 
 - Education: https://emcousin.github.io/education
 - Projects: https://emcousin.github.io/projects
 - Recommendations: https://emcousin.github.io/recommendations
+- Downloadable resume: https://emcousin.github.io/assets/emmanuel_cousin_resume.pdf

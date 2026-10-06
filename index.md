@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Home"
-description: "Welcome to my personal website. You'll learn to know who I am and what I can do for you."
+description: "Emmanuel Cousin, software engineer at Circle. Payments, AI workflow orchestration, and engineering mentorship."
 ---
 
 <section>
@@ -11,14 +11,21 @@ description: "Welcome to my personal website. You'll learn to know who I am and 
 <article class="mt-8 space-y-2">
   <h2 class="mb-4 text-2xl font-bold animate-fade-in animation-duration-1000">Hi! I'm Emmanuel 👋</h2>
 
-  <p class="animate-fade-in animation-duration-1000 animation-delay-1000">I’m a senior software engineer with 10+ years of experience leading teams and building web applications with <a href="https://rubyonrails.org/">Ruby on Rails</a>, React, and TypeScript. I also mentor developers through <a href="https://firstrubyfriend.org/">First Ruby Friend</a>.</p>
+  <p class="animate-fade-in animation-duration-1000 animation-delay-1000">I’m a software engineer at <a href="https://circle.so">Circle</a>, working on payments. Over the past 10+ years, I’ve built web products, led technical projects, and mentored engineers. I also mentor through <a href="https://firstrubyfriend.org/">First Ruby Friend</a>.</p>
 
-  <p class="animate-fade-in animation-duration-1000 animation-delay-1000">AI is reshaping how we write software. The bottleneck is shifting from writing code to knowing what to build, and helping teams build it well. That’s where I focus. Whether through architectural decisions, thorough code review, or hands-on mentoring, I’ve spent my career making the people I work with better engineers.</p>
+  <p class="animate-fade-in animation-duration-1000 animation-delay-1000">I orchestrate AI workflows from investigation and specs through implementation and review. That lets me ship faster than ever and spend more of my time building products, with less spent writing code by hand. At Circle, I ported our team’s internal AI framework, Paywalls AI, to OpenCode so we could work with different AI providers without depending on Claude.</p>
 
-  <p class="animate-fade-in animation-duration-1000 animation-delay-1000">Most recently at <a href="https://gumroad.com">Gumroad</a>, I led the frontend migration to Inertia.js, shipped Stripe subscription features and fraud detection, and set quality standards across 425+ PR reviews and 73 merged PRs in a public open-source codebase serving 26M+ users.</p>
+  <p class="animate-fade-in animation-duration-1000 animation-delay-1000">Since joining Circle in March 2026, I’ve worked on checkout security and payment reliability, built Circle AI tools that let admins manage paywalls and subscriptions, and helped bring Stripe account setup into Circle. That work includes handling failed setup attempts and helping admins understand what Stripe still needs from them.</p>
 
-  <p class="animate-fade-in animation-duration-1000 animation-delay-1000">I’m open to remote senior IC or tech lead roles, especially with teams building software that makes a real difference in people’s lives. I like being hands-on: writing code, reviewing code, and raising the bar for the engineers around me. Fluent in English, French, and Portuguese. If you have a project, a team, or just a good feeling about me, feel free to <a href="/resume">check my resume</a> or <a href="mailto:emmanuel@hey.com">reach out</a>.</p>
+  <p class="animate-fade-in animation-duration-1000 animation-delay-1000">I enjoy getting to know a product well enough to make useful technical decisions. Code reviews and conversations with teammates are a big part of that. I speak English, French, and Portuguese. You can <a href="/resume">read about my experience</a> or <a href="mailto:emmanuel@hey.com">email me</a>.</p>
+
+  <p class="animate-fade-in animation-duration-1000 animation-delay-1000">Outside work, I’m building <a href="https://github.com/EmCousin/glint-g2">Glint G2</a> to read Signal, WhatsApp, and HEY conversations on Even G2 glasses and reply by voice. You can find it and my other open-source work on the <a href="/projects">projects page</a>.</p>
 
   <p class="animate-fade-in animation-duration-1000 animation-delay-1000">You can also find me on my <a href="https://world.hey.com/emmanuel/">blog</a>, <a href="https://twitter.com/emcousin/">Twitter</a> or <a href="https://www.linkedin.com/in/cousinemmanuel/">LinkedIn</a>.</p>
-</article>
 
+  <h3 class="pt-4 text-xl font-semibold">Recent writing</h3>
+  <ul class="list-disc pl-5 space-y-1">
+    <li><a href="https://world.hey.com/emmanuel/you-were-a-slave-to-the-machine-long-before-ai-dfbf95cb">You were a slave to The Machine long before AI</a> (April 16, 2026)</li>
+    <li><a href="https://world.hey.com/emmanuel/optimize-for-humans-2c80baec">Optimize for Humans</a> (March 1, 2026)</li>
+  </ul>
+</article>

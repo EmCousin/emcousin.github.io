@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v25'
+const CACHE_VERSION = 'v27'
 const CACHE_NAME = CACHE_VERSION + ':sw-cache-emmanuel-cousin'
 
 function onInstall(event) {
@@ -7,6 +7,7 @@ function onInstall(event) {
     caches.open(CACHE_NAME).then(function prefill(cache) {
       const cachesToAdd = [
         '/assets/images/emmanuel.webp',
+        '/assets/images/resume/circle_logo.webp',
         '/assets/images/icons/linkedin.svg',
         '/assets/images/icons/github.svg',
         '/assets/images/icons/github-white.svg',

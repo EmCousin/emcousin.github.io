@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Resume"
-description: "You'll find detailed information about my experience here"
+description: "10+ years building products, leading technical projects, and mentoring engineers. Payments and AI workflows at Circle."
 ---
 
 <section>
@@ -11,6 +11,10 @@ description: "You'll find detailed information about my experience here"
 <h2 class="mt-8 mb-4 text-2xl font-bold animate-fade-in animation-duration-500">Experience</h2>
 
 <section class="space-y-6">
+  <div class="animate-slide-in-from-left animation-duration-500">
+    {% include resume/circle.html %}
+  </div>
+
   <div class="animate-slide-in-from-left animation-duration-500">
     {% include resume/antiwork.html %}
   </div>

@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Emmanuel Cousin: Resume</title>
+  <style>
+    @page { size: Letter; margin: 0; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font: 10pt/1.4 Arial, Helvetica, sans-serif; color: #1f2937; }
+    .page { width: 8.5in; height: 11in; padding: .55in .62in .6in; position: relative; break-after: page; }
+    .page:last-child { break-after: auto; }
+    h1 { font-size: 25pt; line-height: 1.05; color: #172554; margin: 0 0 5px; }
+    h2 { font-size: 12pt; color: #172554; border-bottom: 1px solid #cbd5e1; padding-bottom: 3px; margin: 13px 0 6px; }
+    h3 { font-size: 10.4pt; margin: 8px 0 0; color: #111827; }
+    a { color: #2563eb; text-decoration: none; }
+    .role { font-size: 11pt; color: #526078; margin: 4px 0; }
+    .contact { font-size: 8.5pt; }
+    .summary { font-size: 9.5pt; margin: 9px 0 5px; }
+    .date { font-size: 8.5pt; color: #526078; margin: 0 0 3px; }
+    .job { margin: 0 0 7px; }
+    .job p { margin: 2px 0 4px; }
+    .job ul { padding-left: 17px; margin: 2px 0 0; }
+    .job li { margin: 0 0 2px; }
+    .job-heading { display: flex; align-items: center; gap: 8px; }
+    .job-heading img { width: 32px; height: 32px; object-fit: contain; flex-shrink: 0; border-radius: 5px; }
+    .job-heading h3 { margin-top: 0; }
+    .education { display: flex; align-items: center; gap: 8px; margin: 4px 0; font-size: 9pt; }
+    .education img { width: 26px; height: 26px; object-fit: contain; flex-shrink: 0; }
+    .footer { position: absolute; bottom: .25in; left: .62in; right: .62in; border-top: 1px solid #d9e1ef; padding-top: 5px; font-size: 8pt; color: #526078; display: flex; justify-content: space-between; }
+    .inline { margin: 5px 0; font-size: 9pt; }
+  </style>
+</head>
+<body>
+  <section class="page">
+    <h1>Emmanuel Cousin</h1>
+    <div class="role">Senior Software Engineer · Technical Lead · Engineering Mentor</div>
+    <div class="contact"><a href="mailto:emmanuel@hey.com">emmanuel@hey.com</a> · <a href="https://emcousin.github.io">emcousin.github.io</a> · <a href="https://www.linkedin.com/in/cousinemmanuel/">LinkedIn</a></div>
+    <h2>Profile</h2>
+    <p class="summary">I’m a software engineer at Circle, working on payments. Over the past 10+ years, I’ve built web products, led technical projects, and mentored engineers. I orchestrate AI workflows from investigation and specs through implementation and review. That lets me ship faster than ever and spend more of my time building products, with less spent writing code by hand.</p>
+    <h2>Experience</h2>
+    <div class="job">
+      <div class="job-heading"><img src="../assets/images/resume/circle_logo.webp" alt="Circle logo"><div><h3>Senior Software Engineer at Circle</h3><div class="date">March 2026 to present · Payments Platform</div></div></div>
+      <p>I work on checkout, subscriptions, paywalls, and access to paid content.</p>
+      <ul>
+        <li>Made checkout safer by protecting payment details from unauthorized changes and preventing repeated clicks or retries from processing the same purchase twice.</li>
+        <li>Built Circle AI features that let business owners manage paid memberships and change subscriptions through a conversation, with a chance to review and confirm changes.</li>
+        <li>Helped business owners set up Stripe payments inside Circle. Improved the mobile experience and added AI help to explain missing account details.</li>
+        <li>Fixed unfinished purchases that left unwanted subscriptions behind and billing records that no longer matched Stripe. Helped the team use AI more effectively through smaller changes and clearer review feedback.</li>
+        <li>Ported Paywalls AI, our team’s internal AI framework, to OpenCode so the team could use different AI providers without depending on Claude.</li>
+      </ul>
+    </div>
+    <div class="job">
+      <div class="job-heading"><img src="../assets/images/resume/gumroad_logo.webp" alt="Gumroad logo"><div><h3>Core Maintainer at Gumroad (Antiwork) · Contract</h3><div class="date">August 2025 to March 2026</div></div></div>
+      <p>Led frontend modernization and shipped billing and fraud detection features in Gumroad’s open-source codebase.</p>
+      <ul>
+        <li>Planned the migration to Inertia.js and React, split the work among contributors, and helped migrate 25+ pages in 3 weeks.</li>
+        <li>Shipped Stripe subscription restart features and fraud detection improvements. Reviewed 425+ PRs and authored 68 merged PRs in 6 months.</li>
+        <li>Coordinated delivery of 270,000+ personalized Year in Review emails and maintained upgrades, security fixes, and CI/CD.</li>
+      </ul>
+    </div>
+    <div class="job">
+      <div class="job-heading"><img src="../assets/images/resume/spring_logo.jpg" alt="Spring logo"><div><h3>Senior Software Engineer at Spring.net · Contract</h3><div class="date">June 2024 to April 2025</div></div></div>
+      <p>Redesigned investment allocation for deals before and after token launch. Selected InfluxDB for price history and improved code quality through reviews and refactoring.</p>
+    </div>
+    <div class="job">
+      <div class="job-heading"><img src="../assets/images/resume/reprtoir_logo.webp" alt="Reprtoir logo"><div><h3>Senior Software Engineer at Reprtoir · Contract</h3><div class="date">July 2021 to April 2024</div></div></div>
+      <p>Built search and analytics for music rights holders, including searches based on natural-language descriptions and similar compositions.</p>
+    </div>
+    <div class="footer"><span>emcousin.github.io · emmanuel@hey.com</span><span>1 / 2</span></div>
+  </section>
+  <section class="page">
+    <h2 style="margin-top:0">Earlier experience</h2>
+    <div class="job">
+      <div class="job-heading"><img src="../assets/images/resume/smalldoor_logo.webp" alt="Small Door logo"><div><h3>Lead Developer at Small Door Veterinary · Contract</h3><div class="date">January 2021 to July 2021</div></div></div>
+      <p>Helped bring development in-house as the business expanded to multiple practices. Recruited the Head of Product and Technology and 2 senior developers, set engineering processes, and led web and mobile work.</p>
+    </div>
+    <div class="job">
+      <div class="job-heading"><img src="../assets/images/resume/braidio_logo.webp" alt="Braidio logo"><div><h3>Senior Developer at Braidio · Contract</h3><div class="date">February 2019 to January 2021</div></div></div>
+      <p>Built web and mobile features for a healthcare product, integrated third-party services, and improved data protection as the company worked toward HIPAA certification.</p>
+    </div>
+    <div class="job">
+      <div class="job-heading"><img src="../assets/images/resume/checksub_logo.webp" alt="CheckSub logo"><div><h3>Developer at CheckSub · Freelance</h3><div class="date">January 2018 to July 2018</div></div></div>
+      <p>Automated transcription workflows and built a subtitle editor for audio content.</p>
+    </div>
+    <div class="job">
+      <div class="job-heading"><img src="../assets/images/resume/my_job_glasses_logo.webp" alt="My Job Glasses logo"><div><h3>Web Developer at My Job Glasses</h3><div class="date">July 2017 to December 2017</div></div></div>
+      <p>Helped launch the V2 platform and introduced Kanban and cross-team processes.</p>
+    </div>
+    <div class="job">
+      <div class="job-heading"><img src="../assets/images/resume/captain_contrat_logo.webp" alt="Captain Contrat logo"><div><h3>Web Developer at Captain Contrat</h3><div class="date">January 2015 to July 2017</div></div></div>
+      <p>First salaried developer. Built scheduling, dashboards, and automated invoicing. Introduced Agile/Lean practices and mentored a junior engineer as the company grew from 3 founders to 34 people.</p>
+    </div>
+    <h2>Mentoring</h2>
+    <div class="job"><div class="job-heading"><img src="../assets/images/resume/first_ruby_friend_logo.svg" alt="First Ruby Friend logo"><div><h3>Volunteer Programming Mentor at First Ruby Friend</h3><div class="date">March 2023 to present</div></div></div><p>Mentor aspiring engineers through Ruby exercises, projects, code review, and career guidance.</p></div>
+    <h2>Technical experience</h2>
+    <p class="inline">Payments and subscription billing, Stripe, Ruby on Rails, React, TypeScript, search and analytics, AI tools, specifications, code review, and agent workflows.</p>
+    <h2>Selected open source</h2>
+    <p class="inline"><a href="https://github.com/EmCousin/glint-g2">Glint G2</a>: Signal, WhatsApp, and HEY on Even G2 glasses, with voice replies.<br><a href="https://github.com/EmCousin/pkp">Parkour Paris</a>: class registration, scheduling, and payments.<br>Ruby tools: <a href="https://github.com/EmCousin/grape-jsonapi">grape-jsonapi</a> · <a href="https://github.com/EmCousin/activerecord-deepstore">activerecord-deepstore</a> · <a href="https://github.com/EmCousin/activemodel-caching">activemodel-caching</a> · <a href="https://github.com/EmCousin/provet-client">provet-client</a></p>
+    <h2>Education and languages</h2>
+    <div class="education"><img src="../assets/images/resume/iteem_logo.webp" alt="ITEEM logo"><span>Engineer Manager Entrepreneur, ITEEM, École Centrale de Lille (2007 to 2012)</span></div>
+    <div class="education"><img src="../assets/images/resume/sherbrooke_logo.webp" alt="Université de Sherbrooke logo"><span>Applied Sciences exchange, Université de Sherbrooke (2011 to 2012)</span></div>
+    <p class="inline">English, French, and Portuguese</p>
+    <div class="footer"><span>emcousin.github.io · emmanuel@hey.com</span><span>2 / 2</span></div>
+  </section>
+</body>
+</html>

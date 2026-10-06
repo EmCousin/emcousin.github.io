@@ -382,6 +382,12 @@ Emmanuel has 19 professional recommendations from colleagues across 8 different 
 
 ### Even G2 Glasses
 
+**Even Terminal OpenCode**
+Direct OpenCode integration for Even Terminal. Lets users follow AI sessions, approve actions, and answer agents' questions from Even G2 glasses. Streams live responses and compact tool summaries, supports session-owned permission requests and forms, and keeps history available while agents work. Restores pending requests after reconnects and requires explicit permission decisions. External authentication and global MCP forms still require the desktop client.
+- GitHub: https://github.com/EmCousin/even-terminal-opencode
+- License: MIT, https://github.com/EmCousin/even-terminal-opencode/blob/main/LICENSE
+- Technologies: Node.js, OpenCode, server-sent events, Even Terminal, Even G2
+
 **Glint G2**
 Signal, WhatsApp, and HEY integrations for Even G2 glasses. Displays conversations and transcribes voice replies using Whisper. Bridges run on the user's own computer and connect to the glasses over Tailscale. Includes a shared glasses and mobile companion runtime and a unified app for switching between all three services.
 - GitHub: https://github.com/EmCousin/glint-g2

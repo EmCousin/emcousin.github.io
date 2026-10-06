@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Projects"
-description: "Glint G2 for Even G2 glasses, payments and AI work at Circle, Gumroad contributions, and Ruby tools."
+description: "Even Terminal OpenCode and Glint G2 for Even G2 glasses, payments and AI work at Circle, and Ruby tools."
 ---
 
 <section>
@@ -17,6 +17,7 @@ description: "Glint G2 for Even G2 glasses, payments and AI work at Circle, Gumr
 <h3 class="mt-8 mb-4 text-xl font-semibold animate-scale-up animation-duration-500">Even G2 glasses</h3>
 
 <section class="space-y-6">
+  {% include projects/apps/even_terminal_opencode.html %}
   {% include projects/apps/glint_g2.html %}
 </section>
 

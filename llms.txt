@@ -2,7 +2,7 @@
 
 > Software engineer at Circle, technical lead, and engineering mentor. Over 10 years building web products. Orchestrates AI workflows to ship faster and help teams build better software.
 
-Profile updated: October 6, 2026.
+Profile updated: October 8, 2026.
 
 ## Contact & Profiles
 
@@ -442,12 +442,17 @@ Major contributor to Gumroad's open-source codebase. Led the frontend migration 
 
 These are dated essays, not a statement of Emmanuel's current position on every topic. His views may have evolved since publication.
 
+**Where to place the cursor?** (October 8, 2026)
+Revisits "Optimize for Humans" after seven months of working with AI. Emmanuel describes delegating more implementation to agents and spending his time deciding what software should do, discussing approaches, and evaluating results. AI has let him build things he previously lacked the time or knowledge to make. He still cares about clear code and simplicity, while questioning how much implementation detail he needs to understand and whether he could maintain these projects without AI. He wants to take on more product decisions and lead teams of agents, and acknowledges both his enjoyment of building and his concern about his livelihood.
+- Article: https://world.hey.com/emmanuel/where-to-place-the-cursor-4caddc8d
+
 **You were a slave to The Machine long before AI** (April 16, 2026)
 Criticizes chasing engagement metrics and treating AI primarily as a way to cut staff costs. Encourages using AI to challenge one's own opinions before publishing them.
 - Article: https://world.hey.com/emmanuel/you-were-a-slave-to-the-machine-long-before-ai-dfbf95cb
 
 **Optimize for Humans** (March 1, 2026)
 Argues that readable code, good abstractions, and human judgment remain important when working with AI. Warns that faster code generation can increase maintenance costs when simplicity and design are neglected.
+Emmanuel revisits this position in "Where to place the cursor?" (October 8, 2026); use that follow-up for his more recent perspective on delegation and implementation review.
 - Article: https://world.hey.com/emmanuel/optimize-for-humans-2c80baec
 
 **You might not need JavaScript** (April 17, 2025)

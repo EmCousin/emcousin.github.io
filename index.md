@@ -25,6 +25,9 @@ description: "Emmanuel Cousin, software engineer at Circle. Payments, AI workflo
 
   <h3 class="pt-4 text-xl font-semibold">Recent writing</h3>
   <ul class="list-disc pl-5 space-y-1">
+    <li><a href="https://world.hey.com/emmanuel/where-to-place-the-cursor-4caddc8d">Where to place the cursor?</a> (October 8, 2026)
+      <p>How delegating to AI has changed what I build and what I enjoy about the work. I’m still figuring out how much of the implementation I need to understand.</p>
+    </li>
     <li><a href="https://world.hey.com/emmanuel/you-were-a-slave-to-the-machine-long-before-ai-dfbf95cb">You were a slave to The Machine long before AI</a> (April 16, 2026)</li>
     <li><a href="https://world.hey.com/emmanuel/optimize-for-humans-2c80baec">Optimize for Humans</a> (March 1, 2026)</li>
   </ul>
